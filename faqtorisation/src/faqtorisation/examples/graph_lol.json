@@ -1,0 +1,182 @@
+{
+  "nodes": [
+    {
+      "index": "document",
+      "text": "Document",
+      "type": "document"
+    },
+    {
+      "index": "section_0",
+      "text": "League of Legends: An Overview",
+      "type": "section"
+    },
+    {
+      "index": "section_1",
+      "text": "League of Legends (LoL) is a popular multiplayer online battle arena (MOBA) video game developed and published by Riot Games. Released in 2009, it has grown to become one of the largest esports in the world, boasting millions of players globally. The game is free-to-play, supported by microtransactions for cosmetic items.",
+      "type": "section"
+    },
+    {
+      "index": "section_2",
+      "text": "The Game in General",
+      "type": "section"
+    },
+    {
+      "index": "section_3",
+      "text": "At its core, League of Legends is a team-based strategy game where two teams of five players compete to destroy the opposing team's \"Nexus,\" a structure located at the heart of their base. Players control unique characters called \"champions,\" each possessing distinct abilities, strengths, and weaknesses.",
+      "type": "section"
+    },
+    {
+      "index": "section_4",
+      "text": "Matches typically involve:",
+      "type": "section"
+    },
+    {
+      "index": "section_5",
+      "text": "Laning Phase: Players go to designated \"lanes\" (top, mid, bot) to earn gold and experience by killing \"minions\" (small, AI-controlled units) and harassing enemy champions.\nJungle: A fifth player, the \"jungler,\" roams between the lanes, killing neutral monsters to earn gold and experience, and \"ganking\" (ambushing) enemy laners to help their team secure kills.\nTeamfights: As the game progresses, teams engage in larger-scale skirmishes, coordinating their abilities to eliminate enemy champions and push objectives.\nObjectives: Beyond destroying the Nexus, teams aim to secure other objectives like turrets, inhibitors, and powerful neutral monsters (Dragon, Baron Nashor) that grant significant buffs.\nScaling: Champions gain power throughout the game by earning experience (leveling up abilities and stats) and acquiring gold to purchase items.\nThe game demands a mix of individual skill, strategic thinking, and effective teamwork. Players must master their chosen champions, understand itemization, adapt to evolving game states, and communicate effectively with their teammates.",
+      "type": "section"
+    },
+    {
+      "index": "section_6",
+      "text": "Summoner's Rift: The Battlefield",
+      "type": "section"
+    },
+    {
+      "index": "section_7",
+      "text": "Summoner's Rift is the primary map in League of Legends and the setting for most competitive play. It is a mirrored map, symmetrical for both teams, divided into several key areas:",
+      "type": "section"
+    },
+    {
+      "index": "section_8",
+      "text": "Base: Each team's starting point, containing the Nexus, a fountain (which regenerates health and mana), and shops to purchase items.\nLanes: There are three main lanes:\nTop Lane: Typically a long lane, often home to durable or bruiser champions.\nMid Lane: A shorter, central lane, often played by mages or assassins due to its proximity to other parts of the map.\nBot Lane: This lane is usually played by two champions: an \"Attack Damage Carry\" (ADC), who specializes in sustained damage, and a \"Support,\" who focuses on protecting and enabling the ADC.\nJungle: The areas between the lanes, filled with neutral monsters (camps) that junglers clear. The jungle also contains crucial objective monsters:\nDragon: Located in the bottom side of the river, defeating a Dragon grants permanent buffs to the team. There are different elemental dragons (Infernal, Mountain, Ocean, Cloud, Chemtech, Hextech), each providing a unique buff. After four dragons, the Dragon Soul is granted, a very powerful buff.\nBaron Nashor: Located in the top side of the river, defeating Baron Nashor grants the \"Hand of Baron\" buff, significantly empowering nearby allied minions and granting bonus attack damage and ability power. This buff is crucial for pushing turrets and ending games.\nRift Herald: Located in the top side of the river before Baron Nashor spawns. Defeating the Rift Herald allows a player to summon it as an ally, which charges down a lane and deals massive damage to turrets.\nRiver: A central waterway that connects the lanes and separates the two halves of the jungle. It often serves as a site for skirmishes and objective contests.\nTurrets: Defensive structures along each lane that attack enemy units. Destroying turrets grants gold and opens up the map for further pushes.\nInhibitors: Structures located behind the inner turrets. Destroying an inhibitor spawns \"super minions\" in that lane, which are significantly stronger than regular minions, putting immense pressure on the enemy base. Inhibitors respawn after a few minutes.\nUnderstanding the layout and strategic importance of each area on Summoner's Rift is vital for success.",
+      "type": "section"
+    },
+    {
+      "index": "section_9",
+      "text": "Champions: The Heart of the Game",
+      "type": "section"
+    },
+    {
+      "index": "section_10",
+      "text": "League of Legends boasts a roster of over 160 champions, each with a unique kit of four abilities (three basic abilities and one ultimate ability), a passive ability, and distinct playstyles. Champions are broadly categorized by their primary role and damage type:",
+      "type": "section"
+    },
+    {
+      "index": "section_11",
+      "text": "Roles:",
+      "type": "section"
+    },
+    {
+      "index": "section_12",
+      "text": "Tanks: High health and defenses, designed to initiate fights and absorb damage for their team.\nFighters/Bruisers: A mix of damage and durability, often excelling in sustained combat.\nAssassins: High burst damage, designed to quickly eliminate squishy enemy champions.\nMages: Rely on powerful magical abilities to deal damage from a distance or control the battlefield.\nMarksmen/ADCs: Primarily deal physical damage with basic attacks, scaling significantly into the late game.\nSupports: Focus on protecting and enabling their teammates through healing, shielding, crowd control, or utility.\nDamage Types:",
+      "type": "section"
+    },
+    {
+      "index": "section_13",
+      "text": "Attack Damage (AD): Physical damage, often scaled by items that provide Attack Damage, Attack Speed, and Critical Strike Chance.\nAbility Power (AP): Magical damage, scaled by items that provide Ability Power and Magic Penetration.\nTrue Damage: Ignores all resistances, making it highly effective against durable targets.\nHere are a few examples of popular champions and their characteristics:",
+      "type": "section"
+    },
+    {
+      "index": "section_14",
+      "text": "Jinx - The Loose Cannon (Marksman/ADC - AD Damage)\nConcept: A chaotic and explosive marksman who gains immense attack speed and movement speed after getting kills or assists, snowballing out of control.\nPassive - Get Excited!: Jinx gains a massive burst of movement speed and attack speed whenever a champion, epic monster, or structure she has damaged is killed or destroyed. This makes her incredibly effective in teamfights and for pushing objectives.\nQ - Switcheroo!: Toggles between two weapon modes: Pow-Pow (minigun) for rapid single-target damage and Fishbones (rocket launcher) for AoE damage and increased range. This allows her to adapt to different situations.\nW - Zap!: Fires a long-range, damaging shot that slows and reveals the first enemy hit. Useful for poking, initiating, or disengaging.\nE - Flame Chompers!: Throws a line of snare traps that root and damage enemies who step on them. Excellent for zone control, peeling for herself, or setting up kills.\nR - Super Mega Death Rocket!: Fires a global rocket that gains damage based on distance traveled, exploding on the first enemy champion hit and dealing AoE damage. Can be used to finish off low-health enemies across the map or deal massive damage in a teamfight.\nPlaystyle: Jinx is a hyper-carry who requires good positioning and protection in the early game. Once she gets a few kills and items, she becomes a devastating force in teamfights, shredding through enemies with her high damage and self-peel.\nLux - The Lady of Luminosity (Mage/Support - AP Damage)\nConcept: A burst mage who specializes in long-range spellcasting, trapping enemies, and dealing massive magical damage. Can also be played as a utility support.\nPassive - Illumination: Lux's damaging abilities mark enemies with light. Her next basic attack or damaging ability consumes the mark to deal bonus magic damage. Encourages weaving in basic attacks between spells.\nQ - Light Binding: Fires a ball of light that roots up to two enemies, dealing magic damage. A key ability for setting up combos and engaging.\nW - Prismatic Barrier: Throws a boomerang shield that shields Lux and allies it passes through, shielding them again on its return. Provides valuable utility and survivability.\nE - Lucent Singularity: Creates a zone of light that slows enemies. Lux can detonate it to deal magic damage. Great for zone control, poking, and wave clear.\nR - Final Spark: After a short delay, Lux fires a powerful beam of light in a straight line, dealing massive magic damage to all enemies hit. Her ultimate ability, often used to finish off low-health targets or burst down multiple enemies in a teamfight.\nPlaystyle: Lux excels at poking enemies from a distance, securing kills with her burst combo, and providing utility with her shield and crowd control. She requires good aim with her skill shots to maximize her damage and effectiveness.\nGaren - The Might of Demacia (Fighter/Tank - AD Damage)\nConcept: A straightforward, durable fighter who charges into the fray, spinning his sword, silencing enemies, and executing them with a mighty strike. Known for his regeneration and tankiness.\nPassive - Perseverance: Garen rapidly regenerates a percentage of his missing health per second when he hasn't taken damage from enemy champions or epic monsters recently. Provides incredible lane sustain.\nQ - Decisive Strike: Garen gains a burst of movement speed, removes all slows, and his next basic attack deals bonus damage and silences the target. Used for engaging, chasing, and interrupting enemy abilities.\nW - Courage: Garen gains a shield and tenacity for a short duration, and passively gains bonus armor and magic resistance for each unit he kills. Makes him incredibly tanky in extended fights.\nE - Judgment: Garen rapidly spins his sword, dealing continuous physical damage to nearby enemies. Can be channeled while moving. His primary damage ability in teamfights.\nR - Demacian Justice: Garen calls upon the might of Demacia to deal a massive amount of true damage to an enemy champion, with bonus damage based on their missing health. An execution ability, perfect for finishing off low-health targets.\nPlaystyle: Garen is a durable frontline champion who excels at sustained combat and diving into the enemy backline. He is relatively simple to play, making him a good choice for newer players, but can be incredibly effective when used to peel for carries or dive squishy targets.\nItems: Powering Up Your Champion",
+      "type": "section"
+    },
+    {
+      "index": "section_15",
+      "text": "Items are crucial for champion progression in League of Legends. Players purchase items with gold earned from killing minions, monsters, champions, and destroying objectives. Items provide various stats, unique passive effects, and active abilities that significantly enhance a champion's power. Effective itemization is key to adapting to the game state and countering enemy champions.",
+      "type": "section"
+    },
+    {
+      "index": "section_16",
+      "text": "Items are generally categorized by the stats they provide and their purpose:",
+      "type": "section"
+    },
+    {
+      "index": "section_17",
+      "text": "Attack Damage (AD) Items: Increase a champion's physical damage output, often accompanied by Attack Speed, Critical Strike Chance, or Lifesteal.\nAbility Power (AP) Items: Increase a champion's magical damage output, often accompanied by Mana, Magic Penetration, or Cooldown Reduction.\nTank Items: Provide Health, Armor, Magic Resistance, and often have passive effects that improve durability or provide crowd control.\nSupport Items: Provide utility, healing, shielding, or vision control, often with gold generation passive effects.\nBoots: Provide movement speed and often have unique enchantments.\nHere are a few examples of important items and their characteristics:",
+      "type": "section"
+    },
+    {
+      "index": "section_18",
+      "text": "Infinity Edge (AD Item)\nCost: 3400 gold\nStats: +70 Attack Damage, +20% Critical Strike Chance\nPassive - Perfection: Increases your Critical Strike damage by 35%.\nPurpose: A core item for most Attack Damage Carries (ADCs) and some AD-scaling fighters. It dramatically increases critical strike damage, allowing champions to burst down enemies more effectively when they land critical hits. It's usually purchased after acquiring a few other critical strike chance items to maximize its effectiveness.\nRabadon's Deathcap (AP Item)\nCost: 3600 gold\nStats: +120 Ability Power\nPassive - Magical Opus: Increases your total Ability Power by 35%.\nPurpose: The ultimate AP scaling item for mages. Rabadon's Deathcap provides a massive amount of raw Ability Power and then further amplifies all AP a champion has, making it a late-game power spike for burst mages and those who rely heavily on their magical abilities.\nSpirit Visage (Tank/Magic Resist Item)\nCost: 2900 gold\nStats: +450 Health, +60 Magic Resistance, +100% Base Health Regeneration, +10 Ability Haste\nPassive - Boundless Vitality: Increases all healing, shielding, and regeneration you receive by 25%.\nPurpose: A crucial defensive item for tanks and bruisers facing significant magic damage. Spirit Visage not only provides strong magic resistance and health but also enhances self-healing abilities and regeneration, making champions incredibly durable against AP threats.\nZhonya's Hourglass (AP/Armor Item)\nCost: 3200 gold\nStats: +80 Ability Power, +45 Armor, +15 Ability Haste\nActive - Stasis: Puts you in Stasis for 2.5 seconds, rendering you untargetable and invulnerable but unable to act.\nPurpose: A versatile defensive and offensive item for AP champions. Zhonya's Hourglass provides a solid mix of AP and Armor, but its active ability, Stasis, is incredibly powerful. It allows players to dodge incoming damage, survive burst, or bait enemy abilities, providing crucial time for teammates to follow up or for their own cooldowns to reset.\nBlack Cleaver (AD/Armor Reduction Item)\nCost: 3100 gold\nStats: +50 Attack Damage, +400 Health, +25 Ability Haste\nPassive - Carve: Dealing physical damage to an enemy champion reduces their Armor by 4% for 6 seconds, stacking up to 6 times (up to 24% Armor reduction).\nPassive - Rage: Dealing physical damage grants 20 movement speed for 2 seconds. Kills on champions or large monsters grant 60 movement speed for 2 seconds.\nPurpose: A strong item for AD fighters and some marksmen who need to deal with tanky enemies. Black Cleaver helps shred enemy armor, allowing the wearer and their physical damage-dealing teammates to deal more damage. The movement speed passive is also excellent for chasing down targets or escaping.\nThis document provides a foundational understanding of League of Legends, its primary map, some of its diverse champions, and the importance of itemization. The game offers a deep and ever-evolving strategic experience, with new champions and items regularly introduced to keep the gameplay fresh and engaging.",
+      "type": "section"
+    }
+  ],
+  "edges": [
+    [
+      "document",
+      "section_0"
+    ],
+    [
+      "document",
+      "section_1"
+    ],
+    [
+      "document",
+      "section_2"
+    ],
+    [
+      "document",
+      "section_3"
+    ],
+    [
+      "document",
+      "section_4"
+    ],
+    [
+      "document",
+      "section_5"
+    ],
+    [
+      "document",
+      "section_6"
+    ],
+    [
+      "document",
+      "section_7"
+    ],
+    [
+      "document",
+      "section_8"
+    ],
+    [
+      "document",
+      "section_9"
+    ],
+    [
+      "document",
+      "section_10"
+    ],
+    [
+      "document",
+      "section_11"
+    ],
+    [
+      "document",
+      "section_12"
+    ],
+    [
+      "document",
+      "section_13"
+    ],
+    [
+      "document",
+      "section_14"
+    ],
+    [
+      "document",
+      "section_15"
+    ],
+    [
+      "document",
+      "section_16"
+    ],
+    [
+      "document",
+      "section_17"
+    ],
+    [
+      "document",
+      "section_18"
+    ]
+  ]
+}

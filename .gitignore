@@ -1,0 +1,5 @@
+.venv
+.github
+__pycache__
+/models
+*/model

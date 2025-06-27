@@ -1,0 +1,353 @@
+{
+  "nodes": [
+    {
+      "index": "document",
+      "text": "Document",
+      "type": "document"
+    },
+    {
+      "index": "section_0",
+      "text": "Introduction aux grands domaines de l'informatique",
+      "type": "section"
+    },
+    {
+      "index": "section_0_para_0",
+      "text": "Introduction aux grands domaines de l'informatique",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_1",
+      "text": "L'informatique est un domaine vaste, structuré autour de plusieurs sous-disciplines fondamentales. Ce document présente cinq d'entre elles : les réseaux informatiques, l'intelligence artificielle, la cybersécurité, les systèmes d'exploitation, et le développement logiciel. Chaque section contient des explications qui permettent de répondre aux questions associées.",
+      "type": "section"
+    },
+    {
+      "index": "section_1_para_0",
+      "text": "L'informatique est un domaine vaste, structuré autour de plusieurs sous-disciplines fondamentales. Ce document présente cinq d'entre elles : les réseaux informatiques, l'intelligence artificielle, la cybersécurité, les systèmes d'exploitation, et le développement logiciel. Chaque section contient des explications qui permettent de répondre aux questions associées.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_2",
+      "text": "1. Réseaux informatiques",
+      "type": "section"
+    },
+    {
+      "index": "section_2_para_0",
+      "text": "1. Réseaux informatiques",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_3",
+      "text": "Les réseaux informatiques permettent la communication entre machines. Un routeur a pour rôle principal de diriger les paquets de données entre différents réseaux, en se basant sur les adresses IP. Le protocole DNS (Domain Name System) permet de traduire les noms de domaine (comme google.com) en adresses IP compréhensibles par les machines.\nLes adresses IP publiques sont accessibles depuis Internet, contrairement aux adresses privées qui sont utilisées à l'intérieur de réseaux locaux. Un réseau maillé permet à chaque nœud d'être connecté à plusieurs autres, ce qui améliore la résilience.\nLes VLANs (Virtual LANs) servent à segmenter logiquement un réseau physique en plusieurs sous-réseaux pour améliorer la sécurité et la gestion du trafic. Le modèle OSI (Open Systems Interconnection) est une architecture en 7 couches qui décrit les fonctions nécessaires à la communication sur un réseau.\nUn pare-feu filtre le trafic réseau selon des règles de sécurité, permettant ou bloquant certains flux. La 5G modifie les architectures réseau en apportant une plus grande vitesse, une latence réduite, et une prise en charge massive des objets connectés.",
+      "type": "section"
+    },
+    {
+      "index": "section_3_para_0",
+      "text": "Les réseaux informatiques permettent la communication entre machines. Un routeur a pour rôle principal de diriger les paquets de données entre différents réseaux, en se basant sur les adresses IP. Le protocole DNS (Domain Name System) permet de traduire les noms de domaine (comme google.com) en adresses IP compréhensibles par les machines.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_3_para_1",
+      "text": "Les adresses IP publiques sont accessibles depuis Internet, contrairement aux adresses privées qui sont utilisées à l'intérieur de réseaux locaux. Un réseau maillé permet à chaque nœud d'être connecté à plusieurs autres, ce qui améliore la résilience.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_3_para_2",
+      "text": "Les VLANs (Virtual LANs) servent à segmenter logiquement un réseau physique en plusieurs sous-réseaux pour améliorer la sécurité et la gestion du trafic. Le modèle OSI (Open Systems Interconnection) est une architecture en 7 couches qui décrit les fonctions nécessaires à la communication sur un réseau.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_3_para_3",
+      "text": "Un pare-feu filtre le trafic réseau selon des règles de sécurité, permettant ou bloquant certains flux. La 5G modifie les architectures réseau en apportant une plus grande vitesse, une latence réduite, et une prise en charge massive des objets connectés.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_4",
+      "text": "2. Intelligence artificielle (IA)\nL'IA regroupe des méthodes permettant à des systèmes d'accomplir des tâches nécessitant normalement de l'intelligence humaine. En apprentissage supervisé, un modèle est entraîné avec des données étiquetées ; en non supervisé, il découvre des structures cachées sans étiquettes. L’apprentissage par renforcement repose sur la notion de récompense et de punition dans un environnement interactif.\nLes réseaux de neurones convolutifs (CNN) sont efficaces pour l’analyse d’images. Le traitement automatique du langage naturel (TALN) permet aux machines de comprendre et générer du langage humain (ex : traduction automatique).\nUne fonction de coût mesure l'erreur entre les prédictions du modèle et les vraies valeurs. L'overfitting survient lorsqu’un modèle s’ajuste trop précisément aux données d'entraînement et perd sa capacité de généralisation.\nUn embedding est une représentation vectorielle dense d’un mot ou d’un objet, souvent utilisée pour capturer la sémantique dans les modèles. Une classification prédit des catégories (ex : spam/non spam), alors qu'une régression prédit des valeurs continues (ex : température).",
+      "type": "section"
+    },
+    {
+      "index": "section_4_para_0",
+      "text": "2. Intelligence artificielle (IA)",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_4_para_1",
+      "text": "L'IA regroupe des méthodes permettant à des systèmes d'accomplir des tâches nécessitant normalement de l'intelligence humaine. En apprentissage supervisé, un modèle est entraîné avec des données étiquetées ; en non supervisé, il découvre des structures cachées sans étiquettes. L’apprentissage par renforcement repose sur la notion de récompense et de punition dans un environnement interactif.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_4_para_2",
+      "text": "Les réseaux de neurones convolutifs (CNN) sont efficaces pour l’analyse d’images. Le traitement automatique du langage naturel (TALN) permet aux machines de comprendre et générer du langage humain (ex : traduction automatique).",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_4_para_3",
+      "text": "Une fonction de coût mesure l'erreur entre les prédictions du modèle et les vraies valeurs. L'overfitting survient lorsqu’un modèle s’ajuste trop précisément aux données d'entraînement et perd sa capacité de généralisation.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_4_para_4",
+      "text": "Un embedding est une représentation vectorielle dense d’un mot ou d’un objet, souvent utilisée pour capturer la sémantique dans les modèles. Une classification prédit des catégories (ex : spam/non spam), alors qu'une régression prédit des valeurs continues (ex : température).",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_5",
+      "text": "3. Cybersécurité\nLa cybersécurité vise à protéger les systèmes informatiques contre les menaces. Le chiffrement permet de rendre les données illisibles sans la clé appropriée, garantissant leur confidentialité. Un ransomware est un logiciel malveillant qui chiffre les fichiers d'une victime en demandant une rançon.\nL’authentification multifactorielle (MFA) ajoute une couche de sécurité en combinant plusieurs types de preuves (mot de passe, code SMS, empreinte digitale). Le principe de moindre privilège consiste à ne donner aux utilisateurs que les droits strictement nécessaires.\nUn test d’intrusion (pentest) est une simulation d’attaque permettant d’identifier les failles de sécurité. Un antivirus détecte et supprime les logiciels malveillants connus, tandis qu’un IDS (Intrusion Detection System) surveille le trafic réseau à la recherche de comportements suspects.\nUne attaque par déni de service (DDoS) vise à rendre un service indisponible en le submergeant de requêtes. La gestion des vulnérabilités implique l'identification, l'évaluation, la correction et le suivi des failles de sécurité.",
+      "type": "section"
+    },
+    {
+      "index": "section_5_para_0",
+      "text": "3. Cybersécurité",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_5_para_1",
+      "text": "La cybersécurité vise à protéger les systèmes informatiques contre les menaces. Le chiffrement permet de rendre les données illisibles sans la clé appropriée, garantissant leur confidentialité. Un ransomware est un logiciel malveillant qui chiffre les fichiers d'une victime en demandant une rançon.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_5_para_2",
+      "text": "L’authentification multifactorielle (MFA) ajoute une couche de sécurité en combinant plusieurs types de preuves (mot de passe, code SMS, empreinte digitale). Le principe de moindre privilège consiste à ne donner aux utilisateurs que les droits strictement nécessaires.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_5_para_3",
+      "text": "Un test d’intrusion (pentest) est une simulation d’attaque permettant d’identifier les failles de sécurité. Un antivirus détecte et supprime les logiciels malveillants connus, tandis qu’un IDS (Intrusion Detection System) surveille le trafic réseau à la recherche de comportements suspects.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_5_para_4",
+      "text": "Une attaque par déni de service (DDoS) vise à rendre un service indisponible en le submergeant de requêtes. La gestion des vulnérabilités implique l'identification, l'évaluation, la correction et le suivi des failles de sécurité.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_6",
+      "text": "4. Systèmes d’exploitation",
+      "type": "section"
+    },
+    {
+      "index": "section_6_para_0",
+      "text": "4. Systèmes d’exploitation",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_7",
+      "text": "Les systèmes d’exploitation (OS) sont des logiciels qui assurent la gestion des ressources matérielles. Un processus est une instance d’un programme en exécution, tandis qu’un thread est un sous-processus léger partageant la même mémoire.\nLe noyau est le cœur du système : il contrôle l'accès au matériel, gère la mémoire et les processus. La mémoire virtuelle permet aux programmes de croire qu’ils disposent de plus de mémoire qu’en réalité, grâce à la pagination.\nUn système de fichiers journaling enregistre les opérations à effectuer avant de les appliquer, ce qui aide à éviter les corruptions. La commande `ps` (ou `top`) permet de lister les processus en cours sous Linux.\nL’ordonnancement des processus détermine quel processus sera exécuté par le processeur à un moment donné. Le mode utilisateur est limité pour éviter les erreurs critiques, tandis que le mode noyau a tous les privilèges.\nSous Linux, la commande chmod permet de gérer les permissions (lecture, écriture, exécution) sur les fichiers et dossiers.",
+      "type": "section"
+    },
+    {
+      "index": "section_7_para_0",
+      "text": "Les systèmes d’exploitation (OS) sont des logiciels qui assurent la gestion des ressources matérielles. Un processus est une instance d’un programme en exécution, tandis qu’un thread est un sous-processus léger partageant la même mémoire.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_7_para_1",
+      "text": "Le noyau est le cœur du système : il contrôle l'accès au matériel, gère la mémoire et les processus. La mémoire virtuelle permet aux programmes de croire qu’ils disposent de plus de mémoire qu’en réalité, grâce à la pagination.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_7_para_2",
+      "text": "Un système de fichiers journaling enregistre les opérations à effectuer avant de les appliquer, ce qui aide à éviter les corruptions. La commande `ps` (ou `top`) permet de lister les processus en cours sous Linux.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_7_para_3",
+      "text": "L’ordonnancement des processus détermine quel processus sera exécuté par le processeur à un moment donné. Le mode utilisateur est limité pour éviter les erreurs critiques, tandis que le mode noyau a tous les privilèges.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_7_para_4",
+      "text": "Sous Linux, la commande chmod permet de gérer les permissions (lecture, écriture, exécution) sur les fichiers et dossiers.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_8",
+      "text": "5. Développement logiciel\nLe développement logiciel est l’art de créer des programmes informatiques. Le contrôle de version, avec des outils comme Git, permet de suivre les modifications du code, de collaborer efficacement et de revenir en arrière.\nLa méthodologie Agile privilégie l’adaptabilité et les cycles de développement courts. Un langage compilé (comme C) est transformé en code machine avant l’exécution, tandis qu’un langage interprété (comme Python) est exécuté ligne par ligne.\nDocker permet de créer des conteneurs légers et portables pour déployer des applications avec leurs dépendances. L’intégration continue (CI) automatise les tests et la mise à jour du code à chaque changement.\nLes tests unitaires vérifient que chaque fonction d’un programme fonctionne correctement. Une API REST expose des ressources via des requêtes HTTP standards, alors qu’une API GraphQL permet de spécifier précisément les données souhaitées.\nLes branches Git permettent de travailler sur plusieurs versions d’un projet sans interférer, favorisant la collaboration.",
+      "type": "section"
+    },
+    {
+      "index": "section_8_para_0",
+      "text": "5. Développement logiciel",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_8_para_1",
+      "text": "Le développement logiciel est l’art de créer des programmes informatiques. Le contrôle de version, avec des outils comme Git, permet de suivre les modifications du code, de collaborer efficacement et de revenir en arrière.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_8_para_2",
+      "text": "La méthodologie Agile privilégie l’adaptabilité et les cycles de développement courts. Un langage compilé (comme C) est transformé en code machine avant l’exécution, tandis qu’un langage interprété (comme Python) est exécuté ligne par ligne.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_8_para_3",
+      "text": "Docker permet de créer des conteneurs légers et portables pour déployer des applications avec leurs dépendances. L’intégration continue (CI) automatise les tests et la mise à jour du code à chaque changement.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_8_para_4",
+      "text": "Les tests unitaires vérifient que chaque fonction d’un programme fonctionne correctement. Une API REST expose des ressources via des requêtes HTTP standards, alors qu’une API GraphQL permet de spécifier précisément les données souhaitées.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_8_para_5",
+      "text": "Les branches Git permettent de travailler sur plusieurs versions d’un projet sans interférer, favorisant la collaboration.",
+      "type": "paragraph"
+    }
+  ],
+  "edges": [
+    [
+      "document",
+      "section_0"
+    ],
+    [
+      "document",
+      "section_1"
+    ],
+    [
+      "document",
+      "section_2"
+    ],
+    [
+      "document",
+      "section_3"
+    ],
+    [
+      "document",
+      "section_4"
+    ],
+    [
+      "document",
+      "section_5"
+    ],
+    [
+      "document",
+      "section_6"
+    ],
+    [
+      "document",
+      "section_7"
+    ],
+    [
+      "document",
+      "section_8"
+    ],
+    [
+      "section_0",
+      "section_0_para_0"
+    ],
+    [
+      "section_1",
+      "section_1_para_0"
+    ],
+    [
+      "section_2",
+      "section_2_para_0"
+    ],
+    [
+      "section_3",
+      "section_3_para_0"
+    ],
+    [
+      "section_3",
+      "section_3_para_1"
+    ],
+    [
+      "section_3",
+      "section_3_para_2"
+    ],
+    [
+      "section_3",
+      "section_3_para_3"
+    ],
+    [
+      "section_4",
+      "section_4_para_0"
+    ],
+    [
+      "section_4",
+      "section_4_para_1"
+    ],
+    [
+      "section_4",
+      "section_4_para_2"
+    ],
+    [
+      "section_4",
+      "section_4_para_3"
+    ],
+    [
+      "section_4",
+      "section_4_para_4"
+    ],
+    [
+      "section_5",
+      "section_5_para_0"
+    ],
+    [
+      "section_5",
+      "section_5_para_1"
+    ],
+    [
+      "section_5",
+      "section_5_para_2"
+    ],
+    [
+      "section_5",
+      "section_5_para_3"
+    ],
+    [
+      "section_5",
+      "section_5_para_4"
+    ],
+    [
+      "section_6",
+      "section_6_para_0"
+    ],
+    [
+      "section_7",
+      "section_7_para_0"
+    ],
+    [
+      "section_7",
+      "section_7_para_1"
+    ],
+    [
+      "section_7",
+      "section_7_para_2"
+    ],
+    [
+      "section_7",
+      "section_7_para_3"
+    ],
+    [
+      "section_7",
+      "section_7_para_4"
+    ],
+    [
+      "section_8",
+      "section_8_para_0"
+    ],
+    [
+      "section_8",
+      "section_8_para_1"
+    ],
+    [
+      "section_8",
+      "section_8_para_2"
+    ],
+    [
+      "section_8",
+      "section_8_para_3"
+    ],
+    [
+      "section_8",
+      "section_8_para_4"
+    ],
+    [
+      "section_8",
+      "section_8_para_5"
+    ]
+  ]
+}

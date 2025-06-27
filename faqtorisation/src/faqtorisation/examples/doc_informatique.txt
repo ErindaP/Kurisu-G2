@@ -1,0 +1,37 @@
+Introduction aux grands domaines de l'informatique
+
+L'informatique est un domaine vaste, structuré autour de plusieurs sous-disciplines fondamentales. Ce document présente cinq d'entre elles : les réseaux informatiques, l'intelligence artificielle, la cybersécurité, les systèmes d'exploitation, et le développement logiciel. Chaque section contient des explications qui permettent de répondre aux questions associées.
+
+1. Réseaux informatiques
+
+Les réseaux informatiques permettent la communication entre machines. Un routeur a pour rôle principal de diriger les paquets de données entre différents réseaux, en se basant sur les adresses IP. Le protocole DNS (Domain Name System) permet de traduire les noms de domaine (comme google.com) en adresses IP compréhensibles par les machines.
+Les adresses IP publiques sont accessibles depuis Internet, contrairement aux adresses privées qui sont utilisées à l'intérieur de réseaux locaux. Un réseau maillé permet à chaque nœud d'être connecté à plusieurs autres, ce qui améliore la résilience.
+Les VLANs (Virtual LANs) servent à segmenter logiquement un réseau physique en plusieurs sous-réseaux pour améliorer la sécurité et la gestion du trafic. Le modèle OSI (Open Systems Interconnection) est une architecture en 7 couches qui décrit les fonctions nécessaires à la communication sur un réseau.
+Un pare-feu filtre le trafic réseau selon des règles de sécurité, permettant ou bloquant certains flux. La 5G modifie les architectures réseau en apportant une plus grande vitesse, une latence réduite, et une prise en charge massive des objets connectés.
+
+2. Intelligence artificielle (IA)
+L'IA regroupe des méthodes permettant à des systèmes d'accomplir des tâches nécessitant normalement de l'intelligence humaine. En apprentissage supervisé, un modèle est entraîné avec des données étiquetées ; en non supervisé, il découvre des structures cachées sans étiquettes. L’apprentissage par renforcement repose sur la notion de récompense et de punition dans un environnement interactif.
+Les réseaux de neurones convolutifs (CNN) sont efficaces pour l’analyse d’images. Le traitement automatique du langage naturel (TALN) permet aux machines de comprendre et générer du langage humain (ex : traduction automatique).
+Une fonction de coût mesure l'erreur entre les prédictions du modèle et les vraies valeurs. L'overfitting survient lorsqu’un modèle s’ajuste trop précisément aux données d'entraînement et perd sa capacité de généralisation.
+Un embedding est une représentation vectorielle dense d’un mot ou d’un objet, souvent utilisée pour capturer la sémantique dans les modèles. Une classification prédit des catégories (ex : spam/non spam), alors qu'une régression prédit des valeurs continues (ex : température).
+
+3. Cybersécurité
+La cybersécurité vise à protéger les systèmes informatiques contre les menaces. Le chiffrement permet de rendre les données illisibles sans la clé appropriée, garantissant leur confidentialité. Un ransomware est un logiciel malveillant qui chiffre les fichiers d'une victime en demandant une rançon.
+L’authentification multifactorielle (MFA) ajoute une couche de sécurité en combinant plusieurs types de preuves (mot de passe, code SMS, empreinte digitale). Le principe de moindre privilège consiste à ne donner aux utilisateurs que les droits strictement nécessaires.
+Un test d’intrusion (pentest) est une simulation d’attaque permettant d’identifier les failles de sécurité. Un antivirus détecte et supprime les logiciels malveillants connus, tandis qu’un IDS (Intrusion Detection System) surveille le trafic réseau à la recherche de comportements suspects.
+Une attaque par déni de service (DDoS) vise à rendre un service indisponible en le submergeant de requêtes. La gestion des vulnérabilités implique l'identification, l'évaluation, la correction et le suivi des failles de sécurité.
+
+4. Systèmes d’exploitation
+
+Les systèmes d’exploitation (OS) sont des logiciels qui assurent la gestion des ressources matérielles. Un processus est une instance d’un programme en exécution, tandis qu’un thread est un sous-processus léger partageant la même mémoire.
+Le noyau est le cœur du système : il contrôle l'accès au matériel, gère la mémoire et les processus. La mémoire virtuelle permet aux programmes de croire qu’ils disposent de plus de mémoire qu’en réalité, grâce à la pagination.
+Un système de fichiers journaling enregistre les opérations à effectuer avant de les appliquer, ce qui aide à éviter les corruptions. La commande `ps` (ou `top`) permet de lister les processus en cours sous Linux.
+L’ordonnancement des processus détermine quel processus sera exécuté par le processeur à un moment donné. Le mode utilisateur est limité pour éviter les erreurs critiques, tandis que le mode noyau a tous les privilèges.
+Sous Linux, la commande chmod permet de gérer les permissions (lecture, écriture, exécution) sur les fichiers et dossiers.
+
+5. Développement logiciel
+Le développement logiciel est l’art de créer des programmes informatiques. Le contrôle de version, avec des outils comme Git, permet de suivre les modifications du code, de collaborer efficacement et de revenir en arrière.
+La méthodologie Agile privilégie l’adaptabilité et les cycles de développement courts. Un langage compilé (comme C) est transformé en code machine avant l’exécution, tandis qu’un langage interprété (comme Python) est exécuté ligne par ligne.
+Docker permet de créer des conteneurs légers et portables pour déployer des applications avec leurs dépendances. L’intégration continue (CI) automatise les tests et la mise à jour du code à chaque changement.
+Les tests unitaires vérifient que chaque fonction d’un programme fonctionne correctement. Une API REST expose des ressources via des requêtes HTTP standards, alors qu’une API GraphQL permet de spécifier précisément les données souhaitées.
+Les branches Git permettent de travailler sur plusieurs versions d’un projet sans interférer, favorisant la collaboration.

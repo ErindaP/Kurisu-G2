@@ -1,0 +1,245 @@
+{
+  "nodes": [
+    {
+      "index": "document",
+      "text": "Document",
+      "type": "document"
+    },
+    {
+      "index": "section_0",
+      "text": "La théorie des graphes est la discipline mathématique et informatique qui étudie les graphes, lesquels sont des modèles abstraits de dessins de réseaux reliant des objets[1]. Ces modèles sont constitués par la donnée de sommets (aussi appelés nœuds ou points, en référence aux polyèdres), et d'arêtes (aussi appelées liens ou lignes) entre ces sommets ; ces arêtes sont parfois non symétriques (les graphes sont alors dits orientés) et sont alors appelées des flèches ou des arcs.",
+      "type": "section"
+    },
+    {
+      "index": "section_0_para_0",
+      "text": "La théorie des graphes est la discipline mathématique et informatique qui étudie les graphes, lesquels sont des modèles abstraits de dessins de réseaux reliant des objets[1]. Ces modèles sont constitués par la donnée de sommets (aussi appelés nœuds ou points, en référence aux polyèdres), et d'arêtes (aussi appelées liens ou lignes) entre ces sommets ; ces arêtes sont parfois non symétriques (les graphes sont alors dits orientés) et sont alors appelées des flèches ou des arcs.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_0_para_0_sent_0",
+      "text": "La théorie des graphes est la discipline mathématique et informatique qui étudie les graphes, lesquels sont des modèles abstraits de dessins de réseaux reliant des objets[1].",
+      "type": "sentence"
+    },
+    {
+      "index": "section_0_para_0_sent_1",
+      "text": "Ces modèles sont constitués par la donnée de sommets (aussi appelés nœuds ou points, en référence aux polyèdres), et d'arêtes (aussi appelées liens ou lignes) entre ces sommets ;",
+      "type": "sentence"
+    },
+    {
+      "index": "section_0_para_0_sent_2",
+      "text": "ces arêtes sont parfois non symétriques (les graphes sont alors dits orientés) et sont alors appelées des flèches ou des arcs.",
+      "type": "sentence"
+    },
+    {
+      "index": "section_1",
+      "text": "Les algorithmes élaborés pour résoudre des problèmes concernant les objets de cette théorie ont de nombreuses applications dans tous les domaines liés à la notion de réseau (réseau social, réseau informatique, télécommunications, etc.) et dans bien d'autres domaines (par exemple génétique) tant le concept de graphe, à peu près équivalent à celui de relation binaire (à ne pas confondre donc avec graphe d'une fonction), est général. De grands théorèmes difficiles, comme le théorème des quatre couleurs, le théorème des graphes parfaits, ou encore le théorème de Robertson-Seymour, ont contribué à asseoir cette matière auprès des mathématiciens, et les questions qu'elle laisse ouvertes, comme la conjecture de Hadwiger, en font une branche vivace des mathématiques discrètes.",
+      "type": "section"
+    },
+    {
+      "index": "section_1_para_0",
+      "text": "Les algorithmes élaborés pour résoudre des problèmes concernant les objets de cette théorie ont de nombreuses applications dans tous les domaines liés à la notion de réseau (réseau social, réseau informatique, télécommunications, etc.) et dans bien d'autres domaines (par exemple génétique) tant le concept de graphe, à peu près équivalent à celui de relation binaire (à ne pas confondre donc avec graphe d'une fonction), est général. De grands théorèmes difficiles, comme le théorème des quatre couleurs, le théorème des graphes parfaits, ou encore le théorème de Robertson-Seymour, ont contribué à asseoir cette matière auprès des mathématiciens, et les questions qu'elle laisse ouvertes, comme la conjecture de Hadwiger, en font une branche vivace des mathématiques discrètes.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_1_para_0_sent_0",
+      "text": "Les algorithmes élaborés pour résoudre des problèmes concernant les objets de cette théorie ont de nombreuses applications dans tous les domaines liés à la notion de réseau (réseau social, réseau informatique, télécommunications, etc.) et dans bien d'autres domaines (par exemple génétique) tant le concept de graphe, à peu près équivalent à celui de relation binaire (à ne pas confondre donc avec graphe d'une fonction), est général.",
+      "type": "sentence"
+    },
+    {
+      "index": "section_1_para_0_sent_1",
+      "text": "De grands théorèmes difficiles, comme le théorème des quatre couleurs, le théorème des graphes parfaits, ou encore le théorème de Robertson-Seymour, ont contribué à asseoir cette matière auprès des mathématiciens, et les questions qu'elle laisse ouvertes, comme la conjecture de Hadwiger, en font une branche vivace des mathématiques discrètes.",
+      "type": "sentence"
+    },
+    {
+      "index": "section_2",
+      "text": "Il existe trois grandes familles de graphes et cinq catégories au total :\nstructurés : il est alors possible de définir quatre identités topologiques remarquables :\nhomogènes (1) : les sommets et les arêtes reproduisent un schéma régulier. Le schéma le plus commun est une architecture de type matriciel aussi appelée « en filet de poisson » (mesh) ;\nhiérarchiques (2) : structure typique des graphes où les sommets s'arrangent en couches hiérarchisées et pyramidales ;\ncycliques (3) : on peut identifier des cycles dans le graphe. L'exemple le plus parlant est le graphe circulaire ;\ncentralisés ou polaires (4) : c'est une architecture où tous les sommets sont rattachés à un seul sommet, le pôle ;\nquelconques (5) : aucune propriété topologique ne semble émerger ;\nmultipolaires : c'est une architecture mixte entre les graphes centralisés et décentralisés. Les réseaux multipolaires sont très étudiés en raison de leur proximité avec de nombreux cas concrets, notamment Internet ou les réseaux de neurones. Les graphes multipolaires sont caractérisés par deux types d'arêtes : celles qui forment les liens émanant du pôle : les liens forts ; et les liens réunissant deux pôles entre eux : les liens faibles. Les pôles peuvent par ailleurs prendre une architecture structurée (souvent centralisée) ou quelconque.",
+      "type": "section"
+    },
+    {
+      "index": "section_2_para_0",
+      "text": "Il existe trois grandes familles de graphes et cinq catégories au total :",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_2_para_0_sent_0",
+      "text": "Il existe trois grandes familles de graphes et cinq catégories au total :",
+      "type": "sentence"
+    },
+    {
+      "index": "section_2_para_1",
+      "text": "structurés : il est alors possible de définir quatre identités topologiques remarquables :",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_2_para_1_sent_0",
+      "text": "structurés : il est alors possible de définir quatre identités topologiques remarquables :",
+      "type": "sentence"
+    },
+    {
+      "index": "section_2_para_2",
+      "text": "homogènes (1) : les sommets et les arêtes reproduisent un schéma régulier. Le schéma le plus commun est une architecture de type matriciel aussi appelée « en filet de poisson » (mesh) ;",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_2_para_2_sent_0",
+      "text": "homogènes (1) : les sommets et les arêtes reproduisent un schéma régulier. Le schéma le plus commun est une architecture de type matriciel aussi appelée « en filet de poisson » (mesh) ;",
+      "type": "sentence"
+    },
+    {
+      "index": "section_2_para_3",
+      "text": "hiérarchiques (2) : structure typique des graphes où les sommets s'arrangent en couches hiérarchisées et pyramidales ;",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_2_para_3_sent_0",
+      "text": "hiérarchiques (2) : structure typique des graphes où les sommets s'arrangent en couches hiérarchisées et pyramidales ;",
+      "type": "sentence"
+    },
+    {
+      "index": "section_2_para_4",
+      "text": "cycliques (3) : on peut identifier des cycles dans le graphe. L'exemple le plus parlant est le graphe circulaire ;",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_2_para_4_sent_0",
+      "text": "cycliques (3) : on peut identifier des cycles dans le graphe. L'exemple le plus parlant est le graphe circulaire ;",
+      "type": "sentence"
+    },
+    {
+      "index": "section_2_para_5",
+      "text": "centralisés ou polaires (4) : c'est une architecture où tous les sommets sont rattachés à un seul sommet, le pôle ;",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_2_para_5_sent_0",
+      "text": "centralisés ou polaires (4) : c'est une architecture où tous les sommets sont rattachés à un seul sommet, le pôle ;",
+      "type": "sentence"
+    },
+    {
+      "index": "section_2_para_6",
+      "text": "quelconques (5) : aucune propriété topologique ne semble émerger ;",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_2_para_6_sent_0",
+      "text": "quelconques (5) : aucune propriété topologique ne semble émerger ;",
+      "type": "sentence"
+    },
+    {
+      "index": "section_2_para_7",
+      "text": "multipolaires : c'est une architecture mixte entre les graphes centralisés et décentralisés. Les réseaux multipolaires sont très étudiés en raison de leur proximité avec de nombreux cas concrets, notamment Internet ou les réseaux de neurones. Les graphes multipolaires sont caractérisés par deux types d'arêtes : celles qui forment les liens émanant du pôle : les liens forts ; et les liens réunissant deux pôles entre eux : les liens faibles. Les pôles peuvent par ailleurs prendre une architecture structurée (souvent centralisée) ou quelconque.",
+      "type": "paragraph"
+    },
+    {
+      "index": "section_2_para_7_sent_0",
+      "text": "multipolaires : c'est une architecture mixte entre les graphes centralisés et décentralisés. Les réseaux multipolaires sont très étudiés en raison de leur proximité avec de nombreux cas concrets, notamment Internet ou les réseaux de neurones. Les graphes multipolaires sont caractérisés par deux types d'arêtes : celles qui forment les liens émanant du pôle : les liens forts ; et les liens réunissant deux pôles entre eux : les liens faibles. Les pôles peuvent par ailleurs prendre une architecture structurée (souvent centralisée) ou quelconque.",
+      "type": "sentence"
+    }
+  ],
+  "edges": [
+    [
+      "document",
+      "section_0"
+    ],
+    [
+      "document",
+      "section_1"
+    ],
+    [
+      "document",
+      "section_2"
+    ],
+    [
+      "section_0",
+      "section_0_para_0"
+    ],
+    [
+      "section_0_para_0",
+      "section_0_para_0_sent_0"
+    ],
+    [
+      "section_0_para_0",
+      "section_0_para_0_sent_1"
+    ],
+    [
+      "section_0_para_0",
+      "section_0_para_0_sent_2"
+    ],
+    [
+      "section_1",
+      "section_1_para_0"
+    ],
+    [
+      "section_1_para_0",
+      "section_1_para_0_sent_0"
+    ],
+    [
+      "section_1_para_0",
+      "section_1_para_0_sent_1"
+    ],
+    [
+      "section_2",
+      "section_2_para_0"
+    ],
+    [
+      "section_2",
+      "section_2_para_1"
+    ],
+    [
+      "section_2",
+      "section_2_para_2"
+    ],
+    [
+      "section_2",
+      "section_2_para_3"
+    ],
+    [
+      "section_2",
+      "section_2_para_4"
+    ],
+    [
+      "section_2",
+      "section_2_para_5"
+    ],
+    [
+      "section_2",
+      "section_2_para_6"
+    ],
+    [
+      "section_2",
+      "section_2_para_7"
+    ],
+    [
+      "section_2_para_0",
+      "section_2_para_0_sent_0"
+    ],
+    [
+      "section_2_para_1",
+      "section_2_para_1_sent_0"
+    ],
+    [
+      "section_2_para_2",
+      "section_2_para_2_sent_0"
+    ],
+    [
+      "section_2_para_3",
+      "section_2_para_3_sent_0"
+    ],
+    [
+      "section_2_para_4",
+      "section_2_para_4_sent_0"
+    ],
+    [
+      "section_2_para_5",
+      "section_2_para_5_sent_0"
+    ],
+    [
+      "section_2_para_6",
+      "section_2_para_6_sent_0"
+    ],
+    [
+      "section_2_para_7",
+      "section_2_para_7_sent_0"
+    ]
+  ]
+}
