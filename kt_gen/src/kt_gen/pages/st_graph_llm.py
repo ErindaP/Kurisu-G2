@@ -22,12 +22,18 @@ from kt_gen.utils.llm.utils_llm import build_prompt, ask_llm
 from kt_gen.knowledge_graph.kg_base_algo import recursive_traversal_with_scores, recursive_traversal_with_scores_fusion, recursive_traversal_with_scores_fusion_and_llm 
 from kt_gen.knowledge_graph.utils.utils_fgw import compute_similarity_weighted_structure_distances, compute_embeddings
 from huggingface_hub import hf_hub_download, snapshot_download
+from dotenv import load_dotenv, find_dotenv
+import os
+
+load_dotenv(find_dotenv())
+
+model_path = os.getenv("MODEL_PATH")
+if not model_path:
+    model_path = "utils/model/all-MiniLM-L6-v2"  # HF repo name
 
 
 
-
-# streamlit: title = "Graphe LLM Navigator"
-# --------------------- SSL Bypass -----------------------------
+# --------------------- SSL Bypass ----------------------------- car wsl empechais de pull
 def backend_factory() -> requests.Session:
     session = requests.Session()
     session.verify = False
@@ -78,7 +84,7 @@ if uploaded_file is not None:
             print("Yow la team")
             # Charger le modèle une seule fois
             if st.session_state['model'] is None:
-                model = SentenceTransformer("utils/model/all-MiniLM-L6-v2", trust_remote_code=False)
+                model = SentenceTransformer(model_path, trust_remote_code=False)
 
                 st.session_state['model'] = model
             else:

@@ -1,0 +1,448 @@
+Introduction to League of Legends
+So, you’ve decided to play this newfangled game that is getting all the hype. Good for you! Many of us in the community welcome you and encourage you to be an active participant in the community. The more of us there are the more broad and fun the game can be!
+
+This guide is designed to cover all of the basic mechanics required to get a player with no experience with the game familiarized enough so they can start playing without feeling completely lost. As a result there will probably be some sections that contain information you already know (or can guess rather easily). Feel free to skip areas that you feel are self-explanatory - I realize that many of you will not need to be explained what health and mana are, but I wanted to make this guide as complete as possible. If you are looking for a much shorter quick guide I suggest you check out the League of Legends Wiki: Beginner’s Guide.
+
+Additionally it is important to note that there are currently 3 game modes in League of Legends: Summoner’s Rift (standard 5v5 map that started it all), Twisted Treeline (3v3 map with same basic play style as Summoner’s Rift), and now Dominion (a 5v5 point capture map designed for extremely fast paced gameplay focusing on teamfights). In this guide we will primarily be talking about Summoner’s Rift because it is the “standard” map for playing on (as well as being the map that Riot specifically balances the game for). If there is enough demand over time I may add additional sections for the other maps.
+
+There are also a lot of specialized terms used commonly in League of Legends. There is a reference section at the end of the document that defines a lot of the acronyms and terms that you will see in play and in this guide.
+
+What is League of Legends anyway?
+League of Legends is a Multiplayer Online Battle Arena (MOBA), much like DotA and Heroes of Newerth. In the normal game mode two teams of five players will be matched against each other on a large map with the goal of destroying the other team’s base. Each player controls a single unit called a champion (using a standard top-down RTS style control scheme) and must work together with his teammates and AI controlled minions and monsters to accomplish this goal.
+
+In the main map the two bases are in opposite corners with three “lanes” going between them. Each team starts with buildings to defend each lane, and waves of AI controlled minions spawn periodically and march through each of the lanes in an effort to destroy the enemy’s tower. Over the course of the game the champions that players control will gain experience and gold through fighting the enemy team’s minions and champions, allowing their own champion to level up and gain new and improved special abilities as well as improving their champions with items they purchase with the gold they earn.
+
+Each game every player gets to choose one of a large number of different champions to play, with more are being added regularly. Although the actual number of champions is large they mostly fit fairly well into defined roles, making choosing a champion a bit easier.
+
+In addition, playing games will earn you summoner experience and IP (influence points). Summoner experience increases your summoner level (up to a maximum of 30) which unlocks various bonuses - mastery points, rune slots, and summoner spells. Your summoner level is also used in matchmaking in order to pair you with players of equivalent experience and skill level. IP can be used to purchase various benefits - unlocking champions permanently and  buying runes or rune pages.
+
+The League of Legends Community
+Who is this person and why are they yelling at me?
+
+League of Legends (and, more broadly, all Multiplayer Online Battle Arenas (MOBAs)) are notorious for two things: being extremely complex and having communities that are unusually... “unwelcoming” of newcomers. As a result I’d like to take a moment right away to address issues with the community that you will undoubtedly have to deal with at some point while playing League of Legends.
+
+Neither of these reputations is undeserved exactly, however they are related - League of Legends (or LoL) is a team-based strategy game where a lack of cooperation between teammates can cause a fun game to turn into a frustrating game rather quickly. Unfortunately this means that those who are unfamiliar with the game (e.g. everyone when they first start playing the game) can make things frustrating for veterans who are accustomed to playing in a much more organized manner. Don’t worry though - there is some good news too.
+
+League of Legends has a system set in place designed to match players together who are of comparable skill level. There are two ways it does this: your summoner level and your Elo. Your summoner level is determined by how many games you play - the more games you play the more experience you get, and your level rises over time (even if you lose). Your Elo is a measure of how often you win and is designed to be a measure of your overall skill relative to those around you. In normal games (as opposed to ranked games, which can only be played once you hit the maximum summoner level of 30) your Elo is hidden and you cannot directly view it, so you don’t need to worry about it. Suffice it to say that League of Legends will do it’s best to match you with players that are about as good as you so the game is as enjoyable for everyone involved as possible.
+
+As advanced as the matchmaking system is it can never be perfect, so you will occasionally run into players of a vastly different skill level than you - both much better and much worse than you. You will also occasionally run into players that simply aren’t very... diplomatic. In general, any player that detracts from the enjoyment of the game (either intentionally or unintentionally) are referred to as “toxic” players. If you play long enough you will eventually need to deal with toxic players, so it is important to understand how to identify them early on so you don’t get soured on the game.
+
+The best tool at your disposal for dealing with toxic players is the ability to ignore them. You can do this from the chat window by typing “/ignore <playername>” or from the scoreboard (revealed when you press Tab) by clicking the small blue button on the right side of the window. This will block all communication from the player, both what he says in chat and any map pings by the player. If a player is verbally abusing you or just generally being negative feel free to use the command. You can also use “/mute <playername>” if you prefer - this functions the same as ignore but only lasts the duration of the game instead of permanently.
+
+Conversely, you need to make sure that you don’t become a toxic player yourself. Be courteous to your teammates and your enemies alike. Feel free to make suggestions to other players if you feel they are making mistakes or engaging in unproductive behavior, but remember that they are far more likely to listen to you if you go about it in a polite manner. Own up to your own mistakes when you make them and if someone makes a suggestion about a change in strategy try to be open to it - it is possible they know something you don’t. Try not to dismiss anything immediately, but also be wary of openly accepting every suggestion that is made - after all, there are new players joining the game every day and you may know more than some others.
+
+Now that the basics in conduct are covered, onward to actually playing the game!
+
+
+
+
+ 
+Basic Game Mechanics
+You don’t NEED a physics degree to understand the game mechanics - any advanced engineering degree will work in a pinch.
+
+There are many different mechanics in League of Legends that you will encounter, and being informed about them will help you understand not only what is happening as you play but also how to utilize the mechanics in your favor.
+
+The Playing Field
+If you’re going to be playing League of Legends, you will need to familiarize yourself with the map. There is a lot here, so we’ll explore all of the major features of the map as well. You can also start a custom game inside League of Legends with nobody else playing to give yourself a chance to explore the map without having to worry about a game going on around you - I’d encourage anyone who feels like they aren’t very familiar with the map to do that.
+
+Turrets (aka Towers)
+Each team has a total of 11 turrets - 3 turrets in each of the 3 lanes and 2 turrets adjacent to your nexus. The turrets inside a lane are generally referred to as the outer turret, inner turret, and base turret (or inhibitor turret) and the two turrets adjacent to your nexus are referred to as the nexus turrets. Only the outermost turret in each lane is vulnerable to attack - all other turrets behind it are invulnerable to damage, but can still attack enemies that come within range.
+
+The nexus turrets are invulnerable until one inhibitor from any lane is destroyed - at that point both nexus turrets become vulnerable. Additionally, only the nexus turrets have the ability to regenerate their health. All other turrets have a regen of zero, allowing them to be slowly whittled down over time by enemies.
+
+Turrets will normally prioritize attacking minions over enemy champions - this allows for champions to attack towers directly without taking damage if they have a wave of minions with them. However, if an enemy champion attacks a friendly champion while within range of a turret, the turret will immediately begin attacking the enemy champion over enemy minions. If a turret is already attacking an enemy champion and a second champion begins attacking a friendly champion the turret will continue to attack the first enemy champion rather than switching targets. Once you are targeted by an enemy turret the only ways to get it to stop is for you to move out of range or destroy the turret. Turrets will also do more damage with each successive hit on a player, so the longer you are being hit by a turret the more damage each hit will do to you.
+
+Turrets can only be damaged with basic attacks and you cannot target abilities or spells on a tower. Killing an enemy turret grants 150 gold to all friendly champions (including yourself) and you do not gain extra gold from being the one to land the final blow on a turret.
+
+Different turrets have different base stats, and most turrets will slowly increase in power over time. For additional information on turrets, look here.
+
+Inhibitors
+Inhibitors are located directly behind the base turret located at the edge of your base area, and there is one inhibitor for each lane. Inhibitors are invulnerable to damage as long as the base turret they are next to is alive. Unlike most towers, inhibitors will slowly regenerate health over time if damaged and respawn after 5 minutes if they are destroyed.
+
+When you destroy your enemy’s inhibitor, that lane will begin spawning one super minion with each wave,  as well as increasing the health of all normal minions in that lane. If all 3 inhibitors are destroyed then each lane will spawn 2 super minions with each wave instead of 1. Destroying an inhibitor also causes the two nexus turrets to become vulnerable (as well as the nexus itself if those turrets are down). If all 3 inhibitors are up the nexus will be invulnerable even if the nexus turrets have been destroyed, so if previously destroyed inhibitors respawn the nexus will once again be protected.
+
+Unlike turrets, inhibitors do not attack enemies on their own. This means that once the base turret adjacent to an inhibitor goes down there is very little to stop enemy minions or champions from attacking it directly if nobody is there to defend it.
+
+Inhibitors can also not be targeted or damaged by champion abilities. They also do not grant any gold when destroyed.
+
+Nexus
+The nexus is your innermost building and it is the ultimate goal of the game - destroying the enemy nexus causes your team to win the game. The nexus is invulnerable until both nexus turrets are destroyed. It is also where all of your minions spawn from, which means that if the nexus is being pushed on by the enemy when minions spawn they will all attack nearby enemies before going into their respective lanes. This will help push back the enemies in your base but other lanes will have an easier time pushing in.
+
+Minions
+Minions will spawn in waves originating from your nexus and follow the three lanes out and toward the enemy base. Minions will normally attack the first enemy target they see and continue attacking that target until it either moves out of range or is killed. This means that if you are out in front of your allied minions when you engage an enemy minion wave they will all focus fire on you, but if you are behind your minions at the initial engagement the minions will fight each other and ignore you. However, if you attack an enemy champion while in range of enemy minions they will automatically switch from attacking minions to attacking you.
+
+There are three types of normal minions: melee, caster, and siege. Melee minions have more health than caster minions and also give slightly more gold. Siege minions have the most health and give the most gold and also only take half damage from turrets, making them better at tanking turret hits. Normally 3 melee and 3 caster minions are spawned each wave and 1 siege minion every third wave, but at the 20 minute mark 1 siege minion spawns with every minion wave.
+
+You will receive experience from killing minions simply by being in the area, but to receive gold from minions you have to deal the killing blow - this is referred to as last hitting. Last hitting is very important because killing minions is the primary way in which you earn gold. In general you should focus on only getting the killing blow on minions rather than constantly attacking them unless you are trying to push forward to deal damage to the enemy turret.
+
+Bushes
+Bushes are scattered across the map and can be used for cover. When you are inside a group of bushes you are invisible to enemies outside that particular group of bushes and they cannot see or target you - however area of effect abilities and other effects that do not need to be targeted can still hit you. If an enemy enters the group of bushes that you are in you will be revealed to all enemies. Additionally if you attack while inside a group of bushes you will be revealed for a short time.
+
+The most important thing to remember about bushes is to use caution when around them. Because you cannot see into them there may be enemies lurking inside them, and if you run straight into a group of bushes you may get ambushed. Walking into a group of bushes when you have no idea what is inside is called face checking, and it should be avoided at all times. Instead you should use an ability that can be targeted manually (such as a skill shot or AOE ability) inside the bush to see if there are any hostiles inside or use a ward to gain vision into the bush before entering.
+
+The only time it is appropriate to face check a bush is when you know that no enemies are in there (e.g. you can see all enemy champions on the map).
+
+Secondary Objectives
+There are a number of secondary objectives scattered around the map that players can complete to gain extra gold, experience, and buffs.
+
+Blue Buff (Golem Buff)
+The official name of this buff is “Crest of the Ancient Golem”, but it is almost universally referred to as the blue buff. Blue buff refers to the buff that you get by killing the large golem in your jungle (not to be confused with the pair of smaller golems in another area of your jungle). Blue buff has two effects: it grants you significantly increased mana regeneration and cooldown reduction (check here for exact buff effects). There are two instances of the large golem, one in your jungle and one in your enemy’s jungle.
+
+Blue buff is a powerful enhancement, so you should make sure not only that your team gets it as often as possible but also that it goes to the right person. This buff is ideal for either a mage who has high mana requirements (such as Annie, Brand, or Zilean) or anyone who has long cooldowns on powerful abilities (such as Amumu). If your character does not use mana or rarely runs out then it is most beneficial to allow one of your teammates to get the buff instead - characters such as Akali and Mordekaiser should rarely get the buff because they do not benefit much from the buff.
+
+If you kill an enemy champion that currently has blue buff, the buff is transferred to you and the duration is renewed.
+
+Red Buff (Lizard Buff)
+The official name of this buff is “Blessing of the Lizard Elder”, but it is almost universally referred to as the red buff. Red buff refers to the buff that you get by killing the large lizard in your jungle. Red buff has two effects: it reduces the movement speed of anyone you attack for a short time and it deals true damage over time to the enemy.
+
+Melee/ranged carries and bruisers (such as Caitlyn, Tryndamere, Tristana, and Warwick) are the best candidates for getting this buff due to the fact that they utilize their basic attack more often than other champions. Mage type champions (such as Annie, Ryze, and Zilean) should rarely get red buff because they rarely use their basic attack and because they generally need to be farther back due to them being easier to kill.
+
+If you kill an enemy champion that currently has red buff, the buff is transferred to you and the duration is renewed.
+
+Dragon
+Dragon is located in a nook in the southeastern end of the river, between the middle and bottom lanes. It is a powerful neutral monster that grants each member on the team that killed it 190 gold, making it a very beneficial monster to try and kill.
+
+Because there is only one dragon that spawns at a time, both teams will compete to get the dragon kill. It is usually a good idea to keep a ward up near dragon so you can tell if the enemy team is attempting to group up to kill him. Ambushing enemies while they are fighting dragon is a very good way to gain an advantage.
+
+Dragon will first spawn at the 2:30 mark and will respawn again 6 minutes after he has been killed.
+
+Baron
+Baron is located in a nook in the northwestern end of the river, between the middle and top lanes. It is a very powerful neutral monster that grants each member on the team that killed it 300 gold and a powerful buff that increases AD and AP by 40 and gives 3% of your maximum health as health regeneration per 5 seconds and 1% of your maximum mana as mana regeneration per 5 seconds.
+
+Because your team gains such a large benefit from killing baron it is generally watched carefully by both teams. Use caution when your team is going to engage baron - if the enemy team realizes what you are doing they will almost certainly come to try and stop you. Additionally baron is very powerful and will likely take most or all of your team working together to kill successfully.
+
+Baron initially spawns at the 15:00 mark and will respawn again 7 minutes after he has been killed.
+
+Gold, Experience, and Items
+Money can’t buy happiness, but it can buy you the means to smite those who point that out.
+
+Gold and experience are collected by killing minions, monsters, champions, and turrets in game. Gold allows you to buy items, while experience increases your character’s level (which in turn improves the base stats of your character and allows you to increase the power of your skills). Collecting gold and experience to improve your champion is very important, but you must always remember that the top priority of the game isn’t to improve your own champion but to destroy the enemy’s nexus. As such it is inadvisable to ignore primary objectives or allow your enemy to take primary objectives in order to farm for gold or experience.
+
+Along the same lines, it is inadvisable to focus solely on killing enemy champions. This does give you additional gold and prevents the enemy from farming gold and experience while they are dead, but if you focus only on killing and give up opportunities to push lanes and destroy enemy buildings then you will most likely lose the game.
+
+Remember: gold, experience, and items are only useful as a means of accomplishing your objectives, so giving up objectives to gain more gold/experience/items is directly counter-productive.
+
+Champion Stats
+There is a set of stats that your champion has that affect everything he does from how much damage he deals to how fast he recovers from attacks. It is important to know all of the stats and their effect in game, so let’s go over them briefly. You can also find a listing of all stats along with detailed descriptions and formulas on the League of Legends wiki here.
+
+Defensive Stats
+●	Health - This is a measure of how much damage your champion takes before he dies. When your health drops to zero you are dead and have to wait before you are resurrected inside your base.
+●	Health Regen - This is a measure of how quickly your health regenerates over time. The number listed is the amount of health you will regain every 5 seconds (however health actually regenerates every 1 second - just divide your Health Regen by 5 to find how many health per second you will regenerate).
+●	Armor  - This is a measure of your champion’s resistance against physical damage (as opposed to magical damage). The more armor you have the less physical damage you will take. If you wish to know the exact formula for calculating the amount of damaged blocked by armor you can refer to the League of Legends wiki article on armor here.
+●	Magic Resistance (MR) - This is a measure of your champion’s resistance against magical damage (as opposed to physical damage). The more MR you have the less magical damage you will take. If you wish to know the exact formula for calculating the amount of damaged blocked by MR you can refer to the League of Legends wiki article on MR here.
+●	Dodge - This is a % chance that you will dodge a basic attack, thus ignoring all damage from it. Only one item in the game and a few masteries grant increased dodge chance, so in general this stat is not commonly used on most champions.
+●	Tenacity - This is a % reduction of the duration of crowd control effects on your champion. Crowd control effects include stuns, snares, silences, etc. Tenacity has no effect on suppression or knockup effects and will not affect the amount of damage taken from abilities that also give crowd control effects. Note: Bonuses to tenacity from items will not stack like most other abilities. If you have two items that both grant tenacity the larger bonus will be used.
+●	Movement Speed - This is a measure of how quickly your character will move around the map. Most champions have a starting speed between 300 and 325 and there are many items that can increase your movement speed and many abilities that can increase or decrease movement speed of allies/enemies. Note: Boots are a crucial item for every champion and increase your movement speed.
+
+Offensive Stats
+●	Attack Damage (AD) - This is how much damage your champion will do to an enemy with his basic attack (before mitigation, such as Armor). Basic attacks deal physical damage for most champions, but certain champions and items have special abilities that will grant non-physical damage to basic attacks. Some champions also have skills that will scale in power off AD.
+●	Crit Chance - This is the % chance that your champion has to deal a critical strike on an attack. In general only basic attacks can be critical strikes, however some champions have abilities that can crit as well. A standard crit will deal 200% normal damage, but there are some abilities and items that change that amount.
+●	Attack Speed - This is a measure of how fast your character will attack with basic attacks. The listed number will be how many attacks per second your champion will perform (e.g. if your attack speed is 1.5 then you will execute 1.5 attacks every second, or 3 attacks every 2 seconds). The maximum attack speed for all champions is 2.5.
+●	Life Steal - This is a % of how much health you will gain when you deal physical damage (from any source). It takes a percentage of the total damage dealt after mitigation (in this case Armor) is accounted for.
+●	Attack Range - This is the range of your basic attack. There are no specific units for this stat, but in general an attack range of roughly 125 is considered melee range. Many abilities will also have a specified range to them.
+●	Armor Penetration (APen) - This is a measure of how much armor your champion ignores on any targets when dealing physical damage. There are two types of armor penetration - “flat” armor penetration ignores a flat value of the target’s armor, and % armor penetration ignores a percentage of his maximum armor. Flat armor penetration is calculated before percentage. You can find additional information about how armor penetration is calculated here.
+
+Magical Stats
+●	Mana - Mana is used by many champions to use abilities. Each ability will have a different mana cost, and if you do not have enough mana to cast the spell it is greyed out and unable to be cast.
+●	Mana Regen - This is a measure of how quickly your mana regenerates over time. Like Health Regen, the number listed is the amount of mana you will regain every 5 seconds.
+●	Energy - Some champions have an energy bar instead of a mana bar. Unlike mana, which can be increased with items and generally has a large maximum cap, energy is generally capped at 100 and regenerates very quickly. This means that a champion that uses energy will not need to return to base to fill up if they run out, however they will need to manage their skills inside a battle much more closely than champions based on mana.
+●	Ability Power (AP) - Many abilities (especially for mage type champions) will scale in power off of this stat. For most champions it has no innate purpose other than to increase the power of their abilities, but some champions will get other bonuses from this stat.
+●	Spell Vamp - This is a % of how much health you will gain when you deal magical damage (from any source). It takes a percentage of the total damage dealt after mitigation (in this case Magic Resistance) is accounted for.
+●	Cooldown Reduction (CDR) - This is a % of how much of an ability’s cooldown you will ignore when casting that ability. The cooldown of an ability is how long you need to wait until you are able to use the ability again. Cooldown Reduction reduces that time by a percentage of the total. The maximum Cooldown Reduction a champion may have is 40%.
+●	Magic Penetration (MPen) - This is a measure of how much magic resistance your champion ignores on any targets when dealing magical damage. There are two types of magic penetration - “flat” magic penetration ignores a flat value of the target’s magic resistance, and % magic penetration ignores a percentage of his maximum magic resistance. Flat magic penetration is calculated before percentage. You can find additional information about how magic penetration is calculated here.
+
+Summoner Spells
+I cast magic missile!
+
+There are a range of different summoner spells that you can take in League of Legends to assist your champion. You can take two summoner spells and they cost nothing to cast, but generally have a long cooldown before you can use them again. I have omitted the exact effects of the spells and only address their usefulness - to find full descriptions go here.
+
+●	Exhaust - This spell is useful to take on melee and ranged carries because it allows you to chase an enemy much more effectively. It is also very useful to use on an enemy carry while in a teamfight to decrease the damage they do.
+●	Ghost - This spell is extremely useful for carries for the purposes of closing gaps, chasing, and escaping if ambushed.
+●	Heal - This spell is generally not the best option to take. It can increase the time you can stay in a lane before going back to heal and can often times be used as a crutch by new players to make yourself a bit harder to kill, but in general this spell has very limited usefulness. It is much better to instead buy healing potions and take a more useful summoner spell.
+●	Revive - This is another spell with limited usefulness. In some circumstances it can be useful to take, but as a general rule you are probably better off avoiding this spell.
+●	Smite - This spell is extremely useful when you are jungling and of very limited usefulness if you are not. In general always take this ability when jungling and never take it otherwise.
+●	Teleport - Teleport is a very useful skill for reacting to your enemy. You can use it to move quickly from one lane into another to cover if an ally dies or to get back into the fray quicker if you die yourself or are forced back to base to heal. It is one of the most useful summoner spells that you can use from summoner level 1, but once you reach higher summoner levels there are often times better options to take.
+●	Cleanse - Useful if you are against a team that has a lot of crowd control, otherwise this summoner spell is not particularly useful. Additionally you can get an almost identical effect by purchasing the item “Quicksilver Sash”, so in general cleanse isn’t your best option.
+●	Fortify - This can be useful early game if you are playing against particularly aggressive players. Later in the game it becomes far less useful because most coordinated pushes last much longer than the duration of fortify. It can however be a very effective counter to players who backdoor.
+●	Clarity - This spell can be useful for support classes to take primarily so they can stay out with teammates longer while at the same time giving allies mana to allow them to stay longer too. It is tempting to take this spell as a mage because you can tend to run out of mana quickly in the early game before you learn to conserve your mana, but in general mages will get enough mana and mana regen to make clarity of limited usefulness later in the game.
+●	Ignite - A very common spell for carries, mages, and assassins to take. This spell lets you deal a bit of extra damage, stop healing on a particular target, and gives you a chance to ensure a kill if someone is trying to escape due to the damage over time effect. This spell maintains usefulness throughout most of the game.
+●	Clairvoyance - Can be extremely useful if the enemy team likes sneaking around in jungle paths. It is not recommended to have more than 1 of this spell on a team due to the short cooldown.
+●	Flash - The single best summoner spell to use as an escape mechanism. It also has a lot of utility for executing fast and unexpected attacks. This spell is highly recommended for many champions, particularly easier to kill champions such as carries and mages or for champions that don’t have an ability to use as an escape mechanism.
+●	Surge - The main usefulness of this spell is on AD carries for pushing down towers. The duration is long enough to be useful in team fights, but the cooldown is long enough that it should not be relied on as the primary source of attack speed. This spell is not particularly useful for AP characters due to the size of the bonus - most or all AP characters will get more damage done in team fights with ignite than with surge.
+●	Promote - This spell is most useful to aid support characters in destroying towers. For characters that cannot deal much damage to turrets on their own this is the best summoner spell for pushing, however it is not useful in team fights.
+
+
+●	Rally - This summoner spell was removed from the game. Quite possibly the least used summoner spell in the game. In general it has too little health, too limited a range, too long a cooldown, and too minor of an effect to be of significant use during the game. I do not recommend this spell.
+
+Summoner Masteries and Runes
+In addition to summoner spells you can also choose a number of masteries and runes to give your champion increased stats or abilities.
+
+Mastery points are given to you based on your summoner level (1 point per level, 30 total at max summoner level) and are distributed across three separate trees - Offense, Defense, and Utility. You can distribute your points across the trees however you like, but within each tree are different levels that require you to spend a certain number of points on other bonuses inside the tree before they can be used. The final bonus within each tree requires 20 points to be spent within the tree before it can be used, so you will only be able to reach the end of one tree. The game does allow you to save and choose from multiple mastery pages (up to 10), so you can customize a mastery page to be used for different champions then select the appropriate page during champion select before a game starts.
+
+Runes are similar to masteries in that you gain additional rune slots as your summoner level goes up, however they work somewhat differently. There are four types of runes - marks (red), seals (yellow), glyphs (blue), and quintessences. There are a total of 9 slots for each marks, seals, and glyphs, and 3 slots for quintessences. One slot is unlocked per level alternating between marks, seals, and glyphs, and a quintessence slot is opened up at level 10, 20, and 30.
+
+While the slots for runes are given to you by level, you need to purchase the actual runes that you wish to use with IP. Additionally runes are split into 3 tiers - tier 1 runes can be used at any level, tier 2 runes can be used at summoner level 10 or higher, and tier 3 runes can be used at summoner level 20 and higher. Tier 3 runes give you the largest bonus but are also the most expensive. You will start with 3 rune pages that you can customize and select like mastery pages, however if you want additional pages you will have to purchase them with IP or RP.
+
+Runes will give you bonuses to champion stats but cannot give your champions new features like masteries. In addition different types of runes will give different bonuses for each particular stat - for example, marks that give attack damage will give you a different bonus than glyphs that give you attack damage.
+
+While you are leveling and learning the game it is important to realize that runes will not make or break your champion in game, especially using tier 1 runes. As such it is generally considered a good idea to save your earned IP for unlocking champions or waiting to purchase most runes until you reach level 20 and have access to tier 3 runes. Any tier 1 or 2 runes will eventually want to be replaced by tier 3 runes if you choose to continue playing, so investing your IP in runes early is not always a wise idea.
+
+ 
+Basic Strategies
+A well calculated move... straight out of Sun Tzu's ancient text, 'The Art of War.' Or my own master work, 'Zapp Brannigan's Big Book of War.'
+
+League of Legends is at it’s heart a strategy game. The primary focus of strategy is overall team strategy and coordination, but it is also vital for every player to have an understanding of their own responsibilities and how to accomplish them. In this section we will focus on things that every player should be doing himself in addition to working with his team.
+
+How to Not Die
+They say only the good die young. If it works both ways, I’m immortal.
+
+Your first and foremost task at all times should be to avoid getting killed. No matter how straightforward this task seems, it is one of the most difficult things to do in League of Legends. Even experienced players often have problems with this, and it is something that all players should be made aware of as early as possible. There are of course exceptions to this rule - you will eventually need to kill people and towers to win the game. However, it is almost universally true that putting yourself in a bad position to earn a kill is the wrong thing to do.
+
+There are essentially two reasons why you die. First, you die if you stayed and fought when you shouldn’t have. Second, you die if you are caught out of position. The only difficult thing is being able to quickly realize when you are in one of those situations and to be able to extract yourself from them before your enemy realizes it and capitalizes on it.
+
+We’ll address the former situation first. In League of Legends it is extremely important to learn to quickly and accurately size up your opponent. If you are in a battle with one other champion you need to be able to identify not only which one of you is dealing more damage but everything around you that could quickly change the outcome - towers, minions, allied or enemy champions, etc. If you are in a team fight you need to be able to recognize who the enemy champions are attacking and whether you are in danger.
+
+As a general rule if you think the outcome will be close you should get out of there. Erring on the side of playing defensively is always a better choice when you are first learning the game because an experienced player can exploit someone out of position extremely quickly.
+
+The latter reason people die is much harder to spot because the enemy will intentionally try to make you feel safe when you are not. The most common cause of this is when someone pushes their lane out of a safe area when there are enemies missing from the map. It is extremely common for an enemy to try and sneak up on you through the jungle or river in order to gank you. In general you should never be in front of your tower alone if any of the following is true:
+●	There is one or more enemy champions missing from the map
+●	You are at low health (40% or lower)
+●	The enemy has a champion who is fed
+In general unless you know that all of the enemy champions are a long distance away and occupied you should not push out alone.
+
+It will definitely take some time to identify what is or is not a safe location for you to be in, but it is one of the most important and easiest to mess up activities in Leauge of Legends. Always pay attention to how many enemy champions are missing at all times and be cautious when venturing out if you cannot see their position.
+
+Map Awareness
+The minimap is easily the best most important place to get a quick overview of what is going on in the game. The minimap will show you the position of all your allies, minions, enemy champions and minions that can be seen, whether jungle creeps are spawned or not, and all of the buildings on the map and whether they are destroyed or not. The most important information that the minimap gives you is insight on the enemy team’s movements.
+
+When you are playing you must keep an eye on the minimap at all times. This is important because it is crucial to know at all times if there is an enemy missing and how long they have been missing for. If you do not check your minimap regularly then you run the risk of being caught off guard by an enemy and allowing them to get kills or objectives without resistance.
+
+In general it is a good courtesy for a player to call MIA if an enemy leaves the lane, however many people take that courtesy to be an obligation and thus blame someone for missing an MIA call if they are ganked. While it is always helpful to call MIA, someone missing a call is not an excuse to be oblivious to missing enemies. Every player has on their screen a perfectly up to date display of all known enemy champion locations - if you cannot be bothered to check it if you are going to extend into a vulnerable position that is your fault, not your teammate’s.
+
+Additionally it is extremely important to keep an eye on the position of your allies on the minimap. If your ally is moving into position in order to take an enemy in your lane by surprise you need to be aware of it and ready lest you fail to help when your ally initiates a fight. Equally important is watching the map for allies that need help - if you see a nearby ally getting jumped and trying to run you need to know about it immediately if you are to help him.
+
+The importance of the minimap and the immense value of knowing the position and activities of your enemies results in yet another invaluable tool at your disposal that is often ignored even by veteran players: wards. Wards are consumable items that you can purchase that place an invisible marker on the map lasting 3 minutes that grants you vision of the area for the duration. There are two types: sight wards (often just “wards” or “normal wards”) and vision wards (sometimes called “pink wards”). Vision wards will also grant you stealth detection in the ward’s vision area, but they cost more than sight wards.
+
+The best areas of the map to place wards are along the river near Baron or Dragon and in the enemy jungle near key junctions or map objectives. If you can spot an enemy moving through the jungle you can predict where they are going without them realizing they have been spotted, giving you a position advantage. You can also use them to spot enemies that are trying to close in on you for a gank and move out of a vulnerable position before it is too late. Being able to track your enemy’s movements and positioning is absolutely vital to winning games.
+
+It is very important for every member of the team to contribute to purchasing and placing wards around the map. Many players think that they are exempt from worrying about wards because they play a carry that is more item reliant, however the cost of wards is so low compared to their benefit that even item reliant characters cannot afford to ignore them.
+
+Laning Phase
+Laning phase is the period of time at the beginning of the game when most champions are focused on a single lane. In general the distribution of champions is 2 top, 1 mid, and 2 bot. If you have a jungler on your team traditionally the distribution moves to 1 top, 1 mid, 2 bot, and 1 in the jungle - however when you are just learning the game you will almost certainly not have a jungler.
+
+While in laning phase your character really only leaves your assigned lane to either return to base to buy/heal or to sneak up on another lane to gank an enemy. In this early stage of the game you gain levels quickly so you want to be near minions that are being killed as much as possible - in general roaming around the map aimlessly puts you behind extremely quickly.
+
+During the laning phase you should be primarily concerned with two things: last hitting minions (farming) and harassing enemy champions. Last hitting will earn you gold, and early on in the game gold is very important - getting even a small lead on your enemy will give you more freedom to push into them and make it easier for you to farm while harder for them to.
+
+Conversely, if you allow your enemy to get more last hits than you do they will have an advantage and it will make it even harder for you to continue farming. This is why harassing your enemy is an important thing to do. Harassing refers to taking small shots at the enemy when they are unable to fight back, thus slowly damaging them over time. If the enemy walks in to last hit a minion you should focus on throwing an attack or ability at them to either scare them off or make them pay for their last hit with their health. Eventually if they continue to last hit they will be so low that they will be vulnerable to dying, which would give you bonus gold and deny them gold and experience while dead (thus giving the advantage back to you). Always be aware that they will be trying to do the same thing to you, and some champions require mana for abilities and when you run out you can no longer use abilities, giving the enemy a chance to exploit your weakness. It is a very fine line to walk between harassing your opponent, last hitting yourself, and conserving your mana.
+
+However, there are times when you will need to pay attention to other things during the laning phase. If one of your allies’ lanes is having trouble and they die or need to retreat to heal, someone may need to move to cover their lane so the enemy can’t deal too much damage to your towers early on. You may also want to temporarily sneak to another lane in order to kill an enemy that has pushed in too far. Trying to deal damage to the enemy’s turret while they are vulnerable is another goal. You must pay attention to these objectives during the laning phase, but they will be secondary to the primary goals of gaining farm and keeping your opponent from doing the same.
+
+Lane/Zone Awareness
+Of course you’re allowed in the Forbidden Zone, it’s just a name! Like the Death Zone or the Zone of No Return. All the zones have names like that in the Galaxy of Terror!
+
+Positioning is everything in League of Legends, and it all starts in your lane. It is important to get a feel for where it is safe for you to be and when not just to avoid putting yourself in a bad spot but to try to force behavior or positioning out of your opponent. The ultimate goal is to be as safe as possible close to your objectives and to make your opponent as vulnerable as possible close to their objectives, but this can be accomplished in many different ways.
+
+Let’s consider the example of a 1v1 lane, you playing a ranged champion and your opponent playing a melee champion. Your range gives you the ability to easily harass your opponent without expending resources, so it is always advantageous for you to stand where you can attack your opponent if he comes close enough to attack your minions. By doing this you are putting pressure on him to stay away from his objective (being able to last hit your minions) while you are able to stay close to your objective (last hitting his minions). This is what is referred to as zoning a player out. If you zone a player out so that he cannot go in to last hit you are denying him gold, but if you can zone him out even further you can push him so far that he no longer gets experience from the minions that are killed, thus also denying him experience.
+
+As a ranged character your zone that you can use to pressure someone into changing position is fairly large, but there are other ways to zone people. The bushes are another common tool used in zone control. In our same example if your opponent is in the bushes you are unable to see them and thus unable to attack them unless you also enter the bushes or he leaves. This means that he could get right up next to you before you are able to harass him, giving you both equal opportunity to attack each other. Since you are unable to see or attack directly into the bushes he now has the ability to pressure you away from them, thus regaining some zone control.
+
+Minions are another excellent way to control zones. Because minions automatically attack the first target they see and continue attacking until the target dies it is usually safe for champions to stand in the middle of a large group of minions, however this behavior changes if you attack an enemy champion. If you attack an enemy champion within range of his minions they will switch targets to you - thus you or an enemy can use a large group of minions as cover to discourage harassment and block movement.
+
+Towers are a key element in zone control, both allied turrets and enemy turrets. Turrets behave the same way minions do and will not attack an enemy champion unless there are no minions present - unless the enemy attacks an allied champion. This means that if an enemy is under a turret you run a great risk if you attack him while within the turret’s range. You can however still use your zone control to discourage the enemy from being able to farm minions under his tower - minions will only get as close to a turret as necessary to attack it, so for champions with ranged attacks or abilities you can stand outside the range of the turret but still attack enemies that come forward to kill minions. It is a very fine and often dangerous line to walk though, partially because you will be pushed so far that an enemy could sneak up and gank you and partially because some champions have abilities that can be used to push you into range of the turret. Always be extremely careful if you are alone near an enemy turret.
+
+There are also many other ways to control zones - wards, summoner spells, various champion abilities, simply disappearing out of lane to where your opponent cannot see you can be enough to put pressure on enemies to retreat. Likewise you must always be aware of your opponents - they will be trying to control zones as well, and you must practice spotting when there is a legitimate threat and when they are simply posturing to try and scare you off.
+
+Proper zone control during the laning phase can get you a large advantage over your opponent, both in level and gold. The most important thing to remember is that you don’t need to control the entire area of the lane - your primary concerns are being safe and being near minions to get experience and gold. Sometimes that will mean constantly vying for dominance in the middle of the lane, but sometimes that will mean playing defensively near your turret. It is still entirely possible to win a lane that is being pushed against your turret for the entire laning phase and entirely possible to lose a lane that you are pushing against an enemy turret.
+
+Beyond the Laning Phase
+One might think that with a fairly well defined and named beginning phase to the game that there would be equally well defined and accepted phases to the latter portion of the game. You would however be wrong.
+
+Once the laning phase ends the gameplay shifts from every champion primarily focusing on a single area to all the champions roaming around a bit more to try and accomplish objectives as a team. This phase of the game covers the nebulously named mid and late game. The primary difference between mid and late game is how many items each champion has and the champion level.
+
+I’m going to tenuously refer to mid game as starting when laning phase ends (usually shortly after the first tower gets destroyed) and lasting roughly until people start hitting max level (18). Mid game is usually when the majority of the action happens - by this time the champions who won their lane have a distinct advantage in level and gold to the point where they can start throwing their weight around a little bit to gain secondary objectives while forcing the characters that are lower level and less farmed to focus more on catching up in level and gold. There will likely be a number of skirmishes involving 3-6 champions and a few full team fights involving all 10 players, but it won’t be absolutely necessary to group up at all times. You should be extremely careful and pay attention to the minimap and your enemy’s positions though - a few allies getting caught significantly outnumbered can easily mean your opponent gets an ample opportunity to destroy multiple towers.
+
+The best bet in mid phase is to try and collect as many secondary objectives as you can while always watching for an opportunity to catch 1-3 enemies out of position and kill them, giving you an opportunity to group up with all 5 allies to push a primary objective. An alternate but somewhat more risky option is to try and split push - have one or two allies push one lane while the rest of you push another lane. If your enemy isn’t good at coordinating the devision of resources you can easily force most or all of them to come to fend off one of the two groups, giving the other a chance to destroy turrets while the rest of your team retreats out of a fight.
+
+I’m going to similarly define late game to be the period after mid game ends. This is usually about the time when your carries are (hopefully) fed with a nice item build and max (or near max) level. At this stage most every champion is powerful enough that being down evein a single player in a full team battle can put you at a huge disadvantage, so generally when venturing out of your base you should wander as a group. In late game you can easily lose the game from losing a single team battle - if the enemy kills most or all of your team it will often take upwards of a minute before anyone respawns, and when everyone is decked out in items towers can go down in a few seconds.
+
+Most games end in mid game or the first part of late game, but if you do make it to late game make sure not to do anything too risky. Organize with the rest of your team and try to predict where your enemies are going and catch them off guard - a solid initiation when your enemies aren’t ready can win the game. Pay extra attention to baron during late game because when all of the exposed turrets are down it is often times one of the best options, and if one team is pushed into their base fending off multiple minion waves it can be easy to walk in and take it without any resistance.
+
+How to Protect Turrets
+Just like killing turrets is essential to winning games, protecting turrets is essential to not losing games. Turrets give you quite a bit of control over your half the map while they are up in addition to making sure that the enemy minions don’t get too out of hand. Towers also grant a significant amount of gold when they are killed, so every time you allow one of your towers to go down you are giving the enemy map control, gold, and making it easier for them to take down the next turret.
+
+So, how does one go about protecting turrets? Ultimately the most common way of protecting turrets is killing minions. Minions do deal some damage to the turret and a large wave can add up to quite a lot of damage, but the biggest danger minions pose to a turret is being a shield for enemy champions. As long as there are enemy minions under your turret an enemy champion can go in without worrying about taking any damage from the turret.
+
+As a result the two most important things you can do to protect a turret are to kill enemy minions and to get an enemy champion to attack you. If you can kill the minions quickly you can often times force the enemy champion off your turret before he can do significant damage, lest he be caught under your turret without any minions to take the damage for him. The other option of getting the enemy champion to attack you is somewhat less intuitive, but if the enemy attacks you then the tower will automatically focus him and force him away even if he has minions left - at least temporarily. Using yourself as a human shield for the turret can be effective, but it can also be dangerous.
+
+If there are multiple enemies they may choose to dive you regardless of the tower. If the enemies can kill you and get out of turret range quickly then they will score a kill and render the turret once again defenseless, so always be very cautious when defending a turret from multiple attackers. The farther into the game you are the less damage a turret will do compared to the enemy’s maximum health, so early game defending a turret will be much easier than late game when champions will no longer die in ~3-4 turret strikes.
+
+How to use Turrets to Protect You
+The most common use for a turret (other than using it as a tool to control the map) is as a safe haven against enemy champions. Turrets are invaluable if you are in a lane against particularly aggressive opponents as they serve as a safe zone where they are unlikely to venture. There are however times when a turret will be unable to protect you, and it is important to learn when you can and can’t rely on the safety of a turret.
+
+The primary time when you can’t rely on the protection of a turret is when you are at low health. If you are low enough that the enemy can kill you and get out of range of the turret in less time than it takes the turret to kill him then the turret is not a safe place to be. Even veteran players will often make the mistake of sticking around under the turret longer than they should, allowing the enemy an opportunity to jump in to grab a free kill.
+
+The other time when turrets fail to provide you with safety is when there are multiple champions. Once a tower begins attacking one champion it will continue to attack him until they are dead or out of range, thus if one enemy is tanking a turret it leaves other enemies free to attack you without repercussion. You must always be careful when defending a turret from multiple enemies, especially if there is a particularly tanky enemy in the group that could take several turret hits without much risk.
+
+Even if you aren’t at low health or against multiple enemies it is important to know how to make best use of the turret to protect you, as some enemies may choose to dive in and attack you anyway. The most important thing to remember is that the tower can only protect you as long as your opponent is within range, thus even if you are standing inside the turret’s range you may not be safe if you are in front of it and against a ranged champion. Always make sure to stand in a place where the enemy cannot attack you unless they enter the turret’s range - if you aren’t then the tower offers no protection at all.
+
+Once an enemy does enter turret range your first priority should be to get the turret to start focusing the enemy. As mentioned before you can do this by either killing all the enemy minions in the area or by getting the enemy to attack you. Once the turret is attacking the enemy your priority shifts to making them waste as much time under the turret as possible - running circles around the turret to force them to waste time chasing you, stunning them, snaring them, using minions as a wall to cause them to have to move further - all of these are excellent techniques to use when under a turret. Even if you can’t defeat the enemy in a normal 1v1 battle you can easily win under a turret if you manage to waste enough of their time.
+
+When to Abandon Objectives
+Evacuate? In our moment of triumph? I think you overestimate their chances.
+
+In a perfect game you would never need to abandon objectives, but since we have to play in the shitty real world you will undoubtedly need to face the fact that your opponents will occasionally take objectives. It is a difficult line to walk - if you abandon an objective too early you allow your enemy to gain an advantage without paying for it, but if you stay too long you will often give your enemy kills in addition to the objective.
+
+The most common time that you will need to face this decision is with turrets. It is fairly common to reach a point where you are outnumbered defending a turret while the turret is at low health. This is an especially dangerous situation because players are inclined to treat towers as safe zones, but if the turret is destroyed your safe zone can disappear instantly. In general if there is enough damage present on the enemy team to drop your tower in less than 5 seconds you should not rely on the tower to protect you. If you are alone or significantly outnumbered this often means that you should retreat and abandon the tower, but if you have an even fight without the tower it can still be worth defending - even if they force the fight and take the turret, it will still be dealing damage while it is alive and it will take damage away from you and your allies while they do so.
+
+When to abandon other objectives can be more difficult. If both you and the enemy team are posturing to take dragon or baron it is often unclear exactly when you should or should not press the issue, especially because you do not always have enough map vision to see their positions. In general try not to engage either dragon or baron unless you outnumber the enemies that could make it in time to offer resistance. Placing wards in choke points to see if enemies are coming after you is also invaluable - seeing a possible enemy initiation before it happens will often win you team fights.
+
+In addition, make sure you always have a method of escape if you are engaging an objective. If you are attacking dragon make sure you pull dragon out into the river so you have multiple escape routes and can’t be blocked in, or make sure that you have flash or some other ability that allows you to jump over the back wall to escape. If the enemy team decides to initiate a team fight while you are engaged in an objective you will almost certainly want to disengage the objective to fight the enemy - killing dragon or baron doesn’t help you if the enemy kills your whole team.
+
+If the enemy shows up with a greater force it is time to get out of there. It will often times mean that the enemy can take the objective after chasing you off, but you are still better off handing them an objective than handing them the objective and some kills. Just remember, the only objective that will always result in a loss is your nexus - every other objective should be considered expendable if the cost of keeping it is too high.
+
+When to Engage Dragon/Baron
+Dragon and baron both offer a significant amount of gold for a kill, and baron buff can often be the final power boost needed to push in and win a close game. Because of this both teams will likely be actively contesting them, and it is crucial to know when you can and when you cannot take these neutral objectives.
+
+The best time to try and take these objectives is when some or all of the enemy team is occupied. You can accomplish this a number of ways - split push against one or more turrets to force them to defend while the rest of your team engages, kill a few enemies in a team fight so they no longer have enough champions to contest it, have one or two players sneak it in while the enemies are pushing a lane of their own and have the rest of your team defend, etc. The time when you should absolutely never engage dragon or baron is when most or all of the enemy team is missing from the map - being jumped by enemies while trying to kill dragon or baron is often the worst situation that you can get yourself into.
+
+Conversely, if you see the enemy team moving toward baron or dragon you should try to move in to contest it. Be very careful if you cannot see into the area though - using dragon or baron to force a team fight is a common practice, and having a couple allies move in early only to be jumped by their whole team is a good way to ensure they get the objective as well as the kill, then be free to push any other objective they like. You should ideally always have a ward up on dragon (and baron once later in the game) so you can avoid this situation. You can also use the clairvoyance summoner spell to see if the enemy is lying in wait for you or not, but be careful because your enemies can see your use of clairvoyance whereas they usually cannot see wards that you have placed.
+
+Damage/Utility Items vs Survivability
+I’m not going to go too deeply into items primarily because there are already more sites dedicated to champion specific item builds than the population of China, but I do want to touch on one thing - balancing your items between their utility to your champion and their survivability. Survivability refers to how long your champion can stay in a team fight when being attacked and includes everything from health, armor, and MR to life steal and spell vamp.
+
+This is a fine line to walk and one that many players have to experiment around with before they find a good balance, but the short explanation is that if you focus too much on items that help you deal damage you will be focused down by the enemy and killed before you can deal much damage, and if you focus too much on survivability items then you won’t deal much damage no matter how long you can survive in a fight.
+
+The difficult thing that many players struggle with is the fact that this line is different for every champion and role. Some champions are naturally durable so they can focus more on utility and damage items, whereas some champions are extremely fragile and you need to make sure to build more survivability on them.
+
+You should always look up a guide or two on new champions that you are learning to get a better idea of specifically how they should be built but as a general rule on damage dealing characters you’ll want 1 survivability item in mid game and another in late game if you find yourself dying or being pushed out of team fights too early. On bruisers/tanky DPS characters you should try to build 2-3 survivability items that also synergize well into DPS (such as atma’s impaler and a frozen mallet/warmog’s), and as a tank you want to get 3-4 tanky items and 1-2 utility items.
+
+Just remember that you shouldn’t expect to be able to build full glass cannon and have the enemy team ignore you and allow you to rip through their team when they could instead just kill you in a matter of seconds.
+
+Jungling
+First off, you should not worry about jungling until you get to a higher summoner level. For the vast majority of characters, even most of the ones considered to be strong junglers, it is difficult or impossible to jungle until you have sufficient masteries and runes for it. The earliest most people can effectively jungle is summoner level 21 when you get access to tier 3 runes and can get to the bottom of a mastery tree.
+
+Because of this I will primarily be focusing on how to deal with the enemy team having a jungler. Unlike enemies that are laning, junglers will almost never be visible on your minimap and thus will always be considered MIA. This means that you need to be especially careful when you are pushing a lane - it is extremely easy for a jungler to sneak into river ready to jump out and gank you before you have much time to react.
+
+If there is an enemy jungler you should be especially sure to purchase wards. If you are in top or bottom lane a single ward partway up river is often times enough to give you a warning in time to escape any potential ganks.
+
+Similarly if you have a jungler on your team you need to keep an eye on him and try to keep your lane such that it is open to friendly ganks. If you have your lane pushed up against the enemy turret your jungler can’t get behind the enemy to jump on him, so make sure to be aware and allow the enemy to push out from his tower when you can. Additionally make sure to coordinate with the jungler when he attempts to gank - one of you should ping which enemy you will be focusing just before you initiate so you know when to go in as well as who to attack.
+
+Once you get out of the laning phase the jungler behaves the same as every other champion, so you will in general only notice a difference in gameplay for the first 15-20 minutes of the game.
+
+
+
+ 
+Basic Team Strategies
+There’s no I in team, but there’s no U in team either. So I guess if I’m not on the team and you’re not on the team, nobody’s on the god damn team! The team sucks!
+
+League of Legends is fundamentally a team game, so even if you and everyone on your team is playing perfectly you can still get stomped into the ground if you can’t coordinate together as a group. There are a lot of elements that go into working together as a team, but we’ll address some of the more fundamental ones here.
+
+Team Roles
+There are a variety of roles that can be filled on a team. There is some dispute over exactly what the roles are and how they are defined (especially because of the number of champions that try to straddle those definitions) but in general there are six basic roles.
+
+●	Tank - This role is your primary team fight initiator. Generally they have lots of health and mitigation, can take a lot of punishment, and have some crowd control abilities to get in the middle of the enemy team and break them up, giving the rest of your team an opportunity to move in and start taking them down. In the laning phase many tanks are good at  either top or bottom lane (or solo top if you have a jungler) but aren’t well suited for middle lane in general. Some tanks can also jungle well. Example champions: Alistar, Amumu, Malphite, Rammus, Shen
+●	Bruiser (Tanky DPS) - Similar to the tank this role has a lot of durability and can take his fair share of damage but has abilities that are more focused on dealing damage to the enemy team than breaking them up. Bruisers will also usually have some abilities that allow them to regenerate health, allowing them to have very strong sustain. Bruisers are best in top and bottom lane, however some can do well in mid lane as well. Many bruisers are good junglers as well. Example champions: Mundo, Garen, Jarvan, Lee Sin, Nasus, Warwick
+●	Support - This role primarily focuses on helping his allies to be more effective. Supports will generally have abilities to heal and buff their allies as well as abilities to disrupt opponents such as stuns or snares. These champions are generally the least item dependant characters in the game, so in lane they will often forgo taking as many creep kills and instead opt to give them to a lane ally and try to zone out enemies. In team fights they primarily follow his allies’ lead and heal/harass enemies as much as they can. Most supports do best in bottom or top lane with an ally in lane with them, but some can be effective solo top (if there is a jungler). Example champions: Janna, Sona, Soraka, Taric, Zilean
+●	AD Carry (Melee Carry, Ranged Carry) - This role is your primary source of sustained damage. AD carries focus on dealing damage with their autoattacks and have abillities primarily aimed at buffing themselves, harassing enemies, or positioning/escaping. They are generally very fragile characters and much easier to kill than other roles, but this can be compensated for to a limited degree. In lane AD carries will focus primarily on farming due to the fact that they are heavily item dependent. In lane they are best solo mid or with an ally top or bottom. There are also a few AD carries that are quite good in the jungle. Example Champions: Ashe, Caitlyn, Corki, Gangplank, Master Yi, Tristana, Vayne
+●	AP Carry (Mage) - This role focuses on dealing burst damage and AOE damage. The strength of AP carries comes from their abilities rather than their autoattacks, so they are generally very dependent on mana and cooldowns to deal damage. As such they can deal a lot of damage in a short time at the start of a battle, but once their abilities are used and on cooldown they generally have to wait before they can deal more damage. They will usually have fairly short cooldowns on the order of 4-10 seconds for most of their abilities and should focus on bursting down critical targets (such as enemy carries) and harassing enemies before team fights are fully initiated. AP carries do best in solo mid lane (or solo top if there is a jungler) due to them being very item dependent. Example Champions: Annie, Brand, Cassiopeia, Karthus, Lux, Malzahar, Ryze, Veigar
+●	Assassin - This is a sort of specialized role within AP/AD carry. Assassins have abilities focused on not only being able to deal a large amount of damage very quickly but also being able to get in and out of the middle of the enemy team without dying. They have movement and positioning abilities generally on very short cooldowns so they can quickly get rid of problematic enemies before they have a chance to deal significant damage. Assassins are generally the most item dependent characters in the game, so if they get fed or farmed early they can be extremely powerful late game, but if they get shut down early they can also have a difficult time contributing to late game team fights. Assassin’s do best solo mid but can also do well solo top or when paired with an ally in top or bot. Example: Akali, Jax, Kassadin, Poppy
+
+Team Composition
+So now you have a basic understanding of what the possible roles are, but in order for that to be particularly useful you need to understand how teams should be built. There really isn’t a single “best” composition, but there are certainly some combinations that are stronger than others.
+
+The goal is to have a balanced enough party that the enemy can’t do any one thing to shut down everyone. If you build a team that does nothing but magic damage then it is easy for their team to build lots of magic resistance and mop the floor with you, or if you build a team that is impossible to kill but can’t deal damage they will just ignore you and destroy all your turrets.
+
+The most standard team composition (and I say “standard” very loosely here) is 1 tank, 1 support, and 3 DPS filled in with your choice of AD carry, AP carry, bruiser, and assassin (with a variety of physical and magical damage). The support role is the slot that is most often dropped in favor of another tanky DPS sort of role.
+
+Fundamentally however due to the ability for champions to fill multiple roles and due to the malleability of play in the game I think it is better to understand team composition from the specific elements that you need rather than trying to adhere to specific team roles. Here is what the best team compositions will have:
+●	A moderately tanky character to be able to initiate team fights (usually filled by a tank or bruiser)
+●	Some sort of crowd control to help with the initiation and allow your team to throw the enemy team off balance (often filled by the tanky character but not always)
+●	A damage dealer with decent survivability for the purposes of split pushing lanes without having to worry about dying instantly if jumped by 1 or 2 enemies
+●	At least 1-2 champions that can focus on dealing damage, split between physical and magic damage
+●	Some support abilities to help mitigate your enemies when they try to focus a single target or initiate against your team such as a heal, a damage shield, an ability to knock back or snare opponents, etc.
+If you have most or all of those elements on a team you should be in good shape regardless of the specific roles that you have on your team. This is not a complete list nor is it the only recipe for success in a team - it is merely a common recipe for forming a reasonably strong team.
+
+Initiating a Team Fight
+A solid initiation to a team fight can mean the difference between winning and losing the fight, so it is something that you will have to get accustomed to looking for - even if you aren’t the one actually initiating the fight. Traditionally the tanky characters are the ones that will most often initiate because you usually have to extend into the enemy team to do so, but not only is this not always the case but you need to be ready to go in after the initiation.
+
+The most important part of an initiation is your entire team being ready for it - even if you land the perfect initiation you will most likely die if your team doesn’t back you up and commit to the fight. For this reason it is important for the entire team to know when you plan on initiating, with enough time for them to position themselves appropriately.
+
+There are two basic situations when someone initiates a team fight - in a gank and in a forced fight. When ganking there will be one or more allies hidden from the enemy so the enemy believes they are in a position of power, causing them to push out of a safe position. In this case you will usually be able to give ample warning before the initiation happens - use chat to notify when you are sneaking into place and ping the target (by holding down ALT and left clicking the enemy) you are going to focus a second or two before you initiate. The ping will not only let your team know when to go in but it will also put a crosshair above the enemy so they will be able to track the focus target more easily.
+
+In forced fight situations you will usually have an extended period of posturing from both teams around objectives (towers, dragon, baron, etc) before the initiation. In these cases the initiation will usually be when a single character gets out of position and is vulnerable, so you may not have time to even ping before you have to leap into action. If you are in a forced fight situation you must keep an extremely close watch on your allies who have the ability to initiate because usually the first sign you’ll get will be them moving or teleporting to the target. If you are the one initiating the fight you will have to trust your team to back you up when the time comes, so you should focus most on catching an enemy off guard rather than ensuring a wind-up before you go in. Always be ready to back away from an initiation if your allies don’t move in however - although if the enemy team reacts quickly you often will not have much if any opportunity to escape.
+
+Team Communication
+Coordinating your team well is the key to winning in League of Legends, and that means having good communication. The best option for communication is to be in voice chat with your team so you can actively discuss what everyone is doing, but because League of Legends doesn’t have built in voice chat (and the fact that typing takes time) there are a few things you can do to coordinate with your team in other ways.
+
+Pinging is an excellent way to make an ally aware of something extremely quickly without having to type anything out. There are two types of pings - a ping can be executed by holding down either ALT or CTRL and left clicking on the playing field or on your minimap - holding ALT will do a normal ping and holding CTRL will do a ping to signal retreat. There are a lot of ways that players have developed to use pings to signal different warnings (unless otherwise specified, “ping” refers to a normal ping). 
+●	When your team is poised for a gank or a team fight, a ping from whoever is initiating (usually a tank or bruiser) signals that they will be initiating very shortly (usually within 1-2 seconds).
+●	When in a team fight and a specific enemy is pinged this will put a crosshair above their heads - this signifies which enemy everyone should focus attacking
+●	A ping on a tower signals that the tower needs help - usually used when many enemies group up in a single lane to try and push a tower down
+●	A ping to a lane with no enemies or allies with a lot of enemy minions signals that someone needs to move there to clear the minion wave before it gets to your tower and deals damage
+●	A ping to a lane with a large group of allied minions signals that more allies should move to help push the lane
+●	A ping on a particular objective (dragon, baron, blue/red buff, etc) signals that the player is requesting help in taking that objective or suggesting that someone nearby move to take the objective. If the ping is on dragon or baron it can occasionally mean they are asking the team if they think it is a good idea (and will usually be followed by a “?” in chat to signal they are asking a question)
+●	A series of pings through an area of the map that can’t be seen (such as the jungle or river) signals that they suspect an enemy is moving through that area - usually used to warn people of possible impending ganks when an enemy leaves lane
+●	A ping to retreat in the middle of a group signals that the team should fall back instead of pushing the objective - most often used on a successful push of an enemy tower to signal people retreat rather than move in to continue the push
+●	A ping to retreat on a single person signals that person should retreat back to base. It is most often used when a player is low on health but staying to fight or when a player is pushed far into a lane when many enemies are MIA
+In a general sense a ping is to call attention to something, so use your judgement when pinging. If you need someone to realize something extremely quickly a ping is usually the way to go - if necessary you can ping and then clarify with text chat, but make sure to always ping first if the matter is time critical (and most things in League of Legends are).
+
+There are also a few common abbreviations that are used in League of Legends. The most common ones you will see are MIA, SS, and RE. MIA and SS are both equivalent terms to signal that an enemy is missing (MIA short for Missing in Action and SS short for Missing). MIA is more common on the North American servers and SS is more common on the European servers, but either term is acceptable. RE is short for Returned and is used to signal that an enemy is no longer missing. These terms are most often used in the laning phase but are occasionally used later in the game as well. While laning it is considered important and courteous to signal when an enemy goes missing and you should do it whenever possible - however you should not use it as a crutch or an excuse to blame other players if you get ganked. The minimap will always show you all visible enemies, so all players should always be aware when an enemy goes missing.
+
+Other common abbreviations are GG (good game), BG (bad game), and GLHF (good luck, have fun). It is customary and courteous for both teams to say GG at the end of a match, and polite to say GLHF at the beginning of a match. Some players will say BG at the end of a match but this is considered bad sportsmanship, even if there was something that made it a less than ideal game (such as a player leaving or an intentional feeder). If you are on the winning team against a team that had a leaver or feeder it is often polite to say Well Played (or WP) - this acknowledges that the matchup was not necessarily fair and you are congratulating the enemy team on making the best of a bad situation.
+
+Ignoring/Reporting Players
+Unfortunately not everyone you meet while playing will be friendly. Some of them will be more concerned with trash talking or placing blame than about coordination or constructive feedback, and you will have to get good at identifying those players and dealing with them. It is always good to try and steer toxic players away from the blame game and toward helpful coordination, but you will encounter players that will not be interested in doing anything constructive.
+
+In those cases it is important to use the /ignore and /mute features (used by typing “/ignore <playername>” in the chat window). Ignore will permanently block all communications from that player (including pings) and mute will block all communications from the player for the duration of the match. Any time a player is making the game less enjoyable by talking (whether they are on the enemy team or yours) you should use one of these commands. You can also mute players from the scoreboard - simply press and hold TAB and click the blue button on the right side of the window corresponding to the player that you wish to mute.
+
+Reporting players is another tool you can use to help the community weed out toxic players. Once the game is complete and you are brought to the match summary page each player will have a button next to them where you can choose to report them for inappropriate behavior, such as intentionally feeding the enemy team, verbally harassing other players, going AFK during the match, assisting the enemy team by telling them where you are or what you’re doing, etc. You should not report players that you simply didn’t like - the report button is primarily for players that are actively ruining the game for others.
+
+You can also report players for being “unskilled”. This is different from other reports as it does not contribute toward a possible ban. According to Riot, if a player is reported enough for being unskilled he will be matched with lower skilled players for a certain amount of time. I would recommend not using this feature while you are learning the game - there will undoubtedly be a wide range of skill levels that you are paired with while you are playing the early games where the system is trying to sort out the player skill levels by wins/losses.
+
+
+ 
+And remember, have fun!
+We’re all members of this community, so try to remember that every game you play you contribute to how enjoyable the game is for 9 other people as well. Relax, have some fun, and I know we’d all appreciate it if you did your part to improving this community - I know I’d love to shed the stigma of MOBAs having the worst community ever.
+
+If you have any additional questions or feedback about the guide (or any inaccuracies in the information that you find) I’d love to hear them - the better I can make this guide the easier it will be for others to get into the community and start enjoying themselves. You can throw me a PM on reddit to the username tevoul or email me at tevoul@gmail.com.
+
+
+
+
+
+ 
+Reference
+Terms and Abbreviations
+As with any game, League of Legends has a number of terms and shorthand that are commonly used in game. Here is a listing of the most common terms that you will see:
+
+●	Last hitting - This refers to landing the final blow on a minion or monster. When you deal the final blow you will be the only person who gains gold from the death of that monster. Last hitting is vitally important to learn because it is your primary source of gold throughout the game.
+●	Farming - Focusing on getting last hits on minions and monsters to get gold.
+●	CS (Creep Score) - The total number of minions you have killed. You can view this number by holding down “Tab” (by default) - it is the number listed in the far right column.
+●	Gank - This refers to the act of sneaking up on someone and surprising them in order to kill them. It usually involves a coordinated effort by more than one person.
+●	MIA (or SS) - “Missing in action”, this usually called out when one or more enemy champions are not visible on the map. For example, if you were in bottom lane and two people disappeared into the fog of war you should call out to your team “bot mia” to notify them that enemy champions may be on their way to attempt a gank on one of your teammates.
+●	RE - Short for “returned”, this is usually called out following an MIA call if/when the enemy champions return.
+●	KS - “Killsteal”, this is referring to if you rushed in and landed the killing blow on an enemy after doing nothing to get him to low health. Players are in general far too quick to call KS because they want the gold for themselves, and in general it is far better to secure the kill to make sure he doesn’t escape rather than leave him for an ally to kill and risk losing the kill. Always keep in mind that what matters is working together as a team to win, not who has the most kills.
+●	Fed/Feeding - Someone who is feeding is someone who has died often and someone who is fed is someone who has earned a lot of gold through kills.
+●	Top/Mid/Bot - These are the terms to refer to each of the three lanes. Top is the lane that runs along the left and top edge of the map, bot is the lane that runs along the bottom and right edge of the map, and mid is the lane that cuts diagonally through the map.
+●	B - Short for “back”, this is used when someone is trying to signal to the team that they should back up or disengage from the enemy. It can also be used to notify someone when you are returning to base to buy or heal, as in “I’m going b”. You can now also hold the CTRL button and click on the map to do a ping to signal to your team or to an individual to retreat.
+●	CC - Short for “crowd control”, this refers to a number of different effects in the game that limit the abilities or mobility of an enemy champion. This includes stuns, snares, knockups, fears, etc. For a full listing of crowd control effects look here.
+●	Blue/Red/Baron Buff - This refers to different buffs that are given by monsters in the jungle. (See the section on “Secondary Objectives”)
+●	Dragon - Refers to a powerful monster in the southeastern end of the river. When killed this monster grants 190 gold to each allied champion for whoever landed the killing blow.
+●	CV - Short for Clairvoyance, which is a summoner spell. In general when this is called out there will also be a ping on the map - this is a player indicating that he wants someone to use clairvoyance on the pinged area.
+●	AD - Attack Damage
+●	AP - Ability Power
+●	APen - Armor Penetration
+●	MPen - Magic Penetration
+●	MR - Magic Resistance
+●	CDR - Cooldown reduction
+●	True Damage - This is another type of damage that cannot be mitigated by any stats. Unlike physical or magical damage (which can be decreased by armor or magic resistance respectively) true damage will always deal the listed amount.
+●	Skill Shot - This is an ability that you cast manually that travels from your character toward your mouse without homing in on a specific target. Most skill shots will hit the first enemy it encounters but some will only hit enemy champions.
+●	IP and RP - Influence points and Riot points. Influence points are earned at the end of each match and can be used to unlock champions, runes, and rune pages. Riot points are purchased with money and can be used to unlock champions, champion skins, rune pages, summoner name changes, IP boosts, and champion unlock packs.
+●	Tower Diving - This refers to when a player will move into range of an enemy tower in order to attack an enemy (usually one who is low on health).
+●	Leashing - A jungling term, this refers to one player (who is not the jungler) attacking a monster and running away so that the monster follows the non-jungler instead of attacking the jungler for a short distance.
+
+
+
+
+

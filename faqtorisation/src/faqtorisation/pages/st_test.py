@@ -20,7 +20,14 @@ from faq_src.utils.utils_graph.distance import compute_all_graphs_mds, compute_a
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 from faq_src.utils.utils_fgw.utils_fgw import compute_similarity_weighted_question_structure_distances
+from dotenv import load_dotenv, find_dotenv
 
+
+load_dotenv(find_dotenv())
+
+model_path = os.getenv("MODEL_PATH")
+if not model_path:
+    model_path = "sentence-transformers/all-MiniLM-L6-v2"
 
 
 # --------------------- SSL Bypass -----------------------------
@@ -64,7 +71,7 @@ if uploaded_file is not None:
 
             # Charger le modèle une seule fois
             if st.session_state['model'] is None:
-                model = SentenceTransformer("all-MiniLM-L6-v2")
+                model = SentenceTransformer(model_path)
                 st.session_state['model'] = model
             else:
                 model = st.session_state['model']

@@ -11,6 +11,17 @@ from kt_gen.utils.streamlit.utils_st import draw_graph, display_graph_distance_w
 from kt_gen.knowledge_graph.utils.utils_fgw import compute_embeddings, compute_similarity_weighted_structure_distances, compute_structure_distances
 import streamlit.components.v1 as components
 from kt_gen.knowledge_graph.utils.scrud_graph import export_graph_to_json, import_graph_from_json
+from dotenv import load_dotenv
+import os
+import sys
+import numpy as np
+np.set_printoptions(threshold=sys.maxsize)
+
+# Chargement des variables d'environnement
+load_dotenv()
+model_path = os.getenv("MODEL_PATH")
+if not model_path:
+    model_path = "sentence-transformers/all-MiniLM-L6-v2"  # HF repo name
 
 # streamlit: title = "Pipeline Tests - Graphe + LLM"
 # Page config
@@ -48,7 +59,9 @@ else:
     st.stop()
 
 # --- Initialisation modèle + LLM ---
-model = SentenceTransformer("utils/model/all-MiniLM-L6-v2", trust_remote_code=False)
+model = SentenceTransformer(model_path, trust_remote_code=False)
+
+
 client = OpenAI(base_url="http://localhost:11434/v1", api_key="ollama")
 embeddings = {n: model.encode(G.nodes[n]["text"], normalize_embeddings=True) for n in G.nodes}
 embedding_store = EmbeddingStore(vectors=embeddings)
@@ -80,7 +93,7 @@ if st.button("Calculer la distance structurelle entre les nœuds"):
         st.dataframe(dist, use_container_width=True)
 
 
-    print("Distances structurelles calculées :", structure_distances)
+    #print("Distances structurelles calculées :", structure_distances)
     # Ajouter les distances structurelles au graphe
     """
     for i, node in enumerate(G.nodes):
@@ -111,14 +124,14 @@ if st.button("Lancer les questions en série"):
     for idx, question in enumerate(questions):
         st.subheader(f"🔹 Question {idx + 1} : {question}")
         print(f"Question {idx + 1}: {question}")
-        print("Graphe avant la navigation :", G.nodes(data=True))
+        #print("Graphe avant la navigation :", G.nodes(data=True))
         # Calculer les distances structurelles si ce n'est pas déjà fait
         # Check if structure_distances are present in the data of an edge:
         not_structure_distances = True
         for elm in G.edges(data=True):
             for key in elm[2].keys():
                 if key == "structure_distance":
-                    print(f"Structure distance found in edge {elm[0]} -> {elm[1]}: {elm[2][key]}")
+                    #print(f"Structure distance found in edge {elm[0]} -> {elm[1]}: {elm[2][key]}")
                     not_structure_distances = False
                     break
         if 'structure_distances' not in st.session_state and not_structure_distances:
@@ -171,11 +184,11 @@ if st.button("Lancer les questions en série"):
         # Extraire contexte et poser la question au LLM
         last_node_id = node_ids[-1] 
         context = last_node_id[1] + ": " + G.nodes[last_node_id[1]]["text"] if last_node_id else ""
-        print(f"Context: {context}")
+        #print(f"Context: {context}")
         st.markdown("### Contexte extrait")
         st.write(context)
-        for elm in node_ids:
-            print(f"Node ID: {elm[1]}, Text: {G.nodes[elm[1]]['text']}")
+        #for elm in node_ids:
+            #print(f"Node ID: {elm[1]}, Text: {G.nodes[elm[1]]['text']}")
         """
         prompt = build_prompt(question, context, G)
 

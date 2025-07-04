@@ -1,0 +1,5359 @@
+--- Slide 1 ---
+Harmonie-GRC
+
+--- Slide 2 ---
+Date
+Version Nature de la modification Annule et remplace
+d'application
+Création
+V1 21.03.2025 Prise en compte des fonctionnalités développées depuis le PI1 -
+jusqu’au PI3
+Ajout des fonctionnalités développées en PI4
+V1.2 V1
+Modification des sections suivantes :
+2
+
+--- Slide 3 ---
+1 2 3 4
+Introduction Interface utilisateur Gestion des bannettes Vision 360
+5 6 7 8
+Gestion des demandes Gestion des réclamations Gestion des évènements sortants Gestion des tâches
+9 10 11
+Gestion des échanges Aide aux conseillers Tableaux de bord
+3
+
+--- Slide 4 ---
+Ce guide utilisateur a été construit autour des parcours utilisateurs à réaliser dans Harmonie GRC. Plusieurs éléments visuels ont
+été utilisés pour décrire ces parcours et les différentes actions à effectuer par les utilisateurs. Chaque élément a une signification
+spécifique et a été choisi pour rendre l'information plus claire et accessible
+Légende des éléments visuels utilisés dans ce guide
+Utilisé pour introduire les parcours,
+Utilisé pour fournir des astuces, des
+préciser le point de départ ou
+[Texte] [Texte] recommandations ou des notes
+décrire les fonctionnalités avant
+importantes
+d’en détailler le déroulement
+Utilisé pour décrire les différentes
+x. [Texte] Utilisé pour mettre en avant des
+étapes du parcours (actions à
+[Texte] points de vigilance à prendre en
+réaliser par l’utilisateur, actions
+compte
+automatiques, etc)
+x
+Utilisé pour décrire des blocs figés
+Utilisé pour établir des connexions
+[Texte] notamment dans les fiches, les [Texte]
+avec d'autres sections du support
+bannettes, etc
+4
+
+--- Slide 5 ---
+Harmonie GRC »
+Au début de chaque section, une diapositive offre un aperçu des parcours avant leur description détaillée dans les pages suivantes
+1
+Description des différents éléments sur
+les diapositives desynthèsedes parcours
+1• Intitulé de la section
+2
+2• Différents types de parcours
+utilisateur
+3
+Les encarts des
+3• Description des parcours utilisateur, parcours sont cliquables
+avec des liens cliquables permettant
+d’accéder directement aux
+diapositifs de description des
+parcours
+4• Bouton permettant de retourner au
+sommaire des sections
+4
+5
+
+--- Slide 6 ---
+dans Harmonie GRC »
+Les diapositives de présentation des parcours utilisateurs décrivent l’enchaînement des actions, étape par étape, que l’utilisateur doit réaliser dans
+Harmonie GRC, en s’appuyant sur des captures d’écran de l’outil
+1 2
+Description des différents éléments sur les
+diapositives de présentation des parcours 3
+4
+1• Intitulé de la section
+2• Fil d’Ariane permettant de connaître la 5
+macro-étape du parcours en cours.
+Cet élément est disponible uniquement
+sur certaines diapositives, lorsqu'il est
+applicable
+3• Intitulé du type du parcours utilisateur
+4• Numéro et intitulé du parcours 6
+5• Introduction du parcours ou
+description de la fonctionnalité
+6• Captures d’écran d’Harmonie GRC
+permettant de décrire le parcours
+7• Différentes étapes du parcours
+(actions à réaliser par l’utilisateur,
+actions automatiques, etc) 7
+8• En fonction des pictogrammes, des
+8
+éléments mettant en avant des points
+de vigilance, des recommandations ou
+des liens vers d’autres sections.
+9• Bouton permettant de retourner à la 9
+synthèse des parcours
+6
+
+--- Slide 7 ---
+cours de prod
+Synthèse des parcours décrits
+PI4
+Lexique de
+A B.1 xx
+Harmonie GRC
+Habilitation à
+B C.1 xx
+Harmonie GRC
+Connexion à
+C D.1 xx
+Harmonie GRC
+7
+
+
+
+--- Slide 8 ---
+Lexique de Harmonie GRC
+B.1
+Terme GRC Définition
+Harmonie
+Affaire Une Affaire est un processus orienté Client géré dans un SI hors Harmonie GRC (exemples : une Affaire de raccordement est traitée dans Racing ou une Affaire de
+dépannage est traitée dans ENECAD).
+On distingue :
+• Les Affaires créées et traitées hors GRC cible dans un SI tiers
+• Les Affaires pré-renseignées par la GRC cible : les Affaires qui ont été initiées dans la GRC cible (exemple : suite à un appel client) mais qui sont ensuite traitées dans
+un SI tiers. Comme elle est créée dans la GRC cible, ce type d’affaire est toujours lié à une Demande. Lors de la création de la Demande, l’utilisateur de la GRC cible
+renseigne des informations qui seront transmises au SI tiers pour création de l’Affaire.
+Bannette Une bannette constitue une vue d’ensemble centralisant les Dossiers Client ou tâches affectées à un utilisateur ou à une équipe. Pour chaque Dossier Client ou tâche, il
+existe une bannette individuelle et une bannette d'équipe. Plusieurs bannettes sont donc disponibles dans l’outil :
+• La bannette des demandes
+• La bannette des réclamations
+• La bannette des Réappels PDTS
+• La bannette des tâches.
+Base de La base de connaissances est accessible en lecture à tout utilisateur de Harmonie GRC, afin d'aider à traiter les demandes et réclamations clients en vous proposant
+connaissances des éléments de langage et des actions adaptées au contexte. Cette base inclut différents types de supports, tels que des modes opératoires, des guides métiers, des
+FAQ, ainsi que d'autres types de documents (Word, PDF, vidéos, etc...).
+Bloc Un bloc fait référence à une section spécifique dans un onglet, regroupant un ensemble d’informations liées. Ces blocs sont structurés de manière à offrir une compréhension
+rapide de son objet.
+Chatter Le Chatter est une fonctionnalité de messagerie intégrée dans la GRC qui permet aux utilisateurs d'envoyer des notifications à un autre utilisateur ou à une équipe pour
+demander des informations, échanger des précisions ou relancer sur un dossier client. Il est accessible depuis la page d'accueil ainsi que directement au sein du bloc
+d'échanges de chaque dossier client. Cette fonctionnalité facilite ainsi la communication et la collaboration en temps réel entre les différents utilisateurs impliqués dans la
+gestion des dossiers client.
+Client Un Client est une personne morale (une entreprise, une collectivité, un producteur, etc.) ou physique (un particulier) auprès de laquelle Enedis a un engagement de service (ie
+est lié par un devis ou un contrat) soit pour : l’accès au réseau public de distribution d’électricité, l’acheminement de l’électricité (soutirée et/ou injectée), la réalisation d’une
+prestation (raccordement, relève, qualité de fourniture, qualité des travaux, mise en service, changement de fournisseur, modification contractuelle, résiliation…), du
+dépannage, la communication d’informations…
+8
+
+
+--- Slide 9 ---
+Lexique de Harmonie GRC
+B.1
+Terme GRC Définition
+Harmonie
+Demande La Demande est l’élément principal géré au sein de la GRC. Elle est initiée et gérée au sein de la GRC.
+Elle est toujours consécutive d’un échange omnicanal avec un Client de façon directe (le Client lui-même, de son mandataire ou de son représentant autorisé) ou
+indirecte (le Client final par l’intermédiaire du fournisseur).
+Il existe 2 typologies de Demandes :
+• Les Demandes traitées en propre par la GRC: une Demande est créée et traitée dans le module de gestion des demandes de la GRC. Elles sont nommées
+«demandes traitées en propre» dans les exigences d’intégration.
+• Les Demandes associées à des Affaires (donc des procédures gérées au sein d’autres SI Enedis).
+Une Demande peut s’accompagner de la création d’une et/ou de plusieurs Tâches ou/et d’une Affaire. La clôture de la Demande dans ce cas, est assujettie à la clôture
+de la dernière Tâche et/ou à la clôture de l’Affaire pré-renseignée.
+Une Demande peut être liée à une Affaire préexistante ou à une autre Demande.
+Diagnostic Le Diagnostic est un outil conçu pour guider les conseillers dans l’identification et la résolution des demandes clients de manière efficace et structurée.
+Il se présente sous la forme d’un parcours interactif composé d’une série de questions à poser à l’interlocuteur et/ou d’actions à réaliser par le conseiller. Il permet de
+guider le conseiller vers une proposition d’action adaptée en fonction de la situation du client, telle que la création d’une tâche, la planification d’un rendez-vous, la
+requalification de la demande, etc…
+Dossier Client Un Dossier Client dans la GRC centralise toutes les informations liées à une interaction avec un client. Il peut concerner trois types : les demandes, où le client exprime
+un besoin ou une requête ; les réclamations, qui correspondent à des insatisfactions attribuables à l'entreprise et nécessitant un traitement spécifique et les réappels
+PDTS, qui sont des cas où un client a exprimé une insatisfaction totale, déclenchant une action de réappel pour résoudre la situation. Ces dossiers clients permettent
+ainsi une gestion complète et structurée de la relation client.
+Échange Un Echange représente un type d’interaction entre un Client et un utilisateur de la GRC cible. Un échange peut être de type entrant ou sortant, peut emprunter différents
+canaux de communication (par exemple : formulaire, téléphone, mail, SMS, courrier, réseaux sociaux…). L’Echange contient également le contenu de l’interaction entre
+le Client et l’utilisateur et est associé à un Dossier Client.
+Évènements sortants Un évènement sortant est une interaction ou une communication initiée par l’entreprise vers le client, visant à répondre à une problématique identifiée par Enedis, à
+fournir des informations au client par rapport à affaire initiée par son fournisseur ou à traiter une insatisfaction suite à une enquête.
+Fenêtre Une fenêtre est une interface est une "page" de la GRC qui permet à l'utilisateur de visualiser et d'interagir avec plusieurs informations ou processus simultanément.
+Elle peut contenir différents éléments d'affichage, comme des onglets et des blocs.
+9
+
+
+--- Slide 10 ---
+Lexique de Harmonie GRC
+B.1
+Terme GRC Définition
+Harmonie
+Fiche client La fiche client offre aux utilisateurs de Harmonie GRC une plateforme centralisée et complète pour traiter diverses demandes client. Son objectif est de fournir de la
+visibilité sur l’ensemble des informations et de l’historique connu d’un client donné.
+Interaction Une interaction est un échange entre un Client et un utilisateur de la solution GRC V1, pouvant être entrant ou sortant, sur différents canaux de communication, avec un
+contenu associé. Il est souvent associé à une demande.
+Interlocuteur Un Interlocuteur est généralement une personne physique désignée par le Client, que le Client autorise à agir en son nom dans le cadre de relations contractuelles ou
+techniques (d’une intervention, d’un raccordement, d’une mise en service, de la mise en œuvre d’un service de données…)
+Il existe différents rôles possibles pour un Interlocuteur (liste non exhaustive) : interlocuteur de type contractuel, commercial (dans le cadre d’un Client Professionnel de
+type Entreprise ou Collectivité), interlocuteur de type technique (dans le cadre d’un Client Professionnel de type Entreprise ou Collectivité), occupant du logement (dans
+le cadre d’un Client Particulier), interlocuteur élu (dans le cadre d’un Client Collectivité), collaborateur d’un fournisseur (dans le cadre d’un Client de type Fournisseur)
+NBA (Next Best La fonctionnalité NBA (Next Best Action) utilise une intelligence artificielle pour fournir automatiquement des recommandations pertinentes aux conseillers en se
+Action) basant sur une analyse des interactions passées et des données contextuelles.
+Les recommandations peuvent être associées à des tâches automatisées, comme la création d'une tâche pour un autre service ou la proposition de services adaptés
+au client.
+Onglet Un onglet est un élément de navigation dans la GRC qui permet de basculer rapidement entre différentes sections ou vues d'informations au sein d'une même fenêtre.
+Chaque onglet représente généralement un aspect spécifique de la fiche ouverte dans une fenêtre, par exemple on retrouvera les onglets Interlocuteurs et Timeline
+dans la fenêtre d'une fiche client.
+PRM Le PRM (Point de Référence Mesure) est composé de 14 chiffres, il permet d'identifier de façon unique le point de mesure du client sur le réseau électrique.
+Réappel PDTS Un Réappel PDTS (Pas Du Tout Satisfait) est un Dossier client créé automatiquement dans la GRC suite à l'identification d'un client ayant répondu "Pas du tout
+satisfait" à une enquête de satisfaction. Lorsqu'un tel résultat est enregistré, GRC Campagne transmet l'information à GRC Cœur, déclenchant ainsi une procédure de
+réappel systématique du client, conformément à la Politique Client. Cette gestion vise à traiter les insatisfactions clients de manière proactive, afin d'améliorer leur
+expérience et résoudre leurs problèmes.
+Recherche La barre de recherche multicritères permet à l’utilisateur d’effectuer une recherche sur n’importe quel élément de la GRC (Client, Interlocuteur, Contact, Adresse, PRM,
+multicritères Demandes, Réclamations, etc).
+Il est possible de rechercher sur tout ou une partie de l’élément recherché, par exemple les 3 premiers chiffres d’un PRM ou les 3 derniers.
+10
+
+
+--- Slide 11 ---
+Lexique de Harmonie GRC
+B.1
+Terme GRC Définition
+Harmonie
+Réclamation Une réclamation correspond à l'action d'un client qui exprime une insatisfaction et dont la responsabilité est attribuée à l'entreprise. Une réclamation concerne
+également les cas où le client attend un traitement de la part de l'entreprise (Remboursement, Intervention...).
+Responsable bout en Un responsable bout-en-bout de la Demande est toujours désigné, individu ou équipe, forcément utilisateur de la solution GRC. Il pilote notamment le traitement dans
+bout demande les délais impartis d’une demande et traite les alertes liées aux demandes sous sa responsabilité.
+Responsable de tâche Un responsable de la tâche, individu ou équipe interne ou externe à la solution GRC, est toujours lié à une Tâche. Il est responsable du traitement de la tâche et peut être
+réaffecté.
+Tâche Une tâche est une action ou activité spécifique à réaliser dans le cadre du suivi d'une demande ou d'un projet, souvent affectée à un un individu ou à une équipe.
+11
+
+
+--- Slide 12 ---
+Habilitation à Harmonie GRC
+C.1
+Section en cours de prod
+PI4
+12
+
+
+--- Slide 13 ---
+cours de prod
+Connexion à Harmonie GRC
+PI4
+D.1
++ url
++ Connexion via gardian
+13
+
+
+--- Slide 14 ---
+Synthèse des parcours utilisateurs dans Harmonie GRC
+Visualisation de la page d’accueil
+A Page d’accueil A.1 Visualisation de la page d’accueil
+Navigation entre les fenêtres et les sous fenêtres
+Navigation dans
+B B.1 Navigation entre les fenêtres et les sous fenêtres
+Harmonie GRC
+Réception de notifications
+Centres de
+C C.1 Réception de notifications
+notifications
+Consultation du profil utilisateur et modification des paramètres
+D Profils utilisateurs D.1 Consultation du profil utilisateur et modification des paramètres
+14
+
+
+
+--- Slide 15 ---
+Page d’accueil
+Visualisation de la page d’accueil – Vue globale (1/5)
+A.1
+Une fois connecté à Harmonie GRC, vous arrivez sur cette page d'accueil, qui se compose de 4 blocs principaux :
+1
+Bandeau
+supérieur
+2
+Bloc «Mes
+équipes»
+Liste des
+équipes
+auxquelles
+vous êtes
+rattachés
+3
+Bloc «Tableau
+PI 4 : Capture à maj avec appel de bord »
+Indicateurs
+sortant une fois qu’on a le clés pour le
+suivi de votre
+bouton qui s’affiche activité
+4
+Chat et Appel entrant et sortant
+15
+
+
+
+--- Slide 16 ---
+Page d’accueil
+Visualisation de la page d’accueil – Bandeau supérieur (2/5)
+A.1
+1
+Barre de recherche multicritères
+Permet de rechercher n’importe quel élément de la GRC (ex : client, interlocuteur, contact, PRM, demande etc.)
+2 3
++
+Lanceur d’application Menu déroulant Mes favoris Actions globales Aide et formation Notifications Profil utilisateur
+Permet de lancer une Permet Permet d’ajouter des Permet de créer et Permet d’accompagner Permet d’alerter en Permet d’accéder au
+recherche d’applications d’afficher la liste favoris pour retrouver gérer les interactions l’utilisateur pour maîtriser temps réel des mises à profil utilisateur et
+des éléments facilement les éléments en un clic – tâches, l’outil et optimiser son jour importantes, actions de se déconnecter
+gérés dans utilisés le plus souvent appels, e-mails, notes utilisation requises et messages en un clic
+Harmonie GRC (comptes, interlocuteur et contacts liés à l’outil
+Pour un guide détaillé sur la réalisation d'une recherche dans la barre de recherche
+multicritères, veuillez consulter le chapitre « A. Recherche multicritères ».
+16
+
+
+
+--- Slide 17 ---
+Page d’accueil
+Visualisation de la page d’accueil – Bloc « Mes équipes » (3/5)
+A.1
+Les intitulés
+des équipes
+font référence à
+votre
+rôleutilisateur
+ainsi qu’à votre
+activité au sein
+de votre DR
+Un utilisateur peut être associé à plusieurs équipes selon les activités qu'il
+exerce.
+• Ce champ permet de structurer les responsabilités et d'affiner les
+droits d'accès aux différentes fonctionnalités de l'outil.
+• Il facilite le suivi des interventions et la répartition des tâches selon les
+domaines d’expertise.
+Exemple : Un utilisateur ayant une double compétence peut être rattaché à
+deux équipes correspondant aux différents services qu'il gère.
+17
+
+
+
+--- Slide 18 ---
+Page d’accueil
+Visualisation de la page d’accueil – Bloc « Tableau de bord » (4/5)
+A.1
+Le bloc «Tableau de bord» est composé de deux grandes sections principales :
+1
+Des graphiques
+et des chiffres
+en temps réel
+pour suivre vos
+demandes
+2
+Des graphiques
+et des chiffres
+en temps réel
+pour suivre vos
+tâches
+Pour un guide détaillé sur le tableau de bord, veuillez consulter le chapitre «Tableau de
+bord»
+18
+
+
+
+--- Slide 19 ---
+Page d’accueil
+Visualisation de la page d’accueil – Bloc « Chatter & Appel entrant » (5/5)
+A.1
+PI 4 : Capture à ajouter – widget
+appel sortant
+Chatter Publisher
+Envoi de messages instantanés avec un ou
+plusieurs collègues directement dans
+l’outil
+Appel entrant
+Réception des appels clients directement dans l’outil
+(une connexion à Kiamo est nécessaire au préalable)
+19
+
+
+
+--- Slide 20 ---
+Navigation dans l’outil
+Navigation entre les fenêtres et les sous-fenêtres (1/7)
+B.1
+Dans Harmonie GRC, la navigation se fait de manière fluide grâce à un système de fenêtres et sous-fenêtres. Lorsqu'un utilisateur clique sur un élément, une
+nouvelle fenêtre s'ouvre en superposition sur l'interface principale, permettant de visualiser et de traiter l'information sans quitter la page en cours.
+1. Cliquez sur 2. Une nouvelle fenêtre s’ouvre
+votre équipe automatiquement, affichant la
+bannette des demandes par défaut
+3. Pour visualiser les bannettes de
+tâches, réclamations et la liste des
+membres dans votre équipe, cliquez
+sur les fenêtres associées
+4. Cliquez sur le
+numéro d’une
+demande
+Pour un guide détaillé sur les bannettes , veuillez consulter le chapitre « Gestion des bannettes»
+20
+
+
+
+--- Slide 21 ---
+Navigation dans l’outil
+Navigation entre les fenêtres et les sous-fenêtres (2/7)
+B.1
+5. Une nouvelle sous-fenêtre s'ouvre
+affichant la fiche de la demande sur
+laquelle vous avez cliqué
+6. Cliquez sur le nom
+du client
+7. Une nouvelle sous
+fenêtre s’ouvre
+affichant la fiche
+client
+21
+
+
+
+--- Slide 22 ---
+Navigation dans l’outil
+Navigation entre les fenêtres et les sous-fenêtres (3/7)
+B.1
+8. Pour traiter une autre demande, revenez à la
+première fenêtre de la bannette des demandes
+de votre équipe
+9. Cliquez sur une
+autre demande
+10. Une nouvelle
+sous fenêtre s’ouvre
+affichant la fiche de
+la demande
+22
+
+
+
+--- Slide 23 ---
+Navigation dans l’outil
+Navigation entre les fenêtres et les sous-fenêtres (4/7)
+B.1
+11. Pour traiter les
+demandes d’une
+autre équipe à
+laquelle vous êtes
+rattachée, revenez à
+la page accueil
+12. Cliquez sur l’autre
+équipe à laquelle
+vous êtes rattaché
+23
+
+
+
+--- Slide 24 ---
+Navigation dans l’outil
+Navigation entre les fenêtres et les sous-fenêtres (5/7)
+B.1
+13. Une deuxième fenêtre s’ouvre
+automatiquement, affichant la
+bannette des demandes de l’autre
+équipe à laquelle vous êtes rattaché
+14. En cliquant sur les numéros de
+demandes, des sous-fenêtres
+s'ouvrent affichant la fiche des
+demandes.
+24
+
+
+
+--- Slide 25 ---
+Navigation dans l’outil
+Navigation entre les fenêtres et les sous-fenêtres (6/7)
+B.1
+15. Lorsqu’un très grand nombre de
+fenêtres sont ouvertes, une fenêtre
+«Plus» s'affiche, accompagnée
+d'une liste déroulante permettant
+d'accéder aux autres fenêtres
+25
+
+
+
+--- Slide 26 ---
+Navigation dans l’outil
+Navigation entre les fenêtres et les sous-fenêtres (7/7)
+B.1
+17. Pour fermer toutes les sous-
+fenêtres en une seule fois, cliquez sur
+le symbole «x» de la fenêtre
+principale
+16. Une fois terminé, fermez les sous-
+fenêtres une par une en cliquant sur
+le symbole « x »
+26
+
+
+
+--- Slide 27 ---
+Centre de notification
+Réception de notifications (1/3)
+C.1
+Le centre de notifications centralise toutes les notifications essentielles pour une gestion efficace de votre activité. Il permet de recevoir différents types de
+notifications, notamment les rappels sur les délais de traitement, les notifications d’attribution de tâches, les publications envoyées par vos collègues, etc…
+2. Une fenêtre affichant la bannette de vos
+demandes/tâches/réclamations s’ouvre,
+permettant de visualiser le numéro de la
+demande/tâche/réclamation ainsi que le
+délai restant
+1. Cliquez sur la notification
+indiquant que le délai de
+traitement d’une
+demande/tâche/réclamation
+est dépassé
+27
+
+
+
+--- Slide 28 ---
+Centre de notification
+Réception de notifications (2/3)
+C.1
+2. Une nouvelle fenêtre
+s’ouvre affichant la fiche de
+tâche correspondante
+1. Cliquez sur la notification
+indiquant qu'une tâche vous
+a été attribuée
+28
+
+
+
+--- Slide 29 ---
+Centre de notification
+Réception de notifications (3/3)
+C.1
+2. La fenêtre vous permettant
+d’échanger avec votre collègue s’ouvre
+3. Prenez connaissance
+du message de votre
+1. Cliquez sur la notification collègue.
+4. Cliquez sur le numéro de
+indiquant que vous avez été
+la demande/réclamation
+mentionné dans une publication
+pour accéder à la fiche
+depuis laquelle votre
+collègue vous a mentionné.
+5. Une nouvelle fenêtre
+s’ouvre, affichant la fiche
+de la demande.
+29
+
+
+
+--- Slide 30 ---
+quels
+Profil utilisateur
+paramètres
+Consultation du profil utilisateur et modification des paramètres (1/2)
+D.1
+l’utilisateur peut
+1. Cliquez sur modifier
+l’icône «Profil
+utilisateur»
+2. Cliquez sur le bouton
+«Paramètres»
+4. Modifiez vos
+données
+personnelles si
+3. La fenêtre besoin
+«Informations
+personnelle»
+s’ouvre par défaut
+30
+
+
+
+--- Slide 31 ---
+Synthèse des parcours utilisateurs dans Harmonie GRC
+Accès aux bannettes
+A.1 Accès aux bannettes
+Visualisation de la bannette des demandes
+A.2 Visualisation de la bannette des demandes
+Visualisation de la bannette des réclamations
+Visualisation des
+A A.3 Visualisation de la bannette des réclamations
+bannettes
+Visualisation de la bannette des tâches
+A.4 Visualisation de la bannette des tâches
+Visualisation de la bannette des réappels PDTS
+A.5 Visualisation de la bannette des réappels PDTS
+31
+
+
+
+--- Slide 32 ---
+Visualisation des bannettes
+Accès aux bannettes
+A.1
+Dans Harmonie GRC, il existe quatre bannettes : demandes, tâches, réclamations et réappels PDTS. L’accès à ces bannettes dépend de votre profil et de
+votre activité. Pour y accéder, il suffit de cliquer sur votre équipe depuis la page d’accueil.
+Les équipes accueil ont accès à la bannette des
+demandes, des tâches, et des réclamations
+Les chargés de réappels PDTS ont accès à la
+1. Cliquez sur 2. Une nouvelle fenêtre s’ouvre, bannette des réappels PDTS
+votre équipe affichant la bannette des demandes Les équipes opérations ont accès à la bannette
+par défaut des tâches
+3. Pour visualiser les autres
+bannettes (tâches, réclamations et
+réappels), cliquez sur les onglets
+associés
+L'onglet «Membres» répertorie l'ensemble des
+membres de l'équipe.
+32
+
+
+
+--- Slide 33 ---
+Visualisation des bannettes
+Visualisation de la bannette des demandes
+A.2
+Une fois sur la bannette des demandes, 3 blocs principaux sont visibles :
+1
+Bloc Mes demandes
+Liste des demandes
+qui me sont affectées.
+2 Bloc Lesdemandes
+de mon équipe: Liste
+des demandes
+affectées à des
+membres de mon
+équipe.
+3
+Bloc Lesdemandes
+de mon équipe non-
+affectées: Liste des
+demandes de mon
+équipe qui ne sont
+pas encore affectées.
+33
+
+
+
+--- Slide 34 ---
+Visualisation des bannettes
+Visualisation de la bannette des demandes - Bloc « Mes demandes »
+A.2
+Par défaut, les demandes sont triées par rapport au délai 5 7 11 Bouton 12
+Statut Date/Heure Bouton «Réaffecter»
+restant, des plus urgentes à traiter au moins urgentes. «Actualiser»
+Statut de traitement d’ouverture Permet de réaffecter des demandes
+Permet de
+de la demande. Les Date et heure à un membre de mon équipe ou à
+rafraîchir les
+2 4 demandes clôturées de création de mon équipe en sélectionnant au
+Délai restant données de la
+Type / Sous types n’apparaissent pas la demande préalable les demandes à réaffecter
+Délai restant pour traiter la demande (en bannette
+Type et sous-type dans les bannettes
+jours et en heures). Passer ce délai, la
+de la demande
+mention «délai dépassé» apparaît
+Il est
+possible de
+modifier le
+tri des
+colonnes en
+cliquant sur
+l’entête.
+1 3 6 8 9 10
+Numéro Indicateurs Bouton «Afficher tout» Compte PRM CP Commune
+Numéro de la demande. Le lien Icônes indiquant qu'il peut y Permet d’afficher toutes Concaténation du profil et Numéro de PRM. Le lien Concaténation du
+hypertexte est cliquable et ouvre un avoirsur la demande une ou les demandes présentes du nom du client. Le lien hypertexte est cliquable et code postal et du
+onglet sur la demande. plusieurs réclamations / dans la bannette hypertexte est cliquable et ouvre la fiche PRM dans une nom de la
+Le survol avec la souris permet de voir les tâches (avec le nombre ouvre la fiche client dans nouvelle fenêtre commune
+informations essentielles de la demande indiqué) une nouvelle fenêtre
+Après avoir cliqué sur le bouton Afficher tout, le bouton Filtre apparaît :
+Il permet de filtrer les demandes par numéro, type , sous-type, PRM et date de création.
+34
+
+
+
+--- Slide 35 ---
+Visualisation des bannettes
+Visualisation de la bannette des demandes - Bloc « Les demandes de mon équipe »
+A.2
+Deux différences existent entre le bloc «Mes demandes» et le bloc «Les demandes de mon équipe» : dans ce dernier, la colonne Responsable bout-en-
+bout remplace la colonne PRM, et le bouton « Réaffecter » disparaît.
+2
+Le bouton «Réaffecter»
+1
+Responsable bout-en-bout disparait dans le bloc «les
+Responsable de la demande demandes de min équipe»
+vis-à-vis du client, de la
+création à la clôture
+35
+
+
+
+--- Slide 36 ---
+Visualisation des bannettes
+Visualisation de la bannette des demandes - Bloc « Les demandes de mon équipe non-affectées »
+A.2
+Une seule différence existe entre le bloc «Mes demandes» et le bloc «Les demandes de mon équipe non-affectées» : dans ce dernier, le bouton
+« Réaffecter » disparaît.
+1
+Le bouton «Réaffecter» disparait
+dans le bloc «les demandes de
+mon équipe non affectées»
+36
+
+
+
+--- Slide 37 ---
+Visualisation des bannettes
+Visualisation de la bannette des réclamations
+A.3
+Une fois sur la bannette des réclamations, 3 blocs principaux sont visibles :
+1
+Bloc Mes réclamations
+Liste des demandes qui
+me sont affectées.
+2
+Bloc Lesréclamations
+de mon équipe
+Liste des demandes de
+mon équipe qui sont
+déjà affectées.
+3
+Bloc Lesréclamations
+de mon équipe non-
+affectées
+Liste des demandes de
+mon équipe qui ne sont
+pas encore affectées.
+37
+
+
+
+--- Slide 38 ---
+Visualisation des bannettes
+Visualisation de la bannette des réclamations - Bloc « Mes réclamations »
+A.3
+6 7 11
+Par défaut, les réclamations sont triées par rapport au délai
+Statut
+restant, des plus urgentes à traiter au moins urgentes.
+Statut de traitement Date de réception Bouton «Actualiser»
+de la réclamation. Date de réception Permet de rafraîchir les
+3 4 Les demandes de la réclamation données de la bannette
+Délai restant
+Type / Sous types clôturées
+Délai restant pour traiter la réclamation
+Type et sous-type n’apparaissent pas
+(en jours et en heures). Passer ce délai, la
+de la réclamation dans les bannettes
+mention «délai dépassé» apparaît
+Il est possible
+de modifier le
+tri des
+colonnes en
+cliquant sur
+l’entête.
+1 2 5 8 9 10
+Demande Réclamation Bouton «Afficher tout» Compte PRM CP Commune
+Numéro de la demande associée à la Numéro de la réclamation. Le Permet d’afficher toutes Concaténation du profil et Numéro de PRM. Le lien Concaténation du
+réclamation. Le lien hypertexte est lien hypertexte est cliquable et les réclamations du nom du client. Le lien hypertexte est cliquable et code postal et du
+cliquable et ouvre la fiche demande dans ouvre la fiche réclamation présentes dans la hypertexte est cliquable et ouvre la fiche PRM dans une nom de la
+une nouvelle fenêtre dans une nouvelle fenêtre bannette ouvre la fiche client dans nouvelle fenêtre commune
+une nouvelle fenêtre
+Après avoir cliqué sur le bouton Afficher tout, le bouton Filtre apparaît :
+Il permet de filtrer les réclamations par numéro, type , sous-type, PRM et date de création.
+38
+
+
+
+--- Slide 39 ---
+Visualisation des bannettes
+Visualisation de la bannette des réclamations - Bloc « Les réclamations de mon équipe »
+A.3
+Une seule différence existe entre le bloc «Mes réclamations» et le bloc «Les réclamations de mon équipe» : dans ce dernier, la colonne Responsable bout-
+en-bout remplace la colonne Statut.
+1
+Responsable bout-en-bout
+Responsable de la réclamation
+vis-à-vis du client, de la
+création à la clôture
+39
+
+
+
+--- Slide 40 ---
+Visualisation des bannettes
+Visualisation de la bannette des réclamations - Bloc « Les réclamations de mon équipe non-affectées »
+A.3
+Une seule différence existe entre le bloc «Mes réclamations» et le bloc «Les réclamations de mon équipenon-affectées » : dans ce dernier, la colonne
+Responsable bout-en-bout remplace la colonne Statut.
+1
+Responsable bout-en-bout
+Responsable de la réclamation
+vis-à-vis du client, de la
+création à la clôture
+Besoin capture d’écran pour le bloc
+réclamation de mes équipes non
+affectées
+40
+
+
+
+--- Slide 41 ---
+Visualisation des bannettes
+Visualisation de la bannette des tâches
+A.4
+Une fois sur la bannette des tâches, 3 blocs principaux sont visibles :
+1
+Bloc Mes tâches
+Liste des tâches qui
+me sont affectées.
+2
+Bloc Lestâches de
+mon équipe
+Liste des tâches de
+mon équipe qui sont
+déjà affectées.
+3
+Bloc Lestâches de
+mon équipe non-
+affectées
+Liste des tâches de
+mon équipe qui ne
+sont pas encore
+affectées.
+41
+
+
+
+--- Slide 42 ---
+Visualisation des bannettes
+Visualisation de la bannette des tâches
+A.4
+Les blocs «Mes tâches », «les tâches de mon équipes» et les tâches de mon équipe non-affectées» sont composés des mêmes colonnes
+Par défaut, les
+tâches sont triées
+2 4 8 9 10
+par rapport au
+Objet : objet de la tâche. Responsable : responsable de la Statut Type / Sous types Bouton «Actualiser»
+délai restant, des
+Le lien hypertexte est tâche (non renseigné pour les Statut de traitement de la tâche. Les Type et sous-type de la Permet de rafraîchir les
+plus urgentes à
+cliquable et ouvre un tâches dans la bannette Tâches tâches clôturées n’apparaissent pas demande à laquelle la données de la bannette
+traiter au moins
+onglet sur la tâche de mon équipe non-affectées) dans les bannettes tâche est liée
+urgentes.
+Toutes les colonnes sont
+1 3 5 6 7 triables en cliquant sur
+Associé à : correspond au numéro de la Numéro tâche Bouton «Afficher tout» Priorité : priorité Délai restant l'en-tête.
+demande sur laquelle il y a une tâche. Le Numéro de la Permet d’afficher toutes de traitement de Délai restant pour traiter la
+lien hypertexte est cliquable et ouvre un tâche les tâches présentes dans la tâche (P1, P2, tâche (en jours et en
+onglet sur la demande la bannette P3) heures). Passer ce délai, la
+mention «délai dépassé»
+apparaît
+Après avoir cliqué sur le bouton Afficher tout, le bouton Filtre apparaît :
+Il permet de filtrer toutes les colonnes
+42
+
+
+
+--- Slide 43 ---
+Visualisation des bannettes
+Visualisation de la bannette des réappels PDTS
+A.5
+Une fois sur la bannette des réappels PDTS, 3 blocs principaux sont visibles :
+1
+Bloc Mes Réappels
+PDTS
+Liste des demandes
+qui me sont affectés.
+2
+Bloc LesRéappels
+PDTS de mon équipe
+Liste des demandes
+de mon équipe qui
+sont déjà affectés.
+3
+Bloc LesRéappels
+PDTS de mon équipe
+non-affectées
+Liste des demandes
+de mon équipe qui ne
+sont pas encore
+affectés.
+43
+
+
+
+--- Slide 44 ---
+Visualisation des bannettes
+Visualisation de la bannette des réappels PDTS - Bloc « Mes Réappels PDTS »
+A.5
+Les blocs «Mes Réappels PDTS », «les Réappels» de mon équipes» et les «Réappels de mon équipe non-affectées» sont composés des mêmes colonnes
+3 6 7 10
+Statut
+Type / Sous types Date/Heure d’ouverture Bouton «Actualiser»
+Par défaut, les réappels sont triées Statut de traitement du réappel. Les
+Type et sous-type Date et heure de Permet de rafraîchir les
+par rapport au délai restant, des plus réappels traités n’apparaissent pas
+de l’enquête création du réappel données de la bannette
+urgents à traiter au moins urgents. dans les bannettes
+Toutes les
+colonnes
+sont triables
+en cliquant
+sur l'en-tête.
+1 2 4 5 8 9
+Numéro Délai restant Bouton «Afficher tout» Responsable bout-en-bout : Compte CP Commune
+Numéro du réappel PDTS. Délai restant pour traiter la demande (en Permet d’afficher toutes responsable du réappel Concaténation du profil et Concaténation du
+Le lien hypertexte est jours et en heures). Passer ce délai, la les réappels présentes PDTS vis-à-vis du client du nom du client. Le lien code postal et du
+cliquable et ouvre un onglet mention «délai dépassé» apparaît dans la bannette hypertexte est cliquable et nom de la
+sur le réappel PDTS ouvre la fiche client dans commune
+une nouvelle fenêtre
+Après avoir cliqué sur le bouton Afficher tout, le bouton Filtre apparaît :
+Il permet de filtrer les réappels PDTS par numéro, type enquête, sous-type enquête et date de création.
+44
+
+
+
+--- Slide 45 ---
+Synthèse des parcours utilisateurs dans Harmonie GRC
+Réalisation d’une recherche
+A.1 Réalisation d’une recherche
+Recherche
+A
+multicritères Résultat de la recherche
+A.2 Résultat de la recherche RAF : revue capture d’écran pour un cas plus réaliste
+Visualisation de la fiche client « Particulier »
+B.1 Visualisation de la fiche client «Particulier»
+Visualisation de la fiche client « Professionnel »
+B.2 Visualisation de la fiche client «Professionnel» Suite PI 4 : affichage marqueur PDTS & compteur
+d’encours Capella
+Visualisation de la fiche client « Etablissement »
+B Fiche client B.3 Visualisation de la fiche client «Etablissement»
+Visualisation de la Hiérarchie des comptes
+B.4 Visualisation de la Hiérarchie des comptes
+Débranchement vers les SI Enedis en lien avec une affaire client
+B.5 Débranchement vers les SI Enedis en lien avec une affaire client Besoin de capture d’écran du débranchement
+Création / ajout d’un interlocuteur pour un client « Particulier » existant
+C.1 Création / ajout d’un interlocuteur pour un client «Particulier» existant RAF : explication des rôles – à voir avec équipe RFC
+Création / ajout d’un interlocuteur pour un client « Professionnel » ou « Etablissement » existant
+C.2 Création / ajout d’un interlocuteur pour un client «Professionnel» ou «Etablissement» existant
+Création / ajout d’un interlocuteur pour un client non existant
+C.3 Création / ajout d’un interlocuteur pour un client non existant
+Gestion des
+C
+interlocuteurs Visualisation de la fiche interlocuteur pour un client « Particulier » ou « Professionnel »
+C.4 Visualisation de la fiche interlocuteur pour un client «Particulier» ou «Professionnel»
+Modification des données de l’interlocuteur
+C.5 Modification des données de l’interlocuteur
+Accès à l’espace client en mode Ghost
+C.6 Accès à l’espace client en mode Ghost
+PI4
+Visualisation de la fiche PRM
+D.1 Visualisation de la fiche PRM
+Visualisation de la fiche PRM – Informations principales
+D.2 Visualisation de la fiche PRM – Informations principales
+Visualisation de la fiche PRM – Informations détaillés fournies par SGE
+D.3 Visualisation de la fiche PRM – Informations détaillés fournies par SGE Besoin capture d’écran débranchement SGE
+D Fiche PRM
+Visualisation de la fiche PRM – Données de mesure
+D.4 Visualisation de la fiche PRM – Données de mesure PI4 Besoin capture visualisation des données de mesure
+Visualisation de la fiche PRM – Services souscrits (visualisation, activation désactivation)
+D.5 Visualisation de la fiche PRM – Services souscrits (visualisation, activation & désactivation) PI4 Besoin capture d’écran - Suite Parcours activation désactivation
+Visualisation de la fiche PRM – Historique du ping linky
+D.6 Visualisation de la fiche PRM – Historique du ping linky Besoin capture d’écran - Suite ping linky
+45
+
+
+
+--- Slide 46 ---
+Recherche multicritères
+Réalisation d’une recherche (1/4)
+A.1
+La barre de recherche multicritères vous permet d’effectuer une recherche sur n’importe quel élément de la GRC (ex : client, interlocuteur, contact, adresse,
+PRM, demandes & réclamations).
+Vous pouvez rechercher sur tout ou une partie
+de l’élément recherché, par exemple tout ou
+partie d’une adresse de PRM ou d’un
+interlocuteur.
+Possibilités de recherche Résultats de la recherche
+• Les PRM situés au 36 rue du
+• «36 rue du bac» Bac partout en France
+M
+• «Rue du bac Paris» • Les PRM situés rue du Bac à
+R
+Paris
+P • «36 rue du Bac 75007
+Paris» • Les PRM situés au 36 rue du
+Bac dans le 7ème art de Paris
+r
+u
+e
+t • Les interlocuteurs avec
+u
+c • «Charles Charles comme prénom,
+o contractuel» nom ou dans son adresse
+lr
+e et ayant le rôle contractuel
+t
+n
+I
+46
+
+
+
+--- Slide 47 ---
+Recherche multicritères
+Réalisation d’une recherche (2/4)
+A.1
+Lorsque vous effectuez une recherche dans la barre de recherche multicritères, plusieurs types de résultats peuvent s'afficher, tels que des fiches clients,
+des fiches PRM, des fiches d’interlocuteurs, des demandes, des réclamations, etc. Chaque résultat est accompagné d’un pictogramme distinct, facilitant son
+identification. Ce pictogramme permet une reconnaissance visuelle rapide de la catégorie de l’élément recherché, vous aidant ainsi à naviguer plus
+efficacement parmi les résultats.
+Légende des pictogrammes principaux
+Compte Interlocuteur
+Demande /
+Réclamation / PRM
+Réappel
+Affaire
+47
+
+
+
+--- Slide 48 ---
+Recherche multicritères
+Réalisation d’une recherche (3/4)
+A.1
+Pour effectuer une recherche ciblée, vous pouvez sélectionner un élément spécifique (interlocuteur, compte, PRM, demandes, etc.) en cliquant sur le bouton
+situé à gauche de la barre de recherche multicritères. Ainsi, seuls les résultats correspondant à l’élément choisi seront affichés.
+48
+
+
+
+--- Slide 49 ---
+Recherche multicritères
+Réalisation d’une recherche (4/4)
+A.1 Recommandation pour une recherche optimisée
+• A compléter une fois on a les JDD, et qu’on
+s’est forgé une reco
+1. En tapant un élément de la GRC (client,
+interlocuteur, contact, adresse, PRM,
+demandes et réclamations) dans la barre
+de recherche multicritères, une liste
+restreinte de cinq résultats en lien avec
+l’élément recherché s'affiche
+a
+b
+2. Pour obtenir une
+recherche plus approfondie,
+cliquez sur « Afficher plus de
+résultats »
+3. Une fenêtre s’ouvre par défaut,
+présentant des résultats plus complets
+c
+sur l’élément recherché, répartis en
+différents blocs selon les critères de
+recherche sélectionnés, par exemple dans
+cette situation :
+•a Un récapitulatif des principaux
+résultats trouvés en lien avec votre
+d
+recherche, ainsi que leur volumétrie.
+•b L’ensemble des clients associés à
+votre recherche.
+•c L’ensemble des interlocuteurs
+correspondants.
+•d L’ensemble des demandes associées.
+49
+
+
+
+--- Slide 50 ---
+Recherche multicritères
+Résultat de la recherche
+A.2
+4. Pour affiner les
+résultats de votre
+recherche, cliquez sur le
+type de l’élément que
+vous recherchez
+6. Vous n’avez plus qu'un nombre
+limité de résultats, ce qui vous
+5. Complétez les permet de trouver facilement la
+informations pour personne que vous recherchez.
+affiner la recherche et
+ensuite cliquez sur
+appliquer
+50
+
+
+
+--- Slide 51 ---
+Fiche client
+Visualisation de la fiche client « Particulier » (1/3)
+B.1
+La fiche Client, aussi appelée V360, regroupe toutes les informations essentielles concernant un client Particulier ou Professionnel, facilitant ainsi le
+traitement de la demande. Vous pouvez y accéder en effectuant une recherche dans la barre de recherche multicritères
+1. Tapez le nom/prénom du client que
+vous recherchez dans la barre de
+recherche multicritères
+2. Cliquez sur le nom du
+client qui s’affiche dans la
+liste et qui correspond au
+pictogramme Compte
+Pour un guide détaillé sur la réalisation d'une recherche dans la barre de recherche
+multicritères, veuillez consulter le chapitre « A. Recherche multicritères ».
+51
+
+
+
+--- Slide 52 ---
+RAF
+Fiche client Visualisation des affaires
+dans la capture d’écran
+Visualisation de la fiche client « Particulier » (2/3)
+B.1
+PI4 :
+Une fois vous êtes sur la fiche client «Particulier», plusieurs blocs seront visibles :
+• Afficher le marqueur PDTS
+1 3 sur la fiche client
+Nom du client avec le bouton pour Bloc Timeline
+• Afficher un compteur
+créer une nouvelle demande. Frise chronologique des interactions
+et des faits marquants du client. d’encours Capella sur la
+fiche client
+PI 5 :
+4 • message contextuel
+Bloc interlocuteurs
+Liste de l’ensemble des interlocuteurs rattachés au client et
+leurs rôles associés ainsi que leurs coordonnées.
+2
+Bloc informations générales 5
+Bloc demandes
+Résumé des informations clés du
+Liste de l’ensemble des demandes créées dans Harmonie
+client (segment, marqueurs, taux
+GRC, avec visualisation des statuts, de la date d’ouverture
+de complétude des coordonnées
+de la demande, de la qualification type et sous type, etc.
+tel et email client).
+6
+Légende des pictogrammes Bloc réclamations
+des marqueurs Liste des réclamations créées dans la GRC Harmonie,
+d’origine distributeur
+• Réclamation en cours
+• Multi-réclamations
+7
+• PHRV Bloc PRM
+Liste de l’ensemble des PRM rattachés au client, avec leur
+état, l’état du compteur, le nom du fournisseur, etc.
+8
+Bloc affaires
+9 Liste des affaires rattachées au client présentes dans
+Bloc Réappels d’autres SI, à savoir à date : SGE, Capella, Ginko et Enecad.
+Liste de l’ensemble des réappels
+PDTS rattachés au client.
+52
+
+
+
+--- Slide 53 ---
+Fiche client
+Visualisation de la fiche client « Particulier » (3/3)
+B.1
+Dans l’onglet «Timeline», un curseur de date est disponible vous permettant d’ajuster la période d’affichage des interactions et des événements liés au
+client.
+En déplaçant le curseur, vous pouvez naviguer dans le temps et afficher plus
+ou moins d’éléments selon la période sélectionnée.
+Plus vous élargissez la période, plus le nombre d’interactions ou évènements
+visibles augmente. À l’inverse, en réduisant la période, vous obtenez une vue
+plus ciblée et détaillée.
+53
+
+
+
+--- Slide 54 ---
+Fiche client
+Visualisation de la fiche client « Professionnel »
+B.2
+Une fois sur la fiche client « Professionnel », deux principales différences se distinguent par rapport à la fiche des clients «Particuliers»
+Onglet «Informations Détaillés»
+Récapitulatif des jours et horaires
+d’ouverture, périodes favorables et
+défavorables à la coupure, impact
+de la coupure sur l’activité du client
+Bloc «Informations
+Générales Compte»
+En plus des informations
+disponibles pour un client
+particulier, vous trouverez
+le numéro et l’adresse
+SIREN
+54
+
+
+
+--- Slide 55 ---
+Fiche client
+Visualisation de la fiche client « Etablissement »
+B.3
+L’Etablissement est un lieu / structure d’un Professionnel. Selon le client, plusieurs Etablissements peuvent être liés à un client Professionnel (client parent).
+Une fois sur la fiche client « Etablissement », deux principales différences se distinguent par rapport à la fiche des clients «Particuliers»
+Onglet «informations détaillés»
+Récapitulatif des jours et horaires
+d’ouverture, périodes favorables et
+défavorables à la coupure, impact de
+la coupure sur l’activité du client
+Bloc «Informations
+Générales Compte»
+En plus des informations
+disponibles pour un client
+particulier, vous trouverez
+le numéro SIRET et le
+client parent.
+55
+
+
+
+--- Slide 56 ---
+Fiche client
+Visualisation de la Hiérarchie des comptes
+B.4
+RAF :
+PI4 onglets détaillés et hiérarchie des comptes pro (compte parent +établissements associés)
+56
+
+
+
+--- Slide 57 ---
+Fiche client
+Débranchement vers les SI Enedis en lien avec une affaire client
+B.5
+En cliquant sur l’identifiant d’une affaire dans le bloc « Affaire » de la fiche client, l’affaire s’ouvre automatiquement dans l’outil tiers correspondant, sans
+réauthentification et avec transmission du contexte, à condition que vous soyez habilités aux SI concernés
+RAF :
+avoir des captures d’écran du parcours
+57
+
+
+
+--- Slide 58 ---
+Gestion des interlocuteurs
+Création / ajout d’un interlocuteur pour un client « Particulier » existant (1/2)
+C.1
+A partir de la fiche client, vous pouvez créer un interlocuteur en cliquant sur le bouton «Nouveau» dans le bloc interlocuteur
+1. Cliquez sur le Des infobulles sont disponibles sur les
+bouton «Nouveau» différents champs à compléter pour vous
+guider dans la saisie des informations. Il suffit
+de placer le curseur sur le signe
+2. Renseignez les
+informations
+relatives à l’identité PI 4 : Capture d’écran à
+et aux coordonnées
+de l’interlocuteur. modifier pour avoir 2
+numéro de tel
+Un contrôle de surface est appliqué sur
+les informations suivantes : numéro de
+téléphone & adresse mail.
+Un référentiel d’adresse postale permet
+une auto-complétion au moment du
+remplissage
+58
+
+
+
+--- Slide 59 ---
+Gestion des interlocuteurs
+Création / ajout d’un interlocuteur pour un client « Particulier » existant (2/2)
+C.1
+Explication des rôles
+3. Sélectionnez la ligne de Pour un guide plus détaillé sur les
+contrat et le rôle associé à différents rôles qui peuvent être attribué
+l’interlocuteur aux interlocuteurs d’un client, double
+cliquez sur le document suivant :
+4. Cliquez sur
+5. Vérifiez que la «Confirmer» pour créer
+création ou l’ajout du le nouvel interlocuteur
+nouvel interlocuteur est
+bien visible dans la liste
+du bloc « Interlocuteur »
+de la fiche client V360.
+59
+
+
+E x p lic a tio n rô le s in te rlo c u te u rs .p d f
+
+--- Slide 60 ---
+Gestion des interlocuteurs
+Création / ajout d’un interlocuteur pour un client « Professionnel » ou « Etablissement » existant
+C.2
+Le parcours de création / ajout d'un interlocuteur pour un client « Professionnel » présente une différence principale par rapport à celui d’un interlocuteur
+pour un client «Particulier»
+Différence par rapport au parcours
+de création d’un interlocuteur pour
+un client «Particulier» :
+En plus de la saisie des informations
+relatives à l'identité de
+l'interlocuteur (nom, prénom, canal
+de communication préféré), deux
+champs supplémentaires doivent
+être complétés : la fonction de
+l'interlocuteur et le détail de cette
+fonction. Pour plus de détails sur les
+fonctions, cliquez sur le document
+joint dans la slide précédente
+60
+
+
+
+--- Slide 61 ---
+Gestion des interlocuteurs
+Création / ajout d’un interlocuteur pour un client non existant (1/3)
+C.3
+Si le client n'existe pas dans Harmonie GRC (aucune fiche client V360), vous avez la possibilité d'ajouter un interlocuteur directement depuis Harmonie
+GRC.
+1. Cliquez sur la petite flèche
+à côté du bouton «Accueil»
+dans la barre de navigation,
+ensuite sur le bouton
+«Interlocuteurs»
+3. Cliquez sur le bouton
+«Nouveau» pour ajouter un
+nouvel interlocuteur
+2. Une fiche avec la liste des interlocuteurs
+récemment visualisés s’ouvre par défaut.
+61
+
+
+
+--- Slide 62 ---
+Gestion des interlocuteurs
+Création / ajout d’un interlocuteur pour un client non existant (2/3)
+C.3
+4. Renseignez les informations
+relatives à l’identité et aux
+coordonnées de l’interlocuteur.
+5. Cliquez sur «Confirmer»
+pour créer le nouvel
+interlocuteur
+Une fois le nouvel interlocuteur créé, l'information est transmise au référentiel client qui vérifie si un compte client correspondant existe. Si ce n’est pas le
+cas, un nouveau compte client est créé dans le référentiel client (RFC).
+62
+
+
+
+--- Slide 63 ---
+Gestion des interlocuteurs
+Création / ajout d’un interlocuteur pour un client non existant (3/3)
+C.3
+6. Suite à la confirmation de création du nouvel interlocuteur, sa fiche s’ouvre par
+défaut, avec un récapitulatif de ses informations détaillées et ses coordonnés
+7. Effectuez une dernière vérification
+pour vous assurer que les informations
+saisies sont correctes.
+8. Une fiche client est créée
+automatiquement, avec
+l'interlocuteur comme seule
+information disponible à date
+63
+
+
+
+--- Slide 64 ---
+Gestion des interlocuteurs
+Visualisation de la fiche interlocuteur pour un client « Particulier / Professionnel / Etablissement » (1/2)
+C.4
+La fiche interlocuteur regroupe toutes les informations d’un interlocuteur autorisées par le client à agir en son nom, telles que ses informations personnelles,
+coordonnées, rôle, ainsi que ses demandes et réclamations.
+Vous pouvez y accéder à partir de :
+La fiche client V360 OU La barre de recherche multicritères
+1. Cliquez sur le nom de
+l'interlocuteur, qui se trouve dans
+le bloc «Interlocuteur» de la fiche
+client
+Pour un guide détaillé sur la réalisation d'une recherche dans la barre de recherche
+multicritères, veuillez consulter le chapitre « A. Recherche multicritères ».
+64
+
+
+
+--- Slide 65 ---
+Gestion des interlocuteurs
+Visualisation de la fiche interlocuteur pour un client « Particulier / Professionnel / Etablissement » (2/2)
+C.4
+1
+Une fois que vous êtes sur la fiche interlocuteur, plusieurs blocs sont visibles : Bloc «information détaillée»
+Résumé des informations clés du client
+(nom complet, nom du compte, rôle,
+canal de communication préféré, etc)
+2
+Bloc «coordonnées»
+Résumé des coordonnées de
+l’interlocuteur (numéro de
+téléphone fixe et mobile,
+adresse mail, adresse postale)
+3
+Bloc «rôles de l’interlocuteur»
+Liste de l’ensemble des
+interlocuteurs du client et leur
+rôle associé
+4
+Bloc demandes
+Liste de l’ensemble des
+demandes créées dans
+Harmonie GRC, avec
+visualisation des statuts, de la
+date d’ouverture de la
+demande, de la qualification
+type et sous type, etc…
+5
+Bloc réclamations
+Liste des réclamations créées
+dans la GRC Harmonie, d’origine
+distributeur
+6
+Bloc interactions
+Historique des interactions avec
+l’interlocuteur
+65
+
+
+
+--- Slide 66 ---
+Gestion des interlocuteurs
+Modification des données de l’interlocuteur (1/2)
+C.5
+Il est possible de modifier les informations liées à l’identité de l’interlocuteur (nom, prénom, rôle, canal de communication préféré, etc.) ainsi que ses
+coordonnées (numéros de téléphone fixe et mobile, adresse e-mail, adresse postale) depuis la fiche interlocuteur d’un client « Particulier » ou « Professionnel ».
+Les modifications sont automatiquement mises à jour dans le référentiel client (RFC).
+1. Depuis la fiche
+interlocuteur, cliquez sur
+le bouton «Modifier»
+2. Renseignez les
+informations à jour
+66
+
+
+
+--- Slide 67 ---
+Gestion des interlocuteurs
+Modification des données de l’interlocuteur (2/2)
+C.5
+Une fois les modifications liées à l’identité de l’interlocuteur ou ses coordonnées, vous pouvez valider les modifications apportées.
+3. Cliquez sur le bouton
+«Confirmer» pour
+sauvegarder les
+modifications apportées
+67
+
+
+
+--- Slide 68 ---
+Gestion des interlocuteurs
+Accès à l’espace client en mode Ghost
+C.6
+PI4 : Accès à l’espace client en mode ghost et historisation des accès
+68
+
+
+
+--- Slide 69 ---
+Fiche PRM
+Visualisation de la fiche PRM (1/2)
+D.1
+La fiche PRM centralise toutes les informations relatives au PRM du client, notamment l'adresse du PRM, le type de branchement, les données
+contractuelles, les données de mesure, les services souscrits ainsi que l'historique des pings Linky
+Vous pouvez y accéder à partir de :
+La fiche client V360 OU La barre de recherche multicritères
+1. Tapez le numéro du PRM dans la
+barre de recherche multicritères
+1. Cliquez sur le numéro du PRM,
+qui se trouve dans le bloc «PRM»
+de la fiche client
+Pour un guide détaillé sur la réalisation d'une recherche dans la barre de recherche
+multicritères, veuillez consulter le chapitre « A. Recherche multicritères ».
+69
+
+
+
+--- Slide 70 ---
+Fiche PRM
+Visualisation de la fiche PRM (2/2)
+D.1
+Depuis la fiche PRM, vous pouvez effectuer un Ping
+La fiche PRM est Linky. Cela permet d'interroger à distance le compteur
+constituée de deux Linky pour obtenir des informations en temps réel
+blocs :
+a
+•a Un bloc affichant
+le numéro du PRM,
+son statut et la
+dernière date de
+ping effectuée sur
+le compteur(si
+Linky). b
+•b Un bloc avec
+plusieurs onglets,
+permettant de
+consulter les
+Informations
+principalesdu
+PRM et d'accéder
+aux données
+contractuelles,
+aux données de
+mesure, aux
+services souscrits
+ainsi qu'à
+l'historique des
+pings Linky.
+Pour un guide détaillé sur la réalisation d’un Ping Linky, veuillez consulter le chapitre
+«Visualisation de la fiche PRM – Historique du ping linky»
+70
+
+
+
+--- Slide 71 ---
+Fiche PRM
+Visualisation de la fiche PRM – Informations principales
+D.2
+À l'ouverture de la fiche PRM, la fenêtre « Informations principales » s'affiche par défaut, comprenant trois sous-sections :
+1
+Information
+Résumé des
+informations clés du
+PRM : numéro du
+PRM, type de
+branchement,
+instance Ginko, état
+et type du compteur
+2
+Adresse
+L'adresse du PRM et
+sa localisation sur
+une carte
+3
+Ligne de contrat
+Résume les informations du contrat lié au PRM (type du
+contrat, puissance souscrite, date de début, fournisseur, etc) En cliquant sur la ligne de contrat, cette fiche s’ouvre avec plus
+de détails sur les interlocuteurs qui y sont rattachés
+71
+
+
+
+--- Slide 72 ---
+Fiche PRM
+Visualisation de la fiche PRM – Informations détaillés fournies par SGE
+D.3
+Depuis la fiche PRM, vous pouvez visualiser les informations contractuelles fournies par SGE
+1. Cliquez sur l’onglet
+«Informations détaillées»
+RAF : Capture d’écran à mettre à jour une fois le
+débouchonnage avec SGE est en place
+72
+
+
+
+--- Slide 73 ---
+Fiche PRM
+Visualisation de la fiche PRM – Données de mesure
+D.4
+Depuis la fiche PRM, vous pouvez visualiser les données de mesure, comme les Index ou la Pmax et les filtrer par période de temps
+1. Cliquez sur l’onglet
+«Mesures »
+RAF :
+PI 4 -> Capture d’écran à mettre à jour une on a la
+visualisation des données de mesure PI4
+73
+
+
+
+--- Slide 74 ---
+Fiche PRM
+Visualisation de la fiche PRM – Services souscrits
+D.5
+Depuis la fiche PRM, vous pouvez consulter les services souscrits par le client, les activer, les désactiver ou les résilier
+1. Cliquez sur l’onglet
+«Services »
+3. Cliquez sur les boutons dans la
+colonne «Action» pour
+activer/désactiver/résilier le service
+2. Consultez les services souscrits par le
+client, leur statut ainsi que leur dates de
+début et de fin
+4. Confirmez l’activation
+/désactivation/résiliation du
+service en cliquant sur «Oui»
+74
+
+
+
+--- Slide 75 ---
+Fiche PRM
+Visualisation de la fiche PRM – Historique du ping linky
+D.6
+Depuis la fiche PRM, vous pouvez effectuer un ping Linky et consulter l’historique des pings
+Le bouton «Ping Linky» n’apparait que
+si le client est équipé d’un compteur
+Linky
+1. Cliquez sur
+l’onglet «Historique
+3. Cliquez sur le bouton
+du ping Linky »
+«Ping Linky » pour
+effectuer un ping
+2. Consultez l’historique du
+PRM, notamment la date et
+l’heure du ping, ….
+Besoin capture d’écran suite du ping linky
+75
+
+
+
+--- Slide 76 ---
+Fiche contact
+xx
+PI4
+76
+
+
+
+--- Slide 77 ---
+Synthèse des parcours utilisateurs dans Harmonie GRC
+Types & Sous-types Définition des types sous-types
+A A.1 Définition des types & sous-types
+d’une demande
+Création manuelle d’une demande
+B.1 Création manuelle d’une demande
+Création d’une
+B
+demande Réception d’une demande via le formulaire Aide Contact ou RGPD
+B.2 Réception d’une demande via le formulaire Aide & Contact ou RGPD
+Visualisation de la fiche demande
+C.1 Visualisation de la fiche demande
+Modification de la fiche demande - Champs objet, description et canal entrant
+C Fiche demande C.2 Modification de la fiche demande - Champs objet, description et canal entrant
+Modification de la fiche demande – Champs compte, interlocuteur, PRM, type et sous-type
+C.3 Modification de la fiche demande – Champs compte, interlocuteur, PRM, type et sous-type
+Affectation automatique lors de la création manuelle de la demande
+D.1 Affectation automatique lors de la création manuelle de la demande
+Affectation manuelle lors de la création automatique de la demande
+D.2 Affectation manuelle lors de la création automatique de la demande
+Réaffectation individuelle de la demande à un membre de mon équipe
+D.3 Réaffectation individuelle de la demande à un membre de mon équipe
+Réaffectation individuelle de la demande à une autre équipe
+D.4 Réaffectation individuelle de la demande à une autre équipe
+Traitement d’une
+D
+demande Réaffectation en masse de la demande à un membre de mon équipe
+D.5 Réaffectation en masse de la demande à un membre de mon équipe
+Réaffectation en masse de la demande à mon équipe
+D.6 Réaffectation en masse de la demande à mon équipe
+Liaison d’une demande à une autre demande
+D.7 Liaison d’une demande à une autre demande
+Chat / Notification d’un membre de l’équipe dans le cadre de traitement d’une demande
+D.8 Chat / Notification d’un membre de l’équipe dans le cadre de traitement d’une demande
+Ajout d’une pièce jointe
+E.1 Ajout d’une pièce jointe
+Gestion des pièces Consultation et enregistrement d’une pièce jointe
+E E.2 Consultation et enregistrement d’une pièce jointe
+jointes
+Suppression d’une pièce jointe
+E.3 Suppression d’une pièce jointe
+Clôture manuelle d’une demande
+F.1 Clôture manuelle d’une demande
+Clôture d’une
+F
+demande Clôture automatique d’une demande
+F.2 Clôture automatique d’une demande
+77
+
+
+
+--- Slide 78 ---
+Types & Sous-types d’une demande
+Définition des types & sous-types (1/9)
+A.1
+Les demandes traitées dans Harmonie GRC sont classées en 9 types, chacun regroupant plusieurs sous-types. Cette classification permet d’assurer une
+prise en charge efficace et structurée des différentes sollicitations, facilitant ainsi le traitement et le suivi des demandes au sein de Harmonie GRC.
+Raccordement Comptage Réseau & Exploitation
+Demande liée à un raccordement neuf, à une Demande liée à l'installation, à la maintenance et à Demande liée à la maintenance et entretien du
+modification ou suppression de branchement, l'utilisation du compteur électrique, ainsi que tout ce réseau et des ouvrages électriques, à la qualité de
+compteur, disjoncteur, à une modification de qui concerne la collecte des données de fourniture, ainsi qu’une demande d’information sur
+puissance avec travaux ou à un raccordement consommation et production. des travaux à proximité et coupure programmée.
+provisoire.
+Ligne Fournisseur Dépannage et Incident Données client & RGPD
+Demande des fournisseurs auprès de l’accueil Demande de renseignement sur incident ainsi que le Demande liée à l’accès, la modification ou la
+acheminement (ligne Affaires Urgentes / ligne 1) signalement de problème sur le réseau (coupure, suppression d’informations à caractère personnel y
+pour des prestations non passantes dans SGE, dégradation, etc..) compris les informations PHRV, normées par le
+recherche PDL / PRM et échec de télé opération. RGPD ou non.
+NB : Appels hors CAD
+Gestion client Producteur & CARD* Autre demande et hors cible Assistance aux Services Digitaux
+Demande liée à la gestion contractuelle des clients Demande liée à tous les sujets n’étant pas couverts Signalement de dysfonctionnement et demande
+CARD et des producteurs. par les autres types : d’aide liés à l’accessibilité et l’utilisation des
+- Demande institutionnelle services digitaux et self-care proposés sur enedis.fr
+*A date, les clients CARD ne sont pas intégrés au périmètre - Renseignement enquête et campagne nécessitant une authentification ou sans
+clients de la GRC, cette rubrique est donc spécifique aux clients - Demande hors périmètre distributeur authentification.
+producteurs du marché de masse.
+- Demande fournisseur hors cible
+78
+
+
+
+--- Slide 79 ---
+Types & Sous-types d’une demande
+Définition des types & sous-types (2/9)
+A.1
+Liste des sous-types des demandes de type «Comptage»
+Types de
+Sous-types de demande Définition
+demande
+Pose compteur Linky • Demande d’installation du compteur Linky
+Maintenance et anomalie • Signalement de dysfonctionnement du dispositif de comptage et traitement des maintenances (ex : intervention
+dispositif de comptage sur disjoncteur, changement de fusible, remplacement de compteur, etc.)
+Refus pose compteur Linky • Enregistrement du refus explicite de la pose du compteur Linky
+Transmission d’index • Transmission des relevés des index du compteur par le client
+Comptage
+Question compteur
+• Demande liée au relevé, contestation, facturation, courrier LTE
+consommateurs
+Calendrier distributeur / • Demande de renseignement sur le calendrier distributeur / fournisseur (ex : heures pleines / heures creuses – EJP
+fournisseur – Tempo – Jour rouge, etc.)
+• Demande de désactivation de l’enregistrement de la consommation horaire, demande d’activation de la collecte
+Activation / Désactivation de
+de la courbe de charge, demande d’arrêt de la collecte de la courbe de charge, demande de résiliation de partage
+services de données de mesure
+de données avec tiers
+PNT et fraude • Signalement de fraude et question sur la facturation de PNT
+79
+
+
+
+--- Slide 80 ---
+Types & Sous-types d’une demande
+Définition des types & sous-types (3/9)
+A.1
+Liste des sous-types des demandes de type «Réseau et exploitation»
+Types de
+Sous-types de demande Définition
+demande
+Ouvrage endommagé • Signalement d’ouvrages endommagés sans danger direct et immédiat (ex : portes de coffret)
+• Demande liée à la fiabilité, stabilité et continuité de l’alimentation électrique (hors coupure d’électricité en cours) –
+Qualité de fourniture
+ex : Surtension, Creux de tension, Variation de tension…
+Réseau &
+Exploitation Protection de chantier • Demande de protection de chantier (prestation du catalogue)
+Déplacement d’ouvrage • Demande de déplacement d’ouvrage (prestation sur devis) – ex : déplacement d’un poteau électrique…
+Renseignement réseau et • Demande d’information et analyses liées à la maintenance et entretien du réseau et des ouvrages y compris
+exploitation travaux, chantiers et coupure programmés
+80
+
+
+
+--- Slide 81 ---
+Types & Sous-types d’une demande
+Définition des types & sous-types (4/9)
+A.1
+Liste des sous-types des demandes de type «Dépannage & Incident»
+Types de
+Sous-types de demande Définition
+demande
+Signalement et suivi coupure • Déclaration et demande de renseignement concernant les coupures de courant en cours (appels hors CAD)
+Suivi RSI • Demande de renseignement concernant les réparations sur incident (RSI)
+Dépannage &
+Incident
+• Signalement d’un risque, menace ou situation potentiellement dangereuse sur le réseau et les ouvrages avec
+Danger immédiat
+redirection au CAD
+Sinistre et dégradation réseau • Déclaration d’un sinistre, d’une dégradation sur le bien public ou privé y compris les tiers
+81
+
+
+
+--- Slide 82 ---
+Types & Sous-types d’une demande
+Définition des types & sous-types (5/9)
+A.1
+Liste des sous-types des demandes de type «Gestion client Producteur & CARD»
+Types de
+Sous-types de demande Définition
+demande
+Demande d’information /
+• Demande de renseignement sur les dispositifs techniques et contractuels de production d’électricité
+d’accompagnement
+Changement de propriétaire • Demande d’une modification du titulaire d’un contrat en cours
+Gestion client Facturation / Recouvrement • Demande de renseignement sur la facture
+Producteur &
+CARD
+Modification de données • Demande de modification liée à un contrat en cours y compris changement de coordonnées et la variation de
+contractuelles puissance
+Autres prestations au catalogue • Demande de prestation du catalogue
+Fin de contrat • Demande de fin de contrat (rupture ou non-renouvellement)
+82
+
+
+
+--- Slide 83 ---
+Types & Sous-types d’une demande
+Définition des types & sous-types (6/9)
+A.1
+Liste des sous-types des demandes de type «Ligne fournisseur»
+Types de
+Sous-types de demande Définition
+demande
+Demande non recevable • Demande n’étant pas considérée comme urgente ou recevable par l’ACHE
+• Demande de prestation impossible due à un problème de cohérence des données (ex : information réglage
+Incohérence des données
+disjoncteur incohérente entre le SI SGE et la réalité, etc.)
+• Demande de numéro PDL / PRM uniquement après une recherche infructueuse dans SGE (maximum 5 PDL par
+Recherche PDL / PRM
+appel)
+Ligne
+Fournisseur • Demande de rendez-vous pour mise en service Express ou Urgente, reprogrammation ou annulation d’une
+Rendez-vous
+(affaire intervention à moins de 24h ouvrés du RDV
+urgente)
+• Rétablissement en urgence suite à une suspension, réduction d’alimentation (hors compteur Linky géré dans
+GINKO)
+• Demande de nom du fournisseur suite à une erreur de PDL dans le cas d’une correction de changement de
+fournisseur et de mise en service
+Prestations • Annulation de changement de fournisseur programmé
+• Mise en service sur un PDL bloqué par une demande de résiliation à l’initiative d’un autre fournisseur
+• Information sur une 1ère mise en service non recevable
+• Demande de programmation d’un RDV sur un site qui fait suite à une demande clôturée « non résiliée » à cause
+d’un échec de télé-opération et client injoignable par Enedis
+83
+
+
+
+--- Slide 84 ---
+Types & Sous-types d’une demande
+Définition des types & sous-types (7/9)
+A.1
+Liste des sous-types des demandes de type «Données client & RGPD»
+Types de
+Sous-types de demande Définition
+demande
+• Demande de renseignement et modification des données à caractère personnel d’un client sans évocation
+Données Client
+explicite du RGPD hors contrat Producteur & CARD
+Renseignement «PHRV» • Demande de renseignement relatif aux «Patients à Haut Risque Vital»
+Données client
+& RGPD
+Demande de renseignement sur • Demande des clients pour connaitre la procédure d’exercice des droits RGPD et réorientation vers la procédure
+l’exercice des droits RGPD en ligne
+• Demande relative à l’exercice des droits RGPD selon les modalités requises (accès, modification, suppression et
+Exercice des droits RGPD
+opposition)
+84
+
+
+
+--- Slide 85 ---
+Types & Sous-types d’une demande
+Définition des types & sous-types (8/9)
+A.1
+Liste des sous-types des demandes de type «Raccordement»
+Types de
+Sous-types de demande Définition
+demande
+Informations Générales • Demande d’information générale sur le raccordement pour un client n’ayant pas de demande en cours
+Estimation • Demande d’estimation du prix et des délais d’un raccordement pour un client n’ayant pas de demande en cours
+• Demande de raccordement avec saisie par le conseiller ou réorientation du client vers l’Espace Client
+Raccordement en autonomie
+Nouvelle affaire & assistance
+Raccordement • Demande d’information ou accompagnement pour compléter la demande ou d’assistance pour l’accès/utilisation
+de l’Espace Client Raccordement
+• Demande de raccordement avec saisie par le conseiller ou réorientation du client vers l’Espace Client
+Raccordement en autonomie
+Suivi affaire en cours
+• Demande d’information ou accompagnement pour compléter la demande ou d’assistance pour l’accès/utilisation
+de l’Espace Client Raccordement
+Première Mise en Service • Demande d’information ou d’accompagnement dans les démarches de première mise en service (PMES)
+(PMES) • Demande de modification de rendez-vous de PMES
+85
+
+
+
+--- Slide 86 ---
+Types & Sous-types d’une demande
+Définition des types & sous-types (9/9)
+A.1
+Liste des sous-types des demandes de type «Assistance aux Services Digitaux»
+Types de
+Sous-types de demande Définition
+demande
+• Demande liée aux identifiants d’authentification des comptes client personnalisés (ex : précision de l’email de
+connexion, oubli de mot de passe, lien d’activation de compte, etc.) ainsi que confirmation de l’existence d’un
+Utilisation et Dysfonctionnement compte client
+Assistance aux Compte Client • Signalement d’anomalie et demande d’information et explication sur le fonctionnement du compte client,
+Services demande d’assistance sur toutes les fonctionnalités du compte client personnalisé (ex : ajout du compteur,
+Digitaux visualisation des données, activation de services, etc
+Services digitaux hors compte • Signalement d'anomalie et explication sur le fonctionnement des services self-care sur le site internet enedis.fr.
+client et hors espace client • Cela concerne les formulaires aide et contact, l'exercice des droits RGPD, page panne et interruption, auto
+raccordement relevé, désactivation de l'enregistrement de la courbe de charge
+86
+
+
+
+--- Slide 87 ---
+Sélection de Qualification Sélection du type Gestion des Visualisation
+l’interlocuteur de la demande de localisation doublons de la demande
+Création d’une demande
+Création manuelle d’une demande (1/6)
+B.1
+A partir de la fiche client, vous pouvez créer manuellement une demande en cliquant sur le bouton «Nouvelle Demande» localisé sous le nom du client
+1. Cliquez sur le bouton
+«Nouvelle Demande»
+2. Sélectionnez
+l'interlocuteur auquel
+vous souhaitez lier la
+demande
+87
+
+
+
+--- Slide 88 ---
+Sélection de Qualification Sélection du type Gestion des Visualisation
+l’interlocuteur de la demande de localisation doublons de la demande
+Création d’une demande
+Création manuelle d’une demande (2/6)
+B.1
+3. Renseignez les
+champs relatifs à la
+Cas particuliers
+demande :
+Dans le cas des demandes de types - Canal entrant à la
+«Raccordement» et «Données Client & demande
+RGPD», un champ «Sujet» est à compléter : - Equipe responsable
+• Pour les demandes Raccordement, il bout en bout : si vous
+permet de préciser la nature du êtes affecté à une seule
+branchement. équipe, celle-ci s'affiche
+• Pour les demandes de type «Données par défaut, mais si vous
+Client & RGPD», le champ Sujet apparait avez un profil multi-
+uniquement pour les demandes de sous- équipe, vous devez
+type «Exercice des droits RGPD». Il sélectionner l'équipe
+permet de préciser la nature de l’exercice selon votre activité du
+des droits (Accès, Opposition, moment
+Modification, Suppression) - Type & sous-type de la
+demande
+- Objet
+- Description
+88
+
+
+
+--- Slide 89 ---
+Sélection de Qualification Sélection du type Gestion des Visualisation
+l’interlocuteur de la demande de localisation doublons de la demande
+Création d’une demande
+Création manuelle d’une demande (3/6)
+B.1
+Cas particulier 4. Renseignez le type
+de localisation pour
+Selon la typologie de
+le rattâchement de la
+demande, le choix du type de
+demande
+localisation diffère.
+PRM : PRM enregistré sur le
+client
+Adresse de l’interlocuteur :
+adresse enregistrée sur
+l’interlocuteur sectionné
+Saisie adresse manuelle :
+tapez l’adresse indiquée par
+le client
+89
+
+
+
+--- Slide 90 ---
+Sélection de Qualification Sélection du type Gestion des Visualisation
+l’interlocuteur de la demande de localisation doublons de la demande
+Création d’une demande
+Création manuelle d’une demande (4/6)
+B.1
+Cas particulier
+Si une demande de même
+type et sous-type non
+clôturée existe sur le client,
+Harmonie GRC propose à
+l’utilisateur de vérifier la
+demande équivalente avant
+d’en créer une nouvelle.
+90
+
+
+
+--- Slide 91 ---
+Sélection de Qualification Sélection du type Gestion des Visualisation
+l’interlocuteur de la demande de localisation doublons de la demande
+Création d’une demande
+Création manuelle d’une demande (5/6)
+B.1
+5. La demande créée s’ouvre automatiquement dans
+une nouvelle fenêtre
+Lors de la création manuelle d’une demande,
+vous êtes automatiquement désigné comme
+responsable bout en bout de la demande.
+Celle-ci peut néanmoins être réaffectée.
+91
+
+
+
+--- Slide 92 ---
+Sélection de Qualification Sélection du type Gestion des Visualisation
+l’interlocuteur de la demande de localisation doublons de la demande
+Création d’une demande
+Création manuelle d’une demande (6/6)
+B.1
+Une fois la demande créée, vous pouvez la retrouver à 2 emplacements différents au sein de la GRC
+Pour un guide détaillé sur les
+bannettes des demandes,
+veuillez consulter le chapitre
+« Visualisation de la
+bannette des demandes»
+2
+Depuis la fiche
+1
+Depuis la bannette des demandes, client, dans le bloc
+dans les blocs «Mes demandes» & «Demandes»
+«Les demandes de mon équipe»
+92
+
+
+
+--- Slide 93 ---
+Création d’une demande
+Réception d’une demande via le formulaire Aide & Contact ou RGPD
+B.2
+La demande créée par le client via les formulaires «Aide & Contact» ou «RGPD» est visible depuis la bannette des « demandes non-affectées de mon
+équipe». Elles apparaissent au statut «Initialisée». Cela permet de faire la différence avec des demandes réaffectées par une autre équipe.
+4
+Si les informations clients sont
+présentes dans Harmonie GRC, alors la
+demande initialement créée est
+rattachée automatiquement au client
+existant (nom, prénom, adresse mail).
+Pour un guide détaillé sur les
+bannettes des demandes,
+veuillez consulter le chapitre
+1 2 3
+Le délai de traitement de la demande se met Les demandes sont automatiquement Le statut «Initialisée» permet de différencier « Visualisation de la
+automatiquement à jour selon la qualification qualifiées selon une matrice de les demandes réaffectées et les demandes bannette des demandes»
+du type et sous-type de la demande correspondance entre les motifs saisis par créées via formulaire
+le client dans le formulaire en ligne et les
+types et sous-types de Harmonie GRC
+93
+
+
+
+--- Slide 94 ---
+Pour un guide détaillé sur l’envoi d’un mail et SMS à partir de la fiche demande,
+Fiche demande veuillez consulter le chapitre «Envoi de mail » / «Envoi de SMS»
+Visualisation de la fiche demande (1/7) 7
+C.1 Bloc d’échanges :
+- Publication : Chatter à destination d’un
+Une fois que la demande est créée, vous arrivez sur la fiche demande où plusieurs blocs seront visibles : utilisateur ou un groupe
+- Email : Envoi de mail au client lié au
+3 4 traitement de la demande
+Précise la nature du Bloc d’informations générales liées à la demande : - SMS : Envoi de sms au client lié au
+«Dossier Client» qui Canal de création, délai restant, Type et sous-type de traitement de la demande
+est affiché la demande et boutons d’action pour créer une
+réclamation, réaffecter, requalifier ou créer une tâche
+Pour un guide détaillé sur
+l’utilisation des actions
+recommandées, veuillez consulter
+le chapitre «Next Best Action»
+Pour un guide détaillé sur la
+consultation des articles de la
+1 2
+Bloc d’informations Demandes liées base de connaissance, veuillez
+sur le client liées à Met en avant les consulter le chapitre «Base de
+la demande : demandes liées 5 6 connaissance»
+Interlocuteur, à cette Fil d’ariane de la Onglets associés à la demande :
+Compte, PRM demande demande : - Détails : Informations liées
+Met en avant les - Historique : Actions systèmes réalisées sur la demande
+différents statuts - Activités : Interactions sur la demande
+8
+de la demande et le - Tâches : Tâches liées à la demande Aide au conseiller :
+statut actuel - Pièces jointes : Ajout, consultation, suppression de pièces jointes - Actions recommandées : NBA
+- Diagnostic : Parcours guidé présent pour certains sous-types de - Knowledge : Base de connaissance
+demande
+94
+
+
+
+--- Slide 95 ---
+Fiche demande
+Visualisation de la fiche demande - Onglet « Détails » (2/7)
+C.1
+1
+Bloc d’informations liées à la demande :
+PRM du client, Utilisateur responsable
+bout en bout, Equipe Responsable bout
+en bout, Objet et description
+(informations pré remplies durant la
+création), Canal entrant, Localisation de
+la demande
+2
+Bloc d’indicateurs automatiques liés au
+traitement de la demande : Délai restant,
+Date d’échéance, Nombre de tâches
+ouvertes sur la demande, Nombre de
+tâches avec échéance dépassée, Nombre
+de réaffectation inter-équipe (5) et
+3
+Bloc de demandes / affaires liées : Nombre de réaffectation intra-équipe (3)
+complété par l’utilisateur
+- Demande ou réclamation liée :
+demande à l’origine de cette nouvelle
+demande
+- Type d’affaire : Enecad, Ginko, SGE… -
+Référence d’affaire : Numéro de l’affaire 4
+Bloc d’informations systèmes : complété
+- Date d’intervention (si nécessaire)
+automatiquement par Harmonie GRC
+95
+
+
+
+--- Slide 96 ---
+Fiche demande
+Visualisation de la fiche demande - Onglet « Historique » (3/7)
+C.1
+1
+Actions systèmes enregistrées liées au
+traitement de la demande (ex : Création,
+changement de responsable bout en bout,
+changement de statut…)
+96
+
+
+
+--- Slide 97 ---
+Fiche demande
+Visualisation de la fiche demande - Onglet « Activités » (4/7)
+C.1
+1
+Bloc des interactions : Visualisation des
+échanges téléphoniques avec le client.
+- Tracage manuel de l’échange pour les
+utilisateurs n’ayant pas Kiamo 2
+- Traçage automatique de l’échange pour Visualisation des activités liées à la demande :
+ceux ayant Kiamo - Actions systèmes des grandes étapes
+Numéro de l’interaction, Canal de - Email / SMS envoyés
+communication, Interlocuteur, Date & heure - Message publié via chatter
+de début de l’échange
+97
+
+
+
+--- Slide 98 ---
+Fiche demande
+Visualisation de la fiche demande - Onglet « Tâches » (5/7)
+C.1
+1
+Visualisation des tâches et leur statut
+liées à la demande
+98
+
+
+
+--- Slide 99 ---
+Fiche demande
+Visualisation de la fiche demande - Onglet « Pièces jointes » (6/7)
+C.1
+1
+Possibilité d’ajouter, télécharger et
+supprimer des pièces jointes liées à
+la demande
+Les pièces jointes sont
+stockées dans un outil
+de gestion électronique
+des documents (OGED)
+et transverse aux
+différents SI Cœur de
+l’entreprise
+99
+
+
+
+--- Slide 100 ---
+Fiche demande
+Visualisation de la fiche demande - Onglet « Diagnostic » (7/7)
+C.1
+1
+Possibilité de lancer un diagnostic
+pour guider l’utilisateur dans le
+traitement de la demande
+Pour un guide détaillé sur la réalisation d’un diagnostic, veuillez consulter le chapitre
+« Réalisation d’un diagnostic»
+100
+
+
+
+--- Slide 101 ---
+Fiche demande
+Modification de la fiche demande - Champs objet, description et canal entrant (1/3)
+C.2
+Les champs « objet », « description » et « canal entrant » d’une demande peuvent être modifiés depuis sa fiche. Seul le responsable bout en bout de la
+demande est habilité à effectuer ces modifications sur sa demande.
+1. Cliquez sur un des
+stylos pour ajouter ou
+modifier les champs
+objet, description, et
+canal entrant
+101
+
+
+
+--- Slide 102 ---
+Fiche demande
+Modification de la fiche demande - Champs objet, description et canal entrant (2/3)
+C.2
+2. Ajoutez, modifiez ou
+complétez les champs
+«Objet» & «Description»
+3. Sélectionnez le canal entrant
+correspondant (si nécessaire)
+4. Cliquez sur le bouton «Enregistrer»
+pour enregistrer les modifications
+102
+
+
+
+--- Slide 103 ---
+Fiche demande
+Modification de la fiche demande - Champs objet, description et canal entrant (3/3)
+C.2
+5. Les champs ont été mis à jour
+suite aux modifications apportées
+103
+
+
+
+--- Slide 104 ---
+Fiche demande
+Modification de la fiche demande – Champs compte, interlocuteur, PRM, type et sous-type (1/3)
+C.3
+Les champs « compte », « interlocuteur », «PRM» «type» et « sous-type» d’une demande peuvent être modifiés depuis sa fiche. Seul le responsable bout
+en bout de la demande est habilité à effectuer ces modifications sur sa demande.
+1. Cliquez sur le bouton
+«Modifier »
+2. Modifiiez le client (si
+nécessaire)
+104
+
+
+
+--- Slide 105 ---
+Fiche demande
+Modification de la fiche demande – Champs compte, interlocuteur, PRM, type et sous-type (2/3)
+C.3
+3. Modifiiez l’interlocuteur
+(si nécessaire)
+4. Sélectionnez le «type» &
+«sous-type» de la
+demande à requalifier
+105
+
+
+
+--- Slide 106 ---
+Fiche demande
+Modification de la fiche demande – Champs compte, interlocuteur, PRM, type et sous-type (3/3)
+C.3
+5. Sélectionnez le PRM
+associé
+6. Visualisez les
+modifications apportées
+106
+
+
+
+--- Slide 107 ---
+Traitement d’une demande
+Affectation automatique lors de la création manuelle de la demande
+D.1
+Lors de la création manuelle d’une demande, vous devenez automatiquement responsable bout en bout de la demande. Cela veut dire que la demande créée
+vous est affectée par défaut.
+Responsable bout en bout : utilisateur en charge de la demande
+Equipe responsable bout en bout : équipe dont l’utilisateur fait partie
+107
+
+
+
+--- Slide 108 ---
+Traitement d’une demande
+Affectation manuelle lors de la création automatique de la demande (1/3)
+D.2
+Lors de la création automatique d’une demande via le formulaire web, la demande est affectée automatiquement à l’équipe responsable bout en bout
+prédéfinie par le type et sous-type de la demande qualifiée. Vous devez vous l’affecter manuellement depuis la bannette des demandes pour pouvoir la
+traiter.
+Pour un guide détaillé sur les
+bannettes des demandes,
+veuillez consulter le chapitre
+« Visualisation de la
+bannette des demandes»
+1. Cliquez sur le numéro
+de la demande pour la
+visualiser
+108
+
+
+
+--- Slide 109 ---
+Traitement d’une demande
+Affectation manuelle lors de la création automatique de la demande (2/3)
+D.2
+2. Cliquez sur le bouton
+«S’affecter» après
+avoir pris connaissance
+de la demande
+3. Cliquez sur le bouton
+«Terminer» pour valider
+l’affectation
+109
+
+
+
+--- Slide 110 ---
+Traitement d’une demande
+Affectation manuelle lors de la création automatique de la demande (3/3)
+D.2
+L’équipe responsable
+bout en bout est mise à
+jour automatiquement 4. La demande est automatiquement
+selon le profil du rattachée à votre nom en tant que
+responsable bout en responsable de bout en bout
+bout de la demande
+110
+
+
+
+--- Slide 111 ---
+Traitement d’une demande
+Réaffectation individuelle de la demande à un membre de mon équipe (1/3)
+D.3
+Dans le cadre du traitement d'une demande client, vous pouvez être amené à la réaffecter à un membre de votre équipe. Pour ce faire, rendez-vous sur la
+fiche de la demande et cliquez sur le bouton "Réaffecter".
+1. Cliquez sur le bouton
+«Réaffecter »
+2. Sélectionnez l’option de
+réaffectation intra-équipe
+3. Cliquez sur le bouton
+«Suivant» pour accéder à
+l’étape suivante
+111
+
+
+
+--- Slide 112 ---
+Traitement d’une demande
+Réaffectation individuelle de la demande à un membre de mon équipe (2/3)
+D.3
+4. Sélectionnez l’utilisateur à
+qui vous souhaitez réaffecter
+la demande et ajoutez un
+commentaire de
+réaffectation (optionnel)
+5. Cliquez sur le bouton
+«Suivant» pour réaffecter la
+demande à l’utilisateur
+112
+
+
+
+--- Slide 113 ---
+Traitement d’une demande
+Réaffectation individuelle de la demande à un membre de mon équipe (3/3)
+D.3
+6. Le responsable de bout en
+bout de la demande est
+automatiquement mis à jour
+- Lors d’une réaffectation intra-équipe : la
+demande n’apparait plus dans les bannettes
+«Mes demandes»
+113
+
+
+
+--- Slide 114 ---
+Traitement d’une demande
+Réaffectation individuelle de la demande à une autre équipe (1/3)
+D.3
+Dans le cadre du traitement d'une demande client, vous pouvez être amené à la réaffecter à une autre équipe. Pour ce faire, rendez-vous sur la fiche de la
+demande et cliquez sur le bouton "Réaffecter".
+1. Cliquez sur le bouton
+«Réaffecter »
+2. Sélectionnez l’option de
+réaffectation «à une autre
+3. Cliquez sur le bouton
+équipe»
+«Suivant» pour accéder à
+l’étape suivante
+114
+
+
+
+--- Slide 115 ---
+Traitement d’une demande
+Réaffectation individuelle de la demande à une autre équipe (2/3)
+D.4
+4. Sélectionnez la famille et
+l’entité à qui vous souhaitez
+réaffecter la demande et
+ajoutez un commentaire de
+réaffectation (obligatoire)
+5. Cliquez sur le bouton
+«Suivant» pour réaffecter
+la demande à l’entité définie
+115
+
+
+
+--- Slide 116 ---
+Traitement d’une demande
+Réaffectation individuelle de la demande à une autre équipe (3/3)
+D.4
+- Lors d’une réaffectation inter-équipe : la
+demande n’apparait plus dans les bannettes
+«Mes demandes» et «Les demandes de mon
+équipe» 6. Le responsable de bout en bout ainsi
+que l’équipe responsable de la demande
+Par défaut, le responsable bout en bout sont automatiquement mis à jour
+devient l’équipe responsable bout en bout
+jusqu’à ce qu’un utilisateur de cette équipe
+s’affecte la demande
+116
+
+
+
+--- Slide 117 ---
+Traitement d’une demande
+Réaffectation en masse de la demande à un membre de mon équipe (1/3)
+D.5
+Dans des cas particuliers (congés, absence…), vous pouvez être amené à réaffecter en masse à un membre de votre équipe les demandes dont vous êtes
+responsable bout en bout. Pour ce faire, rendez-vous dans l’onglet de vos bannettes «Mes demandes»
+1. Visualisez les demandes que vous
+souhaitez réaffecter
+2. Cochez la case liée aux demandes 3. Cliquez sur le bouton
+que vous allez réaffecter «Réaffecter»
+117
+
+
+
+--- Slide 118 ---
+Traitement d’une demande
+Réaffectation en masse de la demande à un membre de mon équipe (2/3)
+D.5
+4. Sélectionnez le mode de
+réaffectation «A un membre de mon
+équipe»
+5. Sélectionnez l’utilisateur de votre équipe depuis la
+liste déroute à qui vous voulez réaffecter les
+demandes et y ajouter un commentaire (optionnel)
+118
+
+
+
+--- Slide 119 ---
+Traitement d’une demande
+Réaffectation en masse de la demande à un membre de mon équipe (3/3)
+D.5
+6. Visualisez les demandes réaffectées
+Lors d’une réaffectation à un autre membre
+de mon équipe : les demandes n’apparaissent
+plus dans les bannettes «Mes demandes»
+mais dans celle du nouvel utilisateur
+responsable bout en bout.
+119
+
+
+
+--- Slide 120 ---
+Traitement d’une demande
+Réaffectation en masse de la demande à mon équipe (1/3)
+D.6
+Dans des cas particuliers, vous pouvez être amené à réaffecter en masse à votre équipe les demandes dont vous êtes responsable bout en bout (sans
+désigner un membre). Pour ce faire, rendez-vous dans l’onglet de vos bannettes «Mes demandes»
+1. Visualisez les demandes que vous
+souhaitez réaffecter
+3. Cliquez sur le bouton
+2. Cochez la case liée aux demandes «Réaffecter»
+que vous allez réaffecter
+120
+
+
+
+--- Slide 121 ---
+Traitement d’une demande
+Réaffectation en masse de la demande à mon équipe (2/3)
+D.6
+4. Sélectionnez le mode de
+réaffectation «A mon équipe»
+5. Rédigez un commentaire de réaffectation
+(optionnel)
+121
+
+
+
+--- Slide 122 ---
+Traitement d’une demande
+Réaffectation en masse de la demande à mon équipe (3/3)
+D.6
+6. Visualisez les demandes réaffectées
+Lors d’une réaffectation à mon équipe : les
+demandes n’apparaissent plus dans les
+bannettes «Mes demandes» mais dans la
+bannette «Les demandes de mon équipe non-
+affectées»
+122
+
+
+
+--- Slide 123 ---
+Traitement d’une demande
+Liaison d’une demande à une autre demande (1/2)
+D.7
+Dans des cas particuliers, vous devez lier une demande à une autre. Pour ce faire, il faut vous rendre sur la fiche demande
+1. Cliquez sur la flèche pour visualiser sur le
+bouton et cliquez le bouton «Lier»
+2. Visualisez les demandes du client et
+cliquez sur celle que vous souhaitez lier
+123
+
+
+
+--- Slide 124 ---
+Traitement d’une demande
+Liaison d’une demande à une autre demande (2/2)
+D.7
+3. Une fois la demande liée, vous pouvez
+visualiser la demande liée depuis le bloc
+«Demande / affaire liées»
+124
+
+
+
+--- Slide 125 ---
+Traitement d’une demande
+Chat / Notification d’un membre de l’équipe dans le cadre de traitement d’une demande (1/2)
+D.8
+Dans le cadre du traitement d'une demande, vous pouvez être amené à solliciter vos collègues pour via la fonctionnalité « Chatter ». Cette fonctionnalité
+permet d'échanger des messages instantanés associés à la demande avec un ou plusieurs collègues directement dans l'outil.
+1. Cliquez sur le corps du
+Vous pouvez tagger un collaborateur ou un groupe, y
+message à publier
+ajouter des pièces jointes et des images
+2. Rédigez le message à
+publier
+3. Cliquez sur le bouton
+«Partager» pour
+publier le message
+Pour un guide détaillé sur la notification d’un membre de votre
+équipe via la fonctionnalité Chatter, veuillez consulter le
+chapitre «Centre de notification – Réception des notifications»
+125
+
+
+
+--- Slide 126 ---
+Traitement d’une demande
+Chat / Notification d’un membre de l’équipe dans le cadre de traitement d’une demande (2/2)
+D.8
+4. Retrouvez le message
+publié dans l’onglet
+«Activités» de la fiche
+Réappel PDTS
+Pour un guide détaillé sur la notification d’un membre de votre
+équipe via la fonctionnalité Chatter, veuillez consulter le chapitre
+«Centre de notification – Réception des notifications»
+126
+
+
+
+--- Slide 127 ---
+Gestion des pièces jointes
+Ajout d’une pièce jointe (1/2)
+E.1
+Depuis l’onglet «Pièces Jointes» de la fiche demande, vous pouvez ajouter des pièces jointes liées au traitement de la demande du client
+Taille du fichier : Les
+fichiers ajoutés doivent
+être de maximum 5 MO.
+1. Cliquez sur le bouton
+«Charger un fichier »
+2. Sélectionnez le fichier
+qui vous intéresse
+3. Cliquez sur «Ouvrir»
+pour ajouter le fichier
+127
+
+
+
+--- Slide 128 ---
+Gestion des pièces jointes
+Ajout d’une pièce jointe (2/2)
+E.1
+4. Vérifiez que le fichier
+a bien été chargé
+128
+
+
+
+--- Slide 129 ---
+Gestion des pièces jointes
+Consultation et téléchargement d’une pièce jointe
+E.2
+Depuis l’onglet «Pièces Jointes» de la fiche demande, vous pouvez consulter et télécharger des pièces jointes liées au traitement de la demande du client
+2. Visualisez
+depuis vos
+téléchargements
+le fichier
+1. Cliquez sur le «Nom du
+fichier» (lien cliquable)
+2. Cliquez sur le symbole «Télécharger »
+129
+
+
+
+--- Slide 130 ---
+Gestion des pièces jointes
+Suppression d’une pièce jointe
+E.3
+Depuis l’onglet «Pièces Jointes» de la fiche demande, vous pouvez supprimer des pièces jointes liées au traitement de la demande du client
+1. Cliquez sur le symbole
+2. Le fichier a été
+«Supprimer »
+supprimé avec succès
+130
+
+
+
+--- Slide 131 ---
+Clôture d’une demande
+Clôture manuelle d’une demande (1/5)
+F.1
+Une fois le traitement de la demande terminé, vous devez la clôturer manuellement depuis la fiche demande. Cependant, seul le responsable de bout en bout
+peut clôturer manuellement ses propres demandes
+1. Visualisez le statut actuel de 2. Cliquez sur le
+la demande bouton «Clôturée»
+Règle métiers
+Si des tâches sont non clôturées dans
+la demande, sa clôture est impossible
+131
+
+
+
+--- Slide 132 ---
+Clôture d’une demande
+Clôture manuelle d’une demande (2/5)
+F.1
+Option complémentaire
+Vous pouvez aussi cliquer
+sur l’icône Crayon pour
+modifier le motif de
+clôture et commentaire
+de clôture
+3. Cliquez sur le bouton
+«Modifier» pour
+renseigner le motif de
+clôture
+132
+
+
+
+--- Slide 133 ---
+Clôture d’une demande
+Clôture manuelle d’une demande (3/5)
+F.1
+Commentaire de clôture : obligatoire pour des 4. Sélectionnez le motif de
+demandes clôturées au motif «Non Traitée» clôture et ajoutez un
+commentaire de clôture 5. Cliquez sur «Enregistrer»
+pour enregistrer le motif de
+clôture
+133
+
+
+
+--- Slide 134 ---
+Clôture d’une demande
+Clôture manuelle d’une demande (4/5)
+F.1
+6. Cliquez sur le
+bouton «Marquer
+Statut en cours»
+pour valider la
+clôture
+134
+
+
+
+--- Slide 135 ---
+Clôture d’une demande
+Clôture manuelle d’une demande (5/5)
+F.1
+7. La mise à jour du
+statut de la demande
+est tracée dans l’onglet
+«Historique» de la
+Une fois la demande clôturée, vous ne pouvez
+fiche demande
+plus la modifier.
+La demande clôturée disparait des bannettes de
+demandes «Mes demandes» & «Les demandes
+de mon équipe»
+135
+
+
+
+--- Slide 136 ---
+Clôture d’une demande
+Clôture automatique d’une demande
+F.2
+Certaines demandes peuvent se clôturer automatiquement à la suite de traitements particuliers
+En V1 de Harmonie GRC, les cas recensés de
+clôture automatique :
+- Demande Ligne Fournisseur – Incohérence
+des données
+- Suite à la clôture d'un affaire Ginko si le
+numéro de l'affaire Ginko a bien été
+reporté manuellement dans le bloc
+"affaires liées" de la demande
+La demande clôturée disparait des bannettes
+de demandes «Mes demandes» & «Les
+demandes de mon équipe»
+136
+
+
+
+--- Slide 137 ---
+Synthèse des parcours utilisateurs dans Harmonie GRC
+Présentation des types de réclamation
+Types de
+A A.1 Présentation des types de réclamation
+réclamation
+Création manuelle d’une réclamation
+B.1 Création manuelle d’une réclamation
+Création d’une
+B
+réclamation Duplication d’une réclamation dans SGE
+B.2 Duplication d’une réclamation dans SGE
+Visualisation de la fiche réclamation
+C Fiche réclamation C.1 Visualisation de la fiche réclamation
+Réaffectation de la réclamation à un membre de mon équipe
+D.1 Réaffectation de la réclamation à un membre de mon équipe
+Réaffectation de la réclamation à une autre équipe
+Traitement d’une
+D D.2 Réaffectation de la réclamation à une autre équipe
+réclamation
+Chat / Notification d’un membre de l’équipe dans le cadre de traitement d’une réclamation
+D.3 Chat / Notification d’un membre de l’équipe dans le cadre de traitement d’une réclamation
+Ajout d’une pièce jointe
+E.1 Ajout d’une pièce jointe
+Consultation et enregistrement d’une pièce jointe
+Gestion des pièces
+E E.2 Consultation et enregistrement d’une pièce jointe
+jointes
+Suppression d’une pièce jointe
+E.3 Suppression d’une pièce jointe
+Clôture manuelle d’une demande
+Clôture d’une
+F F.1 Clôture manuelle d’une demande
+réclamation
+137
+
+
+
+--- Slide 138 ---
+Types de réclamation
+Présentation des types de réclamation
+A.1
+Aujourd’hui, il existe deux « types» de réclamation d’origine différentes : Distributeur et Fournisseur. Le traitement de la réclamation varie selon son origine.
+« Types » de réclamation :
+Réclamation d’origine Distributeur : faite par le Réclamation d’origine Fournisseur : faite par le
+client directement auprès d’Enedis fournisseur via le portail SGE
+Traitement des réclamations :
+Distributeur
+Fournisseur
+- Création : saisie dans Harmonie GRC et avec lien
+- Création : SGE (par le fournisseur) et recopie dans
+redirectionnel et double saisie manuelle dans SGE
+Harmonie GRC (par l’utilisateur)
+- Traitement : double saisie manuelle dans Harmonie GRC
+- Traitement : double saisie manuelle dans Harmonie
+et SGE
+GRC et SGE
+- Clôture : double clôture manuelle dans Harmonie GRC et
+- Clôture : double clôture manuelle dans Harmonie GRC
+SGE
+et SGE
+138
+
+
+
+--- Slide 139 ---
+Sélection de la Qualification de la Gestion des Visualisation de
+demande existante réclamation doublons la réclamation
+Création d’une réclamation
+Création manuelle d’une réclamation (1/5)
+B.1
+Les réclamations doivent être créées à partir d’une demande existante non clôturée. Pour ce faire, accédez à la fiche client et sélectionnez la demande
+concernée. Depuis la fiche de cette demande, vous pouvez créer une réclamation manuellement en cliquant sur le bouton "Nouvelle Réclamation"
+1. Cliquez sur le bouton
+«Nouvelle Réclamation»
+Si la demande faisant l’objet d’une réclamation est clôturée, vous
+devez créer une nouvelle demande et la lier à la demande existante
+clôturée pour pouvoir créer une réclamation
+139
+
+
+
+--- Slide 140 ---
+Sélection de la Qualification de la Gestion des Visualisation de
+demande existante réclamation doublons la réclamation
+Création d’une réclamation
+Création manuelle d’une réclamation (2/5)
+B.1
+2. Renseignez les champs
+relatifs à la réclamation :
+- Type et sous-type de la
+réclamation
+- Canal entrant
+- Fournisseur concerné
+- Objet
+- Date de réception
+- Equipe responsable bout
+en bout
+Les types et sous-types de réclamations - Contrat concerné
+sont les motifs et sous-motifs existants dans - Description
+SGE. Une correspondance a été réalisée
+entre les types et sous-types des demandes
+GRC et des motifs et sous-motifs des
+réclamations SGE.
+140
+
+
+
+--- Slide 141 ---
+Sélection de la Qualification de la Gestion des Visualisation de
+demande existante réclamation doublons la réclamation
+Création d’une réclamation
+Création manuelle d’une réclamation (3/5)
+B.1
+Cas particulier
+Il n’est pas possible de créer deux réclamations du même
+type et sous-type si la première est toujours en traitement.
+Vous pourrez vérifier la réclamation équivalente et créer une
+nouvelle réclamation avec un type et sous-type différent.
+141
+
+
+
+--- Slide 142 ---
+Sélection de la Qualification de la Gestion des Visualisation de
+demande existante réclamation doublons la réclamation
+Création d’une réclamation
+Création d’une réclamation (4/5)
+B.1
+3. La réclamation créée s’ouvre
+automatiquement dans une nouvelle fenêtre
+142
+
+
+
+--- Slide 143 ---
+Sélection de la Qualification de la Gestion des Visualisation de
+demande existante réclamation doublons la réclamation
+Création d’une réclamation
+Création d’une réclamation (5/5)
+B.1
+Une fois la réclamation créée, vous pouvez la retrouver à 2 emplacements différents :
+Pour un guide détaillé sur les
+bannettes des réclamations,
+veuillez consulter le chapitre
+« Visualisation de la
+bannette des réclamations»
+1
+Depuis la bannette des 2
+réclamations, dans les blocs Depuis la fiche client,
+«Mes réclamations» & «Les dans le bloc
+réclamations de mon équipe» «Réclamations»
+143
+
+
+
+--- Slide 144 ---
+Création d’une réclamation
+Duplication de la réclamation dans SGE
+B.2
+Pour les réclamations d’origine distributeur : SGE étant le référentiel pour la CRE, vous devez dupliquer la réclamation créée dans Harmonie GRC dans SGE
+via le bouton «Dupliquer» depuis la fiche de la réclamation
+1. Cliquez sur le
+bouton «Dupliquer »
+Voir – Ecran SGE
+144
+
+
+
+--- Slide 145 ---
+Fiche réclamation
+Pour un guide détaillé sur l’envoi d’un mail / SMS à partir de la fiche
+C .1 Visualisation de la fiche réclamation (1/6) réclamation, veuillez consulter le chapitre «Envoi de mail » / «Envoi de SMS»
+Une fois la réclamation créée, vous arrivez sur la fiche réclamation où plusieurs blocs sont visibles : 7
+Bloc d’échanges :
+4 - Publication : Chatter à destination
+Bloc d’informations générales liées à la réclamation :
+d’un utilisateur ou un groupe
+3 Référence SGE de l’affaire, canal entrant, délai - Email : Envoi de mail au client lié au
+Précise la nature du restant, Type et sous-type de la réclamation et
+traitement de la réclamation
+«Dossier Client» qui boutons d’action pour dupliquer la réclamation dans
+- SMS : Envoi de sms au client lié au
+est affiché SGE, créer une tâche et réaffecter la réclamation
+traitement de la réclamation
+8
+Aide au conseiller :
+- Actions recommandées : NBA
+- Knowledge : Base de connaissance
+Pour un guide détaillé sur
+6 l’utilisation des actions
+Onglets associés à la réclamation : recommandées, veuillez
+- Détails : Informations liées à la réclamation consulter le chapitre
+1 2 - Historique : Actions systèmes réalisées sur «Next Best Action»
+la réclamation
+Bloc d’informations Demandes liées
+- Activités : Interactions sur la réclamation Pour un guide détaillé sur
+sur le client liées à la Met en avant les
+- Tâches : Tâches liées à la réclamation la consultation des
+réclamation : Compte, réclamations 5
+Interlocuteur, PRM liées à cette Fil d’ariane de la réclamation : - Pièces jointes : Ajout, consultation, articles de la base de
+réclamation Met en avant les différents statuts de la suppression de pièces jointes connaissance, veuillez
+réclamation et le statut actuel - SMS : Envoi de SMS consulter le chapitre
+«Base de connaissance»
+145
+
+
+
+--- Slide 146 ---
+Fiche réclamation
+Visualisation de la fiche réclamation - Onglet « Détails » (2/6)
+C.1
+1
+Bloc d’informations liées à la
+réclamation : PRM du client, Utilisateur
+responsable bout en bout, Equipe
+Responsable bout en bout, Fournisseur
+concerné, Contrat Concerné, Objet,
+description, Canal entrant, Localisation
+de la réclamation (informations pré
+remplies durant la création)
+2
+Bloc d’indicateurs complétés
+automatiquement, liés au traitement de
+la réclamation : Délai restant, Date
+d’échéance, Nombre de tâches ouvertes
+sur la réclamation, Nombre de tâches
+avec échéance dépassée, Nombre de
+3
+Bloc de demandes / affaires liées : réaffectation inter-équipe (5) et Nombre
+complété par l’utilisateur de réaffectation intra-équipe (3)
+- Demande ou réclamation liée : demande
+à l’origine de cette nouvelle réclamation
+- Type d’affaire : Enecad, Ginko, SGE…
+- Référence d’affaire : Numéro de l’affaire
+- Date d’intervention (si nécessaire) 4
+Bloc d’informations systèmes :
+complétées automatiquement par
+Harmonie GRC
+146
+
+
+
+--- Slide 147 ---
+Fiche réclamation
+Visualisation de la fiche réclamation - Onglet « Historique » (3/6)
+C.1
+1
+Actions systèmes enregistrées liées au
+traitement de la demande (ex :
+Création, changement de responsable
+bout en bout, changement de statut…)
+147
+
+
+
+--- Slide 148 ---
+Fiche réclamation
+Visualisation de la fiche réclamation - Onglet « Activités » (4/6)
+C.1
+1
+Bloc des interactions : Visualisation des
+échanges téléphoniques avec le client.
+- Traçage manuel de l’échange pour les
+utilisateurs n’ayant pas Kiamo
+- Traçage automatique de l’échange pour
+ceux ayant Kiamo
+Numéro de l’interaction, Canal de
+communication, Interlocuteur, Date &
+heure de début de l’échange
+2
+Visualisation des activités liées à la
+réclamation :
+- Actions systèmes
+- Email / SMS envoyés
+- Message publié via chatter
+148
+
+
+
+--- Slide 149 ---
+Fiche réclamation
+Visualisation de la fiche réclamation - Onglet « Tâches » (5/6)
+C.1
+1
+Visualisation des tâches et leur statut
+liées à la réclamation
+149
+
+
+
+--- Slide 150 ---
+Fiche réclamation
+Visualisation de la fiche réclamation - Onglet « Pièces Jointes » (6/6)
+C.1
+1
+Possibilité d’ajouter, télécharger
+et supprimer des pièces jointes
+liées à la réclamation
+150
+
+
+
+--- Slide 151 ---
+Traitement d’une réclamation
+Réaffectation de la réclamation à un membre de mon équipe (1/3)
+D.1
+Dans le cadre du traitement d'une réclamation client, vous pouvez être amené à la réaffecter à un membre de votre équipe. Pour ce faire, rendez-vous sur la
+fiche de la réclamation et cliquez sur le bouton «Réaffecter»
+1. Cliquez sur le bouton
+«Réaffecter »
+2. Sélectionnez l’option de
+réaffectation «à un membre de
+mon équipe» 3. Cliquez sur le bouton
+«Suivant» pour accéder à
+l’étape suivante
+151
+
+
+
+--- Slide 152 ---
+Traitement d’une réclamation
+Réaffectation de la réclamation à un membre de mon équipe (2/3)
+D.1
+4. Sélectionnez l’utilisateur à
+qui vous souhaitez réaffecter
+la réclamation et ajoutez un
+commentaire de réaffectation
+(optionnel)
+5. Cliquez sur le bouton
+«Suivant» pour réaffecter
+la réclamation à l’utilisateur
+152
+
+
+
+--- Slide 153 ---
+Traitement d’une réclamation
+Réaffectation de la réclamation à un membre de mon équipe (3/3)
+D.1
+6. Le responsable de bout en
+bout de la réclamation est
+automatiquement mis à jour
+- Après une réaffectation intra-équipe : la
+réclamation n’apparait plus dans la bannette
+«Mes réclamations»
+153
+
+
+
+--- Slide 154 ---
+Traitement d’une réclamation
+Réaffectation de la réclamation à une autre équipe (1/3)
+D.2
+Dans le cadre du traitement d'une réclamation, vous pouvez être amené à la réaffecter à une autre équipe. Pour ce faire, rendez-vous sur la fiche de la
+réclamation et cliquez sur le bouton «Réaffecter»
+1. Cliquez sur le bouton
+«Réaffecter »
+2. Sélectionnez l’option de
+réaffectation «à une autre
+3. Cliquez sur le bouton
+équipe»
+«Suivant» pour accéder à
+l’étape suivante
+154
+
+
+
+--- Slide 155 ---
+Traitement d’une réclamation
+Réaffectation de la réclamation à une autre équipe (2/3)
+D.2
+4. Sélectionnez l’utilisateur à
+qui vous souhaitez réaffecter
+la réclamation et ajoutez un
+commentaire de réaffectation
+(optionnel)
+5. Cliquez sur le bouton
+«Suivant» pour réaffecter la
+réclamation à l’entité définie
+155
+
+
+
+--- Slide 156 ---
+Traitement d’une réclamation
+Réaffectation de la réclamation à une autre équipe (3/3)
+D.2
+- Aprèe une réaffectation inter-équipe : la
+demande n’apparait plus dans les bannettes
+6. Le responsable de bout en bout ainsi
+«Mes réclamations» et «Les réclamations
+que l’équipe responsable de la demande
+de mon équipe»
+sont automatiquement mis à jour
+Par défaut, le responsable bout en bout
+devient l’équipe responsable bout en bout
+jusqu’à ce qu’un utilisateur de cette équipe
+s’affecte la réclamation
+156
+
+
+
+--- Slide 157 ---
+Traitement d’une réclamation
+Chat / Notification d’un membre de l’équipe dans le cadre de traitement d’une réclamation (1/2)
+D.3
+Dans le cadre du traitement d'une réclamation, vous pouvez être amené à solliciter vos collègues pour via la fonctionnalité « Chatter ». Cette fonctionnalité
+permet d'échanger des messages instantanés associés à la réclamation avec un ou plusieurs collègues directement dans l'outil.
+1. Cliquez sur le corps du
+message à publier
+Vous pouvez tagger un collaborateur ou un groupe, y
+ajouter des pièces jointes et des images
+2. Rédigez le message à
+publier
+3. Cliquez sur le bouton
+«Partager» pour
+publier le message
+157
+
+
+
+--- Slide 158 ---
+Traitement d’une réclamation
+Chat / Notification d’un membre de l’équipe dans le cadre de traitement d’une réclamation (2/2)
+D.3
+Pour un guide détaillé sur la
+notification d’un membre de votre
+4. Retrouvez le message
+équipe via la fonctionnalité Chatter,
+publié dans l’onglet
+veuillez consulter le chapitre
+«Activités» de la fiche
+«Centre de notification – Réception
+de la réclamation
+des notifications»
+158
+
+
+
+--- Slide 159 ---
+Gestion des pièces jointes
+Ajout d’une pièce jointe (1/2)
+E.1
+Depuis l’onglet «Pièces Jointes» de la fiche réclamation, vous pouvez ajouter des pièces jointes liées au traitement de la réclamation
+Taille du fichier : Les
+fichiers ajoutés doivent
+être de maximum 5 MO.
+1. Cliquez sur le bouton
+«Charger un fichier »
+2. Sélectionnez le fichier
+qui vous intéresse
+3. Cliquez sur «Ouvrir»
+pour ajouter le fichier
+159
+
+
+
+--- Slide 160 ---
+Gestion des pièces jointes
+Ajout d’une pièce jointe (2/2)
+E.1
+4. Vérifiez que le fichier
+a bien été chargé
+160
+
+
+
+--- Slide 161 ---
+Gestion des pièces jointes
+Consultation et téléchargement d’une pièce jointe
+E.2
+Depuis l’onglet «Pièces Jointes» de la fiche réclamation, vous pouvez consulter et télécharger des pièces jointes liées au traitement de la réclamation
+3. Visualisez depuis
+vos téléchargements
+le fichier
+1. Cliquez sur le «Nom du
+fichier» (lien cliquable)
+2. Cliquez sur le symbole
+«Télécharger »
+161
+
+
+
+--- Slide 162 ---
+Gestion des pièces jointes
+Suppression d’une pièce jointe
+E.3
+Depuis l’onglet «Pièces Jointes» de la fiche réclamation, vous pouvez supprimer des pièces jointes liées au traitement de la réclamation
+1. Cliquez sur le symbole
+«Supprimer »
+2. Le fichier a été
+supprimé avec succès
+162
+
+
+
+--- Slide 163 ---
+Clôture d’une réclamation
+Clôture manuelle d’une réclamation (1/5)
+F.1
+Une fois le traitement de la réclamation terminé, vous devez la clôturer manuellement depuis la fiche demande. Cependant, seul le responsable de bout en
+bout peut clôturer manuellement ses propres réclamations.
+2. Cliquez sur le
+bouton «Clôturée»
+1. Visualisez le
+statut actuel de la
+réclamation
+Règle métiers
+Si des tâches sont non
+clôturées dans la réclamation,
+sa clôture est impossible
+163
+
+
+
+--- Slide 164 ---
+Clôture d’une réclamation
+Clôture manuelle d’une réclamation (2/5)
+F.1
+3. Cliquez sur le bouton
+«Modifier» pour renseigner
+le motif de clôture
+Option complémentaire
+Vous pouvez aussi cliquer
+sur l’icône Crayon pour
+modifier le motif de
+clôture et commentaire
+de clôture
+164
+
+
+
+--- Slide 165 ---
+Clôture d’une réclamation
+Clôture manuelle d’une réclamation (3/5)
+F.1
+4. Sélectionnez le motif de
+clôture et ajoutez un
+commentaire de clôture 5. Cliquez sur «Enregistrer»
+pour enregistrer le motif de
+clôture
+165
+
+
+
+--- Slide 166 ---
+Clôture d’une réclamation
+Clôture manuelle d’une réclamation (4/5)
+F.1
+6. Cliquez sur le
+bouton «Marquer
+Statut en cours» pour
+valider la clôture
+166
+
+
+
+--- Slide 167 ---
+Clôture d’une réclamation
+Clôture manuelle d’une réclamation (5/5)
+F.1
+Une fois la réclamation clôturée, vous ne pouvez plus la modifier.
+La réclamation clôturée disparait des bannettes de demandes «Mes
+réclamations» & «Les réclamations de mon équipe»
+Règle métiers : il faudra également aller clôturer la réclamation dans SGE
+7. La mise à jour du statut de la
+réclamation est tracée dans
+l’onglet «Historique» de la fiche
+réclamation
+167
+
+
+
+--- Slide 168 ---
+Synthèse des parcours utilisateurs dans Harmonie GRC
+Réception d’un réappel PDTS
+Création d’un
+A A.1 Réception d’un réappel PDTS
+réappel PDTS
+Visualisation d’une fiche réappel PDTS
+B.1 Visualisation d’une fiche réappel PDTS
+B Fiche réappel PDTS
+Modification d’un réappel PDTS
+B.2 Modification d’un réappel PDTS
+Affectation manuelle d’un réappel PDTS
+C.1 Affectation manuelle d’un réappel PDTS
+Traitement d’un
+C
+réappel PDTS Chat / Notification d’un membre de l’équipe dans le cadre de traitement d’une réclamation
+C.2 Chat / Notification d’un membre de l’équipe dans le cadre de traitement d’une réclamation
+Ajout d’une pièce jointe
+D.1 Ajout d’une pièce jointe
+Consultation et enregistrement d’une pièce jointe
+Gestion des pièces
+D D.2 Consultation et enregistrement d’une pièce jointe
+jointes
+Suppression d’une pièce jointe
+D.3 Suppression d’une pièce jointe
+Clôture manuelle d’un réappel PDTS
+E.1 Clôture manuelle d’un réappel PDTS
+Clôture d’un
+E
+réappel PDTS Clôture automatique d’un réappel PDTS
+E.2 Clôture automatique d’un réappel PDTS
+168
+
+
+
+--- Slide 169 ---
+Présentation des évènements sortants
+Types d’évènements sortants
+A.1
+Enedis est à l'initiative d'événements sortants vers le client, issus de traitements back office, sans que le client ait sollicité Enedis initialement. Cela ne
+concerne pas les interactions sortantes vers le client relatives au traitement des demandes entrantes à l'initiative du client.
+Plusieurs types d’évènements sortants sont identifiés à date :
+Réappel PDTS (à la suite du résultat de l’enquête envoyée par GRC Campagne, obligation de réappeler les clients Pas Du Tout Satisfaits)
+Evènement sortant lié à une affaire (ex : Compteurs GRIP, Maintenance compteur dont suspicion d’éléments pertubateurs…)
+Evènement sortant lié à une campagne (ex : Campagne Maintenance C, Campagne Prévenance Travaux…)
+Evènement sortant «délibéré» (ex : Information élagage à venir, Courrier Panel, TCFM, Traitement PNT…)
+169
+
+
+
+--- Slide 170 ---
+Création d’un réappel PDTS
+Réception d’un réappel PDTS (1/2)
+A.1
+Pour visualiser les réappels PDTS à traiter, vous devez vous connecter à l’équipe «Appui PDTS» de votre DR depuis la page d’accueil.
+Les réappels PDTS sont créés
+automatiquement à la suite de l’envoi de
+l’enquête de satisfaction par GRC Campagne
+et une note apportée par le client de 1/4. Leur
+statut est «Initialisée»
+1. Cliquez sur
+l’équipe «Appui
+PDTS»
+2. Visualisez les réappels
+PDTS à traiter depuis la
+bannette des «Réappel PDTS
+de mon équipe non-affectés»
+Pour un guide détaillé sur les bannettes
+des réappels PDTS, veuillez consulter
+le chapitre « Visualisation de la
+bannette des réappels PDTS»
+170
+
+
+
+--- Slide 171 ---
+Création d’un réappel PDTS
+Réception d’un réappel PDTS (2/2)
+A.1
+Vous pouvez retrouver le réappel PDTS à 2 emplacements différents :
+1
+Depuis la bannette
+des réappels PDTS
+2
+Depuis la fiche client,
+dans le bloc «Réappels»
+171
+
+
+
+--- Slide 172 ---
+Fiche Réappel PDTS
+Visualisation d’une fiche Réappel PDTS (1/6)
+B.1
+Depuis la bannette des réappels PDTS ou le bloc «Réappels» de la fiche Client, vous pouvez visualiser la fiche réappel PDTS en cliquant sur le numéro. Le
+réappel PDTS s’ouvre dans une nouvelle fenêtre.
+2. La fiche du réappel PDTS s’ouvre dans
+une nouvelle fenêtre
+1. Cliquez sur le «numéro»
+du réappel PDTS
+Pour un guide détaillé sur les bannettes des réappels PDTS, veuillez
+consulter le chapitre « Visualisation de la bannette des réappels PDTS»
+172
+
+
+
+--- Slide 173 ---
+Fiche Réappel PDTS
+Pour un guide détaillé sur l’envoi d’un mail / sms à partir de la fiche réappel
+B . 1 Visualisation d’une fiche Réappel PDTS (2/6) PDTS, veuillez consulter le chapit7re «Envoi de mail » / «Envoi de SMS »
+3 6
+Bloc d’informations générales liées Bloc d’échanges :
+au réappel PDTS : Délai, Type et sous- - Publication : Chatter à destination d’un
+2 type, boutons d’action pour s’affecter utilisateur ou un groupe
+Précise la nature du «Dossier la réclamation - Email / SMS : Envoi de mail ou SMS au
+Client» qui est affiché client lié au traitement du réappel PDTS
+4
+Fil d’ariane du réappel :
+Met en avant les différents statuts de la
+demande et le statut actuel
+5
+Onglets associés au réappel PDTS :
+- Détails : Informations liées au
+réappel PDTS
+- Historique : Actions systèmes
+réalisées sur le réappel PDTS
+- Activités : Interactions sur le
+réappel PDTS
+1
+Bloc d’informations sur le client liées - Pièces jointes : Ajout, consultation,
+au réappel PDTS : Interlocuteur, suppression de pièces jointes
+Compte, PRM
+Pour un guide détaillé sur l’utilisation des actions recommandées, veuillez
+consulter le chapitre «Next Best Action»
+Pour un guide détaillé sur la consultation des articles de la base de
+connaissance, veuillez consulter le chapitre «Base de connaissance»
+173
+
+
+
+--- Slide 174 ---
+Fiche Réappel PDTS
+Visualisation d’une fiche Réappel PDTS – Onglet « Détails » (3/6)
+B.1
+1
+Bloc d’informations liées au réappel PDTS :
+Objet, Note de l’enquête, Type et sous-type
+de de l’enquête, Utilisateur responsable
+bout en bout, Equipe Responsable bout en
+bout, Description, Date de l’enquête,
+Localisation
+2
+Bloc d’indicateurs automatiques liés au
+traitement du réappel PDTS : Délai restant,
+Date d’échéance, Nombre de réaffectation
+intra-équipe
+3
+Bloc de demandes / affaires liées :
+Numéro d’affaire d’origine issue de
+l’enquête de satisfaction, Demande liée
+4
+Bloc de détails Client lié au réappel PDTS :
+Informations du client
+5
+Bloc d’informations systèmes :
+complétées automatiquement par
+Harmonie GRC
+174
+
+
+
+--- Slide 175 ---
+Fiche Réappel PDTS
+Visualisation d’une fiche Réappel PDTS – Onglet « Historique » (4/6)
+B.1
+1
+Actions systèmes enregistrées liées au
+traitement du réappel PDTS (ex :
+Création, changement de responsable
+bout en bout, changement de statut…)
+175
+
+
+
+--- Slide 176 ---
+Fiche Réappel PDTS
+Visualisation d’une fiche Réappel PDTS – Onglet « Activités » (5/6)
+B.1
+1
+Bloc des interactions : Visualisation des
+échanges téléphoniques avec le client.
+- Traçage manuel de l’échange pour les
+utilisateurs n’ayant pas Kiamo
+- Traçage automatique de l’échange pour
+ceux ayant Kiamo
+- Numéro de l’interaction, Canal de
+communication, Interlocuteur, Date & heure
+de début de l’échange
+2
+Visualisation des activités liées au réappel
+PDTS :
+- Actions systèmes
+- Email / SMS envoyés
+- Message publié via chatter
+176
+
+
+
+--- Slide 177 ---
+Fiche Réappel PDTS
+Visualisation d’une fiche Réappel PDTS – Onglet « Pièces Jointes » (6/6)
+B.1
+1
+Possibilité d’ajouter, télécharger et
+supprimer des pièces jointes liées au
+réappel PDTS
+177
+
+
+
+--- Slide 178 ---
+Fiche Réappel PDTS
+Modification d’un réappel PDTS (1/3)
+B.2
+En tant que responsable bout en bout du réappel PDTS, vous avez la possibilité de modifier la fiche Réappel PDTS : Compte client, Interlocuteur & PRM
+1. Cliquez sur le
+bouton «Modifier»
+2. Modifiez le client
+concerné (si nécessaire)
+3. Cliquez sur le bouton
+«Suivant» pour continuer
+la modification
+178
+
+
+
+--- Slide 179 ---
+Fiche Réappel PDTS
+Modification d’un réappel PDTS (2/3)
+B.2
+4. Sélectionnez
+l’interlocuteur associé
+au client
+5. Cliquez sur le bouton
+«Suivant» pour
+continuer la modification
+6. Modifiez le PRM (si
+nécessaire)
+7. Cliquez sur le bouton
+«Suivant» pour
+continuer la modification
+179
+
+
+
+--- Slide 180 ---
+Fiche Réappel PDTS
+Modification d’un réappel PDTS (3/3)
+B.2
+8. Visualisez les
+modifications apportées
+180
+
+
+
+--- Slide 181 ---
+Traitement d’un réappel PDTS
+Affectation manuelle d’un réappel PDTS (1/2)
+C.1
+Lors de la création automatique d’un réappel PDTS, le réappel PDTS est affecté automatiquement à l’équipe appui PDTS. Vous devez vous l’affecter
+manuellement depuis la bannette des demandes pour pouvoir la traiter.
+2. Cliquez sur le bouton
+«S’affecter»
+1. Cliquez sur le «numéro»
+du Réappel PDTS
+181
+
+
+
+--- Slide 182 ---
+Traitement d’un réappel PDTS
+Affectation manuelle d’un réappel PDTS (2/2)
+C.1
+3. Cliquez sur le bouton
+«Terminer» pour
+valider l’affectation
+4. Visualisez le
+changement de statut
+«En traitement»
+Le réappel PDTS passe alors de la bannette
+«Les Réappels PDTS non-affectés» aux
+bannettes «Mes réappels PDTS» et «Les
+réappels PDTS de mon équipe»
+5. Visualisez le changement
+de responsable bout en bout
+182
+
+
+
+--- Slide 183 ---
+Traitement d’un réappel PDTS
+Chat / Notification d’un membre de l’équipe dans le cadre de traitement d’un réappel PDTS (1/2)
+C.2
+Dans le cadre du traitement d’un réappel PDTS, vous pouvez être amené à solliciter vos collègues pour via la fonctionnalité « Chatter ». Cette fonctionnalité
+permet d'échanger des messages instantanés associé au réappel avec un ou plusieurs collègues directement dans l'outil.
+1. Cliquez sur le corps du
+message à publier
+Vous pouvez tagger un collaborateur ou un groupe, y
+ajouter des pièces jointes et des images
+2. Rédigez le message à
+publier
+3. Cliquez sur le bouton
+«Partager» pour publier
+le message
+183
+
+
+
+--- Slide 184 ---
+Traitement d’un réappel PDTS
+Chat / Notification d’un membre de l’équipe dans le cadre de traitement d’un réappel PDTS (2/2)
+C.2
+4. Retrouvez le message
+publié dans l’onglet
+«Activités» de la fiche Pour un guide détaillé sur la
+réappel PDTS notification d’un membre de votre
+équipe via la fonctionnalité Chatter,
+veuillez consulter le chapitre
+«Centre de notification – Réception
+des notifications»
+184
+
+
+
+--- Slide 185 ---
+Gestion des pièces jointes
+Ajout d’une pièce jointe (1/2)
+D.1
+Depuis l’onglet «Pièces Jointes» de la fiche réappel PDTS, vous pouvez ajouter des pièces jointes liées au traitement du réappel PDTS
+Taille du fichier : Les
+fichiers ajoutés doivent
+être de maximum 5 MO.
+1. Cliquez sur le bouton
+«Charger un fichier»
+2. Sélectionnez le fichier
+qui vous intéresse
+3. Cliquez sur «Ouvrir»
+pour ajouter le fichier
+185
+
+
+
+--- Slide 186 ---
+Gestion des pièces jointes
+Ajout d’une pièce jointe (2/2)
+D.1
+4. Vérifiez que le fichier
+a bien été chargé
+186
+
+
+
+--- Slide 187 ---
+Gestion des pièces jointes
+Consultation et téléchargement d’une pièce jointe
+D.2
+Depuis l’onglet «Pièces Jointes» de la fiche réappel PDTS, vous pouvez consulter et télécharger des pièces jointes liées au traitement du réappel PDTS
+2. Visualisez depuis
+vos téléchargements
+le fichier
+1. Cliquez sur le «Nom du
+fichier» (lien cliquable)
+1. Cliquez sur le symbole «Télécharger »
+187
+
+
+
+--- Slide 188 ---
+Gestion des pièces jointes
+Suppression d’une pièce jointe
+D.3
+Depuis l’onglet «Pièces Jointes» de la fiche réappel PDTS, vous pouvez supprimer des pièces jointes liées au traitement du réappel PDTS
+1. Cliquez sur le symbole
+«Supprimer »
+2. Le fichier a été supprimé avec succès
+188
+
+
+
+--- Slide 189 ---
+Clôture du réappel PDTS
+Clôture manuelle d’un réappel PDTS (1/5)
+E.1
+Une fois le traitement du réappel terminé, vous devez le clôturer manuellement depuis la fiche réappel PDTS. Cependant, seul le responsable de bout en
+bout peut clôturer manuellement ses propres réappels PDTS.
+2. Cliquez sur le statut
+«Clôturée»
+1. Visualisez le statut
+actuel du réappel PDTS
+189
+
+
+
+--- Slide 190 ---
+Clôture du réappel PDTS
+Clôture manuelle d’un réappel PDTS (2/5)
+E.1
+3. Cliquez sur le bouton
+Option complémentaire «Modifier» pour renseigner
+Vous pouvez aussi le motif de clôture
+cliquer sur l’icône Crayon
+pour modifier le motif de
+clôture et commentaire
+de clôture
+190
+
+
+
+--- Slide 191 ---
+Clôture du réappel PDTS
+Clôture manuelle d’un réappel PDTS (3/5)
+E.1
+4. Sélectionnez le motif de
+clôture et ajoutez un
+commentaire de clôture
+5. Cliquez sur «Enregistrer» pour
+enregistrer le motif de clôture
+191
+
+
+
+--- Slide 192 ---
+Clôture du réappel PDTS
+Clôture manuelle d’un réappel PDTS (4/5)
+E.1
+6. Cliquez sur le bouton «Marquer
+Statut en cours» pour valider la clôture
+192
+
+
+
+--- Slide 193 ---
+Clôture du réappel PDTS
+Clôture manuelle d’un réappel PDTS (5/5)
+E.1
+7. La mise à jour du
+Une fois le réappel PDTS clôturé, vous ne pouvez statut du réappel est
+plus le modifier. tracée dans l’onglet
+«Historique» de la
+Le réappel PDTS clôturé disparait des bannettes fiche Réappel PDTS
+des Réappels PDTS «Mes réappels PDTS» &
+«Les réappels PDTS de mon équipe»
+193
+
+
+
+--- Slide 194 ---
+Clôture du réappel PDTS
+Clôture automatique d’un réappel PDTS
+E.2
+Un réappel PDTS peut se clôturer automatiquement dans le cas de 3 tentatives vers le client si ce dernier n’a pas décroché.
+Si l’utilisateur bénéficie de
+Harmonie GRC Kiamo, les
+tentatives d’appel seront
+tracées automatiquement
+dans Harmonie GRC. Sinon,
+l’utilisateur devra créer des
+interactions manuellement
+depuis l’onglet «Activités» de
+la fiche Réappel PDTS
+1. Visualisez le statut, motif
+de clôture et commentaire
+de clôture complétés Pour un guide détaillé sur le traçage des
+automatiquement réappels PDTS manuellement sans
+Kiamo, veuillez consulter le chapitre
+«Traçage d’un appel téléphonique
+sortant manuellement (sans Kiamo) »
+194
+
+
+
+--- Slide 195 ---
+Synthèse des parcours utilisateurs dans Harmonie GRC
+Création manuelle d’une tâche
+A.1 Création manuelle d’une tâche
+Création d’une
+A
+tâche Réception automatique d’une tâche par l’équipe destinataire
+A.2 Réception automatique d’une tâche par l’équipe destinataire
+Visualisation de la fiche de tâche
+B Fiche de tâche B.1 Visualisation de la fiche de tâche
+Affectation manuelle d’une tâche
+C.1 Affectation manuelle d’une tâche
+Réaffectation d’une tâche
+Traitement d’une
+C C.2 Réaffectation d’une tâche
+tâche
+Chat / Notification d’un membre de l’équipe dans le cadre de traitement d’une tâche
+C.3 Chat / Notification d’un membre de l’équipe dans le cadre de traitement d’une tâche
+Clôture manuelle d’une tâche
+D Clôture d’une tâche D.1 Clôture manuelle d’une tâche
+195
+
+
+
+--- Slide 196 ---
+l’intitulé entité créée de tâche tâches
+Création d’une tâche
+Création manuelle d’une tâche (1/5)
+A.1
+Depuis la fiche de Dossier Client, vous pouvez créer une tâche manuellement. Seul le responsable de bout en bout de la demande peut créer une tâche
+pour ses propres Dossiers Client
+1. Depuis la fiche
+demande/réclamation, cliquez
+sur le bouton «Nouvelle tâche»
+Dans le cas d’une création de tâche de
+Planification de rendez-vous, il faut également
+renseigner le numéro et le type d’affaire liée
+2. Sélectionnez l’intitulé de la
+tâche et saisissez le champ
+«objet» si nécessaire
+Le champ de saisie "intitulé de tâche" est prédéfini en
+fonction du type et sous-type de la demande. Il est
+renseigné par défaut et peut être modifié. Une liste
+déroulante d’intitulé de tâche est proposée en fonction
+du type et du sous type de la demande
+Pour consulter l’ensemble des intitulés de tâches
+disponibles selon le type et le sous-type de la
+demande, référez-vous au tableau récapitulatif en
+cliquant ici
+3. Cliquez sur
+Suivant
+196
+
+
+
+--- Slide 197 ---
+l’intitulé entité créée de tâche tâches
+Création d’une tâche
+Création manuelle d’une tâche (2/5)
+A.1
+4. Sélectionnez une
+famille dans la liste
+déroulante
+5. Sélectionnez une des entités
+associées à la famille choisie dans la
+liste déroulante
+7. Cliquez sur Suivant
+pour créer la tâche
+6. Ajoutez un commentaire si
+nécessaire
+Les champs «Famille» et « Entité» de la tâche, ainsi que le délai associé sont
+prédéfinis en fonction du type, sous-type de demande
+Pour consulter l’ensemble des intitulés de tâches disponibles selon le type et le sous-
+type de la demande, référez-vous au tableau récapitulatif en cliquant ici
+197
+
+
+
+--- Slide 198 ---
+d’une tâche d’une tâche créée de tâche tâches
+Création d’une tâche
+Création manuelle d’une tâche (3/5)
+A.1
+8. Une fois la tâche créée, la fiche
+de tâche s’ouvre dans une
+nouvelle fenêtre
+9. Effectuez une dernière
+vérification des champs
+complétés et des éléments
+sélectionnés lors de la création
+198
+
+
+
+--- Slide 199 ---
+l’intitulé entité créée de tâche tâches
+Fiche de tâche
+Création manuelle d’une tâche (4/5)
+A.1
+10. Une fois la tâche créée, vous pouvez la
+consulter ainsi que son statut de traitement à
+tout moment depuis l’ongle «Tâche» de la
+fiche de Dossier Client
+199
+
+
+
+--- Slide 200 ---
+l’intitulé entité créée de tâche tâches
+Création d’une tâche
+Création manuelle d’une tâche (5/5)
+A.1
+Ce tableau récapitule la préqualification automatique des tâches en fonction des types et sous-types de demande
+Type de
+Sous-type de demande Intitulé de la tâche Entité destinataire Famille destinataire Délai prédéfini
+demande
+Pose compteur Linky Planifier rendez-vous CPA Technique 3 jours ouvrés
+Planifier rendez-vous CPA Technique 3 jours ouvrés
+Gérer affaire en cours Ginko ACHE Accueil 10 jours ouvrés
+Maintenance et anomalie Traiter demande client Supervision Linky Linky 10 jours ouvrés
+Comptage
+dispositif de comptage 120 jours - # de jours depuis
+Vérifier état compteur AD Accueil lesquels le compteur n'a pas
+communiqué
+Transmission d'index Planifier rendez-vous CPA Technique 3 jours ouvrés
+Dépannage &
+Suivi RSI Planifier rendez-vous CPA Technique 3 jours ouvrés
+Incident
+Données Client
+Exercice des droits RGPD Traiter demande RGPD Guichet DSI / XPC 15 jours ouvrés
+& RGPD
+Gestion Fin de contrat Planifier rendez-vous CPA Technique 3 jours ouvrés
+contrats clients Planifier rendez-vous CPA Technique 3 jours ouvrés
+Autres prestations catalogue
+producteurs Planifier rendez-vous CPA Technique 3 jours ouvrés
+Planifier rendez-vous express CPA Technique 2h
+Rendez-vous
+Ligne Replanifier rendez-vous CPA Technique 2h
+Fournisseur Equipe adhoc en fonction du
+Incohérence des données Traiter demande client 5 jours ouvrés
+sujet
+Replanifier rendez-vous CPA Technique 2 jours ouvrés
+Première mise en service (PMES)
+Contacter client Pôle Branchements 2 jours ouvrés
+Raccordement
+Replanifier rendez-vous Pôle Branchements 2 jours ouvrés
+Suivi Affaire en cours
+Contacter client Pôle Branchements 2 jours ouvrés
+Ouvrage endommagé Analyser demande client CPA Technique 10 jours ouvrés
+Renseignement Réseau & Modifier date de coupure CPA / BO Technique 5 jours ouvrés
+Exploitation Traiter demande client CPA / BO Technique 5 jours ouvrés
+Réseau & Planifier visite terrain CPA Technique 3 jours ouvrés
+Exploitation Programmer pose de la protection de chantier CPA Technique 3 jours ouvrés
+Protection de chantier
+Programmer dépose de la protection de
+CPA Technique 3 jours ouvrés
+chantier
+Qualité de fourniture Analyser demande client Guichet QF / ASGARD 15 jours ouvrés
+200
+
+
+
+--- Slide 201 ---
+Création d’une tâche
+Réception automatique de la tâche par l’équipe destinataire
+A.2
+Une fois la tâche créée par le responsable bout-en-bout du Dossier Client, elle est reçue dans le bloc « Tâches de mon équipe non affectées » de la bannette de
+tâches de l’équipe destinataire.
+Pour un guide détaillé sur les bannettes
+des tâches, veuillez consulter le
+chapitre « Visualisation de la bannette
+des tâches »
+2. La fiche de tâche
+s’ouvre dans une
+nouvelle fenêtre
+1. Cliquez sur l’Objet de
+la tâche pour afficher
+la fiche de tâche
+201
+
+
+
+--- Slide 202 ---
+Fiche de tâche
+Visualisation de la fiche de tâche – Vue globale (1/4)
+B.1
+Une fois que vous êtes sur la fiche de tâche, plusieurs blocs seront visibles :
+3
+Bloc d’échanges :
+- Publication : Chatter à destination
+2 d’un utilisateur ou un groupe
+Bouton d’affectation de tâche
+1
+Référence
+de la tâche
+4
+Bloc d’informations sur la tâche :
+- Référence de la demande associée
+5
+- Equipe responsable de bout-en-bout (ou nom du
+Onglets associés à la tâche :
+responsable une fois la tâche affectée)
+- Détails : Informations clés d’une
+- Statut (se met à jour automatiquement hors statut clôturé)
+tâche
+- Délai restant
+- Historique : Actions systèmes
+- Priorité
+réalisées sur la tâche
+- Activités : Interactions sur la tâche
+Règles de priorités :
+- Délai restant de la tâche = J et dépassé > P1
+- Délai restant = J-1 > P2
+- Autres délais restants > P3
+- Dès qu'une demande a au moins une réclamation ouverte, toutes
+ses tâches sont en P1.
+- Dès que le client a contacté Enedis au moins 2 fois sur la
+demande liée à cette tâche > P1
+202
+
+
+
+--- Slide 203 ---
+Fiche de tâche
+Visualisation de la fiche de tâche - Onglet « Détails » (2/4)
+B.1
+1
+Bloc d’informations liées à
+la tâche : complété lors de la
+création de la tâche
+- Intitulé, Commentaires
+- Type de demande, Sous-
+type de demande
+- Equipe Responsable,
+Responsable
+2
+- Statut (A traiter / Clôturée
+/ en cours de traitement / En Bloc d’indicateurs automatiques
+attente) liés au traitement de la tâche :
+- Motif de clôture (Réalisée / - Délai traitement tâche, Date
+Non réalisée / Obsolète) d’échéance
+- Commentaire de clôture - Délai restant restant
+- Durée de traitement, Durée de
+traitement réel
+- Nombre de réaffectation inter-
+équipe
+3
+Bloc d’informations client:
+complété par l’utilisateur
+- Nom du client
+- Nom de l’interlocuteur 4
+Bloc d’informations système :
+complété automatiquement par
+Harmonie GRC
+- Informations sur la création et
+dernière modification de la tâche
+- Objet, Priorité
+- Numéro de demande associée
+203
+
+
+
+--- Slide 204 ---
+Fiche de tâche
+Visualisation de la fiche de tâche - Onglet « Historique » (3/4)
+B.1
+1
+Actions systèmes enregistrées liées au traitement de la tâche
+(ex : création, réaffectation, changement de statut…)
+204
+
+
+
+--- Slide 205 ---
+Fiche de tâche
+Visualisation de la fiche de tâche - Onglet « Activités » (4/4)
+B.1
+1
+Visualisation des activités liées à la tâche :
+- Actions systèmes
+- Message publié via le chatter
+205
+
+
+
+--- Slide 206 ---
+Traitement d’une tâche
+Affectation manuelle d’une tâche (1/2)
+C.1
+Depuis la bannette des tâches, vous pouvez visualiser les tâches de votre équipe pour en prendre connaissance et vous affecter une tâche.
+2. Cliquez sur le bouton
+«S’affecter»
+1. Cliquez sur l’Objet de
+la tâche pour afficher la
+fiche de tâche
+3. Cliquez sur le
+bouton «Suivant»
+206
+
+
+
+--- Slide 207 ---
+Traitement d’une tâche
+Affectation manuelle d’une tâche (2/2)
+C.1
+4. Une fois la tâche affectée, la tâche passe du
+bloc «Tâches de mon équipe non affectées» aux
+blocs «Mes tâches» et «Tâches de mon
+équipe» de la bannette des tâches
+5. Le responsable de la tâche est modifié pour
+afficher votre nom à la place de celui de l’équipe
+responsable
+207
+
+
+
+--- Slide 208 ---
+Traitement d’une tâche
+Affectation nominative par le manager
+PI 4
+208
+
+
+
+--- Slide 209 ---
+Traitement d’une tâche
+Réaffectation d’une tâche (1/2)
+C.2
+Dans le cas où le responsable bout-en-bout du Dossier Client se trompe d’équipe destinataire de la tâche, vous pouvez après vous l’être affectée :
+- la réaffecter à la bonne équipe si vous la connaissez
+- la réaffecter à l’équipe expéditrice (celle du responsable bout-en-bout du Dossier Client)
+1. Depuis la fiche de
+tâche, cliquez sur le La réaffectation d’une tâche n’est possible que
+bouton «Réaffecter» par l’utilisateur responsable de la tâche ou par
+son manager
+2. Sélectionnez dans les listes déroulantes la
+Famille et l’Entité auxquelles vous souhaitez
+réaffecter la tâche
+Saisissez un commentaire (optionnel) pour
+ajouter des informations / détails à la tâche
+réaffectée
+3. Cliquez sur «Suivant»
+209
+
+
+
+--- Slide 210 ---
+Traitement d’une tâche
+Réaffectation d’une tâche (2/2)
+C.2
+Une fois réaffectée, la tâche disparaît des blocs «Mes tâches» et
+«Les tâches de mon équipe» de l’utilisateur qui l’a réaffectée
+4. La tâche apparaît dans la bannette des
+tâches non-affectées de l’équipe désignée
+lors de la réaffectation
+3. Dans la fiche de tâche,
+la nouvelle équipe
+responsable de la tâche
+s’affiche dans le champ
+«Responsable»
+La tâche a bien disparu de la bannette de tâches du
+responsable précédent, et apparaîtra dans la
+bannette de tâches de la nouvelle équipe désignée
+lors de la réaffectation
+210
+
+
+
+--- Slide 211 ---
+Traitement d’une tâche
+Chat / Notification d’un membre de l’équipe dans le cadre de traitement d’une tâche (1/2)
+C.3
+Dans le cadre du traitement d’une tâche, vous pouvez être amené à solliciter vos collègues pour via la fonctionnalité « Chatter ». Cette fonctionnalité
+permet d'échanger des messages instantanés associés à la tâche avec un ou plusieurs collègues directement dans l'outil.
+Vous pouvez tagger un collaborateur ou un groupe, y
+ajouter des pièces jointes et des images
+1. Cliquez sur le corps du
+message à publier
+2. Rédigez le message à
+publier
+3. Cliquez sur le bouton
+«Partager» pour publier
+le message
+211
+
+
+
+--- Slide 212 ---
+Traitement d’une tâche
+Chat / Notification d’un membre de l’équipe dans le cadre de traitement d’une tâche(2/2)
+C.3
+4. Retrouvez le message
+publié dans l’onglet
+«Activités» de la fiche de
+tâche
+Pour un guide détaillé sur la
+notification d’un membre de votre
+équipe via la fonctionnalité Chatter,
+veuillez consulter le chapitre
+«Centre de notification – Réception
+des notifications»
+212
+
+
+
+--- Slide 213 ---
+Clôture d’une tâche
+Clôture manuelle d’une tâche (1/2)
+D.1
+Une fois la tâche réalisée, vous pouvez la clôturer manuellement depuis la fiche de tâche
+2. Sélectionnez le statut
+«Clôturée» et le motif de
+clôture dans les listes
+déroulantes.
+Entrez un commentaire
+(optionnel) pour détailler les
+modalités de clôture de la tâche.
+1. Depuis la fiche de
+tâche, cliquez sur le stylo
+du champ «Statut»
+pour le modifier
+3. Cliquez sur
+«Enregistrer»
+213
+
+
+
+--- Slide 214 ---
+Clôture d’une tâche
+Clôture manuelle d’une tâche (2/2)
+D.1
+4. Les champs de statut de la tâche
+s’actualisent dans la fiche de tâche Une fois clôturée, la tâche disparaît des blocs
+«Mes tâches» et «Les tâches de mon équipe»
+5. Le statut de la tâche est automatiquement
+actualisé dans l’onglet «Tâches» de la fiche
+de la demande associée
+214
+
+
+
+--- Slide 215 ---
+Synthèse des parcours utilisateurs dans Harmonie GRC
+Réception d’un appel téléphonique (avec Kiamo) – numéro reconnu dans Harmonie GRC
+A.1 Réception d’un appel téléphonique (avec Kiamo) – numéro reconnu dans Harmonie GRC
+Réception d’un appel téléphonique (avec Kiamo) – numéro non reconnu dans Harmonie GRC
+A.2 Réception d’un appel téléphonique (avec Kiamo) – numéro non reconnu dans Harmonie GRC
+Communications
+A
+client entrantes Transfert d’un appel téléphonique à une autre équipe (avec Kiamo)
+A.3 Transfert d’un appel téléphonique à une autre équipe (avec Kiamo)
+Traçage d’un courrier entrant
+A.4 Traçage d’un courrier entrant
+PI4
+Réalisation d’un appel sortant (avec Kiamo click to call)
+B.1 Réalisation d’un appel sortant (avec Kiamo click to call)
+Traçage d’un appel téléphonique sortant manuellement (sans Kiamo)
+B.2 Traçage d’un appel téléphonique sortant manuellement (sans Kiamo)
+Envoi de mail à partir d’une demande / réclamation /réappel PDTS
+Communications
+B B.3 Envoi de mail à partir d’une demande / réclamation /réappel PDTS
+client sortantes
+Envoi de SMS à partir d’une demande / réclamation /Réappel PDTS
+B.4 Envoi de SMS à partir d’une demande / réclamation /Réappel PDTS
+Traçage courrier sortant
+B.5 Traçage courrier sortant
+PI4
+Gestion des réponses clients aux mails envoyés par Enedis
+C Mail conversationnel C.1 Gestion des réponses clients aux mails envoyés par Enedis
+PI5
+215
+
+
+
+--- Slide 216 ---
+Fin de l’appel
+de l’appel appel à un interlocuteur rattâchement pendant l’appel l’appel
+Communications client entrantes
+Réception d’un appel téléphonique (avec Kiamo) – numéro reconnu dans Harmonie GRC (1/8)
+A.1
+Pour recevoir un appel entrant, il faut être connecté à Kiamo et avoir activer l’état «Prêt» au préalable
+1. Dans Harmonie GRC Kiamo,
+activez l’état « Prêt »
+En communication – 00:09
+2. Lorsqu’un client contacte le service client Enedis, l’appel
+est reçu dans Harmonie GRC Kiamo, avec un récapitulatif
+des informations communiquées par le client au Serveur
+Vocal Interactif/bot (SVI), notamment : la DR, le motif de la
+demande, et le numéro de téléphone de l’appelant.
+216
+
+
+
+--- Slide 217 ---
+Fin de l’appel
+de l’appel appel à un interlocuteur rattâchement pendant l’appel l’appel
+Communications client entrantes
+Réception d’un appel téléphonique (avec Kiamo) – numéro reconnu dans Harmonie GRC (2/8)
+A.1
+3. En parallèle de
+la réception de
+5. Le numéro de téléphone de l’appelant existant déjà
+l’appel dans
+dans la base d’Harmonie GRC, l'interlocuteur
+Kiamo, une
+correspondant s'affichent automatiquement.
+nouvelle fenêtre
+s’ouvre
+automatiquement
+dans Harmonie
+GRC
+4. Les motifs / sous-motifs de l’appel sont
+récupérés automatiquement en fonction
+des termes employés par l’appelant lors
+de sa réponse au SVI.
+217
+
+
+
+--- Slide 218 ---
+Fin de l’appel
+de l’appel appel à un interlocuteur rattâchement pendant l’appel l’appel
+Communications client entrantes
+Réception d’un appel téléphonique (avec Kiamo) – numéro reconnu dans Harmonie GRC (3/8)
+A.1
+6. Après avoir vérifié l’identité de
+l’appelant, cliquez sur le nom de
+l'interlocuteur
+7. La fiche interlocuteur
+s'ouvre, et le nom de
+l’interlocuteur est associé
+à l’appel téléphonique
+218
+
+
+
+--- Slide 219 ---
+Fin de l’appel
+de l’appel appel à un interlocuteur rattâchement pendant l’appel l’appel
+Communications client entrantes
+Réception d’un appel téléphonique (avec Kiamo) – numéro reconnu dans Harmonie GRC (4/8)
+A.1
+Si vous avez sélectionné le mauvais interlocuteur pendant l'appel en cours, vous avez la possibilité d'annuler votre choix et de le remplacer par un autre
+interlocuteur
+8. Cliquez sur le
+cadenas à côté du
+nom de
+l’interlocuteur pour
+déverrouiller le
+contact déjà
+sélectionné
+9. Choisissez un
+autre interlocuteur
+parmi les contacts
+suggérés
+11. Cliquez sur le cadenas
+pour lier l'appel entrant au
+nouvel interlocuteur choisi
+10. La fiche de l’interlocuteur
+s'ouvre automatiquement et
+son nom est mis à jour dans
+la fenêtre de l’appel entrant
+219
+
+
+
+--- Slide 220 ---
+Fin de l’appel
+de l’appel appel à un interlocuteur rattâchement pendant l’appel l’appel
+Communications client entrantes
+Réception d’un appel téléphonique (avec Kiamo) – numéro reconnu dans Harmonie GRC (5/8)
+A.1
+Afin de créer une demande pendant qu'un appel est en cours, le processus de création de la demande reste inchangé. Il s'effectue toujours via le bouton
+«Nouvelle demande», situé au niveau de la fiche interlocuteur
+12. Cliquez sur le bouton
+« Nouvelle demande»
+depuis la fiche interlocuteur
+13. Sélectionnez « appel entrant »
+dans le champ « origine de la
+demande »
+15. Sélectionnez le
+type et le sous-type
+de la demande
+Pour un guide détaillé sur le processus
+de création d’une demande, veuillez
+consulter le chapitre «Création manuelle
+d’une demande» 14. Le champ «Objet» est automatiquement
+rempli en concaténant le motif et le sous-motif de
+l’appel (tels que mentionnés par le client lors de sa
+réponse au SVI). Cela permet au conseiller de
+sélectionner plus facilement le bon type et sous-
+type de la demande
+220
+
+
+
+--- Slide 221 ---
+Fin de l’appel
+de l’appel appel à un interlocuteur rattâchement pendant l’appel l’appel
+Communications client entrantes
+Réception d’un appel téléphonique (avec Kiamo) – numéro reconnu dans Harmonie GRC (6/8)
+A.1
+16. La demande a été
+créée, associée au nom de
+l’interlocuteur et à la fiche
+client correspondante
+221
+
+
+
+--- Slide 222 ---
+Fin de l’appel
+de l’appel appel à un interlocuteur rattâchement pendant l’appel l’appel
+Communications client entrantes
+Réception d’un appel téléphonique (avec Kiamo) – numéro reconnu dans Harmonie GRC (7/8)
+A.1
+Une fois l’appel terminé, vous devez d’abord le raccrocher dans Kiamo, puis revenir à la fenêtre Harmonie GRC pour indiquer que l’appel est terminé. Cela
+permettra d’effectuer le traçage automatique de l’appel dans Harmonie GRC
+17. Une fois la demande créée
+et l’appel terminé, cliquez sur le
+bouton « Raccrocher » dans la
+fenêtre Kiamo
+19. Une notification s'affiche pour
+18. Retournez dans la confirmer que l'appel est tracé
+fenêtre Harmonie GRC et
+cliquez sur le bouton «
+Appel terminé » pour
+enregistrer l’appel
+Cliquer uniquement sur le bouton « Appel terminé » dans Harmonie GRC ne met pas fin à
+l'appel. Ce bouton sert uniquement à indiquer dans Harmonie GRC que l'appel est terminé, afin
+d'assurer le traçage de l’appel dans Harmonie GRC. Il est impératif de raccrocher l'appel dans
+Kiamo au préalable.
+222
+
+
+
+--- Slide 223 ---
+Fin de l’appel
+de l’appel appel à un interlocuteur rattâchement pendant l’appel l’appel
+Communications client entrantes
+Réception d’un appel téléphonique (avec Kiamo) – numéro reconnu dans Harmonie GRC (8/8)
+A.1
+Une fois l’appel tracé dans Harmonie GRC, il est enregistré dans le bloc « Interaction » de la fiche interlocuteur et dans l’onglet «Timeline» de la fiche client
+21. La fiche de l’interaction « appel entrant » s’affiche, avec les informations suivantes : le nom
+de l'interlocuteur, le nom du client, la date et l'heure de début et de fin de l'appel, la demande
+créée lors de l'appel, ainsi qu’un récapitulatif de toutes les informations communiquées par le
+client en répondant au SVI avant que l'appel soit pris en charge, dans le champ "attributs"
+20. Cliquez sur
+l’interaction « Appel
+entrant » pour consulter
+les détails de l’appel
+223
+
+
+
+--- Slide 224 ---
+Communications client entrantes
+Réception d’un appel téléphonique (avec Kiamo) – numéro non reconnu dans Harmonie GRC (1/2)
+A.2
+Dans certains cas, les clients peuvent appeler le service client d'Enedis sans que leur numéro de téléphone soit reconnu dans la base de données
+d'Harmonie GRC, principalement pour deux raisons : soit l’interlocuteur existe déjà dans Harmonie GRC mais a changé de numéro de téléphone, soit
+l’interlocuteur n'existe pas (un nouvel interlocuteur appelle). Dans ce cas, aucun interlocuteur lié au numéro de téléphone utilisé n'apparaît dans le bloc
+«Interlocuteurs». C'est alors à l'agent de vérifier si l’interlocuteur existe déjà (et a modifié son numéro) ou s'il s'agit d'un nouvel interlocuteur
+1. Une fois l'appel reçu,
+aucun interlocuteur lié au
+numéro de téléphone
+n'apparaît dans le bloc
+«Interlocuteurs»
+224
+
+
+
+--- Slide 225 ---
+Communications client entrantes
+Réception d’un appel téléphonique (avec Kiamo) – numéro non reconnu dans Harmonie GRC (2/2)
+A.2
+Interlocuteur existant ayant changé de numéro de téléphone OU Interlocuteur inexistant
+2’. Créez un nouvel interlocuteur en
+2. Recherchez l’interlocuteur dans
+suivant le parcours habituel à partir
+la barre de recherche multicritères
+de la page d’accueil
+après lui avoir demandé ses
+informations personnelles (nom,
+prénom, adresse, etc.), puis cliquez
+sur sa fiche interlocuteur
+3. Une fois la fiche de
+l'interlocuteur ouverte,
+l’appel est directement
+associé à l’interlocuteur
+dans la fenêtre de l’appel
+entrant. Pour un guide détaillé sur la création d’un nouvel interlocuteur, veuillez consulter le
+chapitre « Gestion des interlocuteurs - Création / ajout d’un interlocuteur pour un client
+non existant »
+225
+
+
+
+--- Slide 226 ---
+Communications client entrantes
+Transfert d’un appel téléphonique à une autre équipe (avec Kiamo) (1/3)
+A.3
+Si vous constatez que vous ne pouvez pas traiter la demande du client et qu’elle nécessite l’expertise d’un autre service ou équipe, vous pouvez transférer
+l’appel à l’autre équipe depuis Kiamo. Ensuite, vous devez revenir dans la fenêtre Harmonie GRC pour indiquer que l’appel a été transféré. Cela permet de
+traçer que l’appel a été transféré
+2. Retournez dans la fenêtre
+Harmonie GRC qui s’est
+ouverte automatiquement
+dès la réception de l’appel
+1. Cliquez sur le bouton «
+Transférer » dans Kiamo
+pour envoyer l’appel à
+l’équipe de votre choix
+Cliquer uniquement sur le bouton « Appel transféré » dans Harmonie GRC ne
+3. Cliquez sur le
+permet pas de transférer l’appel à l’équipe concernée. Ce bouton sert
+bouton «Appel
+uniquement à indiquer dans Harmonie GRC que l’appel a été transféré, afin
+Transféré»
+d’assurer le traçage dans Harmonie GRC. Il est donc impératif de transférer
+l’appel dans Kiamo au préalable
+226
+
+
+
+--- Slide 227 ---
+Communications client entrantes
+Transfert d’un appel téléphonique à une autre équipe (avec Kiamo) (2/3)
+A.3
+3. Une notification s'affiche
+pour confirmer que l'appel
+est tracé
+227
+
+
+
+--- Slide 228 ---
+Communications client entrantes
+Transfert d’un appel téléphonique à une autre équipe (avec Kiamo) (3/3)
+A.3
+Une fois l’appel tracé dans Harmonie GRC, il est enregistré dans le bloc « Interaction » de la fiche interlocuteur et dans la fenêtre «Timeline» de la fiche
+client
+5. La fiche de l’interaction « appel entrant » s’affiche, avec les informations suivantes : le nom
+de l'interlocuteur, le nom du client, la date et l'heure de début et de fin de l'appel, la demande
+créée lors de l'appel, ainsi qu’un récapitulatif de toutes les informations communiquées par
+le client en répondant au SVI avant que l'appel soit pris en charge, dans le champ "attributs"
+4. Cliquez sur
+l’interaction « Appel
+entrant » pour consulter
+les détails de l’appel 6. Le marqueur indiquant
+le transfert de l’appel
+s’affiche également dans
+la fiche de l’interaction.
+228
+
+
+
+--- Slide 229 ---
+Communications client entrantes
+Traçage d’un courrier entrant
+A.4
+PI4
+229
+
+
+
+--- Slide 230 ---
+Communications client sortantes
+Réalisation d’un appel sortant (avec Kiamo click to call) (1/7)
+B.1
+Pour passer un appel sortant depuis Harmonie GRC, il faut ouvrir la fiche de l’interlocuteur du client à appeler tout en ayant une fenêtre Kiamo ouverte.
+1. Cliquez sur le numéro de
+téléphone affiché dans le
+bloc « Coordonnées » de la
+fiche interlocuteur
+230
+
+
+
+--- Slide 231 ---
+Communications client sortantes
+Réalisation d’un appel sortant (avec Kiamo click to call) (2/7)
+B.1
+3. Cliquez sur «Oui» pour
+confirmer le lancement de l’appel
+2. La fenêtre « Appel 4. L’appel est directement
+sortant » s’ouvre lancé dans Kiamo
+automatiquement
+par défaut
+231
+
+
+
+--- Slide 232 ---
+Communications client sortantes
+Réalisation d’un appel sortant (avec Kiamo click to call) (3/7)
+B.1
+6. Une fois l’échange terminé, cliquez sur le bouton «
+Raccrocher » dans Kiamo pour mettre fin à la
+communication avec le client
+5. Une fois que le client
+décroche l’appel, cliquez
+sur le bouton «Appel
+décroché» pour tracer
+l’appel dans Harmonie GRC
+232
+
+
+
+--- Slide 233 ---
+Communications client sortantes
+Réalisation d’un appel sortant (avec Kiamo click to call) (4/7)
+B.1
+7. Retournez dans la
+fenêtre Harmonie GRC et
+cliquez sur le bouton « Différents statuts de l’appel
+Appel terminé » afin
+d’enregistrer et de tracer 8. Indiquez le statut de • Appel réussi
+l’appel dans Harmonie GRC l’appel, sélectionnez la • Répondeur avec message déposé
+demande associée et
+ajoutez un commentaire si • Numéro erroné
+nécessaire
+• Aucune réponse / Occupé
+Cliquer uniquement sur le bouton « Appel terminé » dans Harmonie GRC ne
+met pas fin à l'appel. Ce bouton sert uniquement à indiquer dans la
+Harmonie GRC que l'appel est terminé, afin d'assurer le traçage de l’appel
+dans Harmonie GRC. Il est impératif de raccrocher l'appel dans Kiamo au
+préalable.
+233
+
+
+
+--- Slide 234 ---
+Communications client sortantes
+Réalisation d’un appel sortant (avec Kiamo click to call) (5/7)
+B.1
+9. Si l’appel concerne le
+traitement d’une demande,
+sélectionnez la demande
+associée
+10. Ajoutez un
+commentaire
+si besoin
+11. L’appel sortant a
+bien été enregistré
+234
+
+
+
+--- Slide 235 ---
+Communications client sortantes
+Réalisation d’un appel sortant (avec Kiamo click to call) (6/7)
+B.1
+Après la création de l’interaction « Appel sortant », vous pouvez la consulter à 3 emplacements différents :
+3
+Depuis la fiche
+client, dans le bloc
+«Timeline»
+1
+Depuis la fiche
+interlocuteur,
+dans le bloc
+12. Cliquez sur la
+«Interactions»
+référence de l’interaction
+« appel sortant » pour
+afficher les informations
+2
+Depuis la fiche détaillées de l’appel
+demande, dans
+l’onglet «Activités»
+235
+
+
+
+--- Slide 236 ---
+Communications client sortantes
+Réalisation d’un appel sortant (avec Kiamo click to call) (7/7)
+B.1
+13. La fiche de l’interaction « appel entrant » s’affiche, avec les
+informations clés suivantes : le nom de l'interlocuteur, le nom du
+client, le statut de l’appel, la date et l'heure de début et de fin de
+l'appel, et la demande créée lors de l'appel
+236
+
+
+
+--- Slide 237 ---
+Communications client sortantes
+Traçage d’un appel téléphonique sortant (sans Kiamo) (1/3)
+B.2
+Si vous n’utilisez pas Kiamo en tant que Harmonie GRC de gestion des appels, le traçage automatique des appels passés aux clients ne sera pas disponible.
+Cependant, vous pouvez enregistrer manuellement ces appels depuis la fiche demande
+2. Cliquez sur le bouton
+«Nouveau» pour créer une
+nouvelle interaction client
+1. Depuis la fiche de la
+demande, cliquez sur
+l’onglet «Activités»
+4. Sélectionnez «Appel
+sortant» dans le champ
+canal de communication
+et renseignez les dates/
+Différents statuts de l’appel
+heures de début et de fin
+• Appel réussi de l’appel
+• Répondeur avec message déposé
+3. Complétez les champs suivants :
+• Numéro erroné - Interlocuteur
+- Nom du compte
+• Aucune réponse / Occupé - Statut de l’appel
+Et ajoutez un commentaire si besoin
+237
+
+
+
+--- Slide 238 ---
+Communications client sortantes
+Traçage d’un appel téléphonique sortant (sans Kiamo) (2/3)
+B.2
+5. Après avoir renseigné
+tous les champs, cliquez
+sur «Enregistrer»
+6. L’interaction « Appel
+sortant » a été créée
+avec toutes les
+informations que vous
+avez renseignées
+238
+
+
+
+--- Slide 239 ---
+Communications client sortantes
+Traçage d’un appel téléphonique sortant (sans Kiamo) (3/3)
+B.2
+Après la création de l’interaction « Appel sortant », vous pouvez la consulter à 3 emplacements différents :
+1 3
+Depuis la fiche Depuis la fiche
+demande, dans client, dans le
+l’onglet «Activités» bloc «Timeline»
+2
+Depuis la fiche
+interlocuteur, dans le
+bloc «Interactions»
+239
+
+
+
+--- Slide 240 ---
+Communications client sortantes
+Envoi de mail à partir
+Envoi de mail à partir d’une demande / réclamation / réappel PDTS (1/3) d’une d’une tâche → en
+B.3
+PI4 ou PI5
+Dans le cadre du traitement d'une demande ou réclamation, vous pouvez envoyer un e-mail au client depuis la fiche demande/réclamation/réappel PDTS
+pour l'informer du statut de sa demande ou des prochaines étapes (ex : confirmation de prise en compte)
+Préciser que ce n’est
+pas possible, la
+personne destinatiare
+L’objet du mail
+de tâchpeeut dêtroe imto cdifliiéq uer
+sur la demande depuis
+1. Depuis la fiche de la 2. La fenêtre d’envoi de l’e-mail
+demande/réclamation/réappel s’ouvre avelca l’ atdârecsshe éem epttoricue r pouvoir
+cliquez sur le bouton «Email» Enedis, celle du destinataire et
+l’objet de la demeanndve opryéreemrp ulis n mail
+automatiquement
+En ce qui concerné les adresses émettrices Enedis, elles sont au nombre de 2 :
+✓ no-reply@service-clients-enedis.fr pour les mails ne nécessitant pas de réponse de la part du
+3. Pour une meilleure visibilité,
+client (ex : accusé de réception ou clôture d’une demande)
+cliquez sur le bouton ci-dessus
+✓ contact@service-clients-enedis.fr pour les mails nécessitant une réponse de la part du client
+pour agrandir la fenêtre de
+rédaction de l'e-mail
+240
+
+
+
+--- Slide 241 ---
+Communications client sortantes
+Envoi de mail à partir d’une demande / réclamation / réappel PDTS (2/3)
+B.3
+Description des différents boutons de la fenêtre «Email»
+4. Sélectionnez le modèle de mail
+à envoyer ou choisissez un modèle
+générique existant, puis apportez
+les modifications nécessaires
+Pour un guide détaillé
+sur l’utilisation des
+modèles de mails
+génériques, veuillez
+consulter le chapitre
+«Aide aux conseillers -
+Utilisation de modèles
+de e-mails»
+5. Vérifiez le contenu et le format
+du mail en cliquant sur le bouton
+«Prévisualiser le mail»
+avant de l'envoyer
+6. Fermez la
+fenêtre de
+Effacer le mail
+prévisualisation du
+et rétablir
+mail, puis cliquez
+sur « Envoyer »
+Le bouton «Insérer un champ de fusion» permet d'ajouter
+automatiquement des données dynamiques à un email,
+Joindre Insérer un Insérer un telles que le nom du client, le numéro de dossier ou la date de
+Prévisualiser
+un champ de modèle de la demande. Cependant, son utilisation est déconseillée, car
+le mail
+fichier fusion mail une mauvaise configuration peut entraîner des erreurs
+d'affichage ou des informations incorrectes dans l'email.
+241
+
+
+
+--- Slide 242 ---
+Communications client sortantes
+Envoi de mail à partir d’une demande / réclamation / réappel PDTS (3/3)
+B.3
+Après l’envoi du mail, vous pouvez le consulter à 2 emplacements différents :
+2
+Depuis la fiche
+client, dans le
+bloc «Timeline»
+1
+Depuis la fiche
+demande, dans
+l’onglet «Activités»
+242
+
+
+
+--- Slide 243 ---
+Communications client sortantes
+Envoi de SMS à partir d’une demande / réclamation / réappel PDTS (1/3)
+B.4
+Dans le cadre du traitement d'une demande ou réclamation, vous pouvez envoyer un SMS au client depuis la fiche demande/réclamation/réappel PDTS
+pour l'informer du statut de son dossier Client ou des prochaines étapes (ex : confirmation de prise de rdv)
+Pour un guide détaillé
+sur l’utilisation des
+modèles de SMS
+génériques, veuillez
+consulter le chapitre
+«Aide aux conseillers
+1. Depuis la fiche de la
+- Utilisation de modèles
+demande, cliquez sur le
+de SMS »
+bouton « EnvoyerSMS»
+2. Sélectionnez le SMS à
+envoyer ou choisissez un
+modèle générique existant, puis
+apportez les modifications
+nécessaires
+243
+
+
+
+--- Slide 244 ---
+Communications client sortantes
+Envoi de SMS à partir d’une demande / réclamation / réappel PDTS (2/3)
+B.4
+3. Cliquez sur le
+bouton «Envoyer»
+4. Choisissez le
+numéro de
+téléphone auquel le
+SMS sera envoyé
+5. Vérifiez que la
+demande d’envoi
+du SMS a été bien
+prise en compte
+244
+
+
+
+--- Slide 245 ---
+Communications client sortantes
+Envoi de SMS à partir d’une demande / réclamation / réappel PDTS (3/3)
+B.4
+Après l’envoi du SMS, vous pouvez le consulter à 3 emplacements différents :
+3
+Depuis la fiche
+client, dans le bloc
+«Timeline»
+1
+Depuis la fiche
+demande, dans
+l’onglet «Activités»
+2
+Depuis la fiche
+interlocuteur,
+dans le bloc
+«Interactions»
+245
+
+
+
+--- Slide 246 ---
+Communications client sortantes
+Tracer un courrier sortant
+B.5
+PI4
+246
+
+
+
+--- Slide 247 ---
+Mail conversationnel
+Gestion des réponses clients aux mails envoyés par Enedis
+C.1
+PI5 (sprt 1 ou 2)
+247
+
+
+
+--- Slide 248 ---
+Synthèse des parcours utilisateurs dans Harmonie GRC
+Utilisation des modèles de mail
+A.1 Utilisation des modèles de mail
+Modèles de
+A
+communication Utilisation des modèles de SMS
+A.2 Utilisation des modèles de SMS
+Réalisation d’un diagnostic
+B.1 Réalisation d’un diagnostic
+B Diagnostic
+Résultats possibles par diagnostic
+B.2 Résultats possibles par diagnostic
+Actions recommandées pour les demandes « Maintenance et anomalie dispositif de comptage
+Next Best Action
+C C.1 Actions recommandées pour les demandes «Maintenance et anomalie dispositif de comptage
+(NBA)
+Consultation des articles
+Base de
+D D.1 Consultation des articles
+connaissance
+248
+
+
+
+--- Slide 249 ---
+Modèles de communication
+Utilisation des modèles de mail (1/5)
+A.1
+Afin de garantir l’homogénéité dans les communications mails envoyées en termes de contenu, de format, de charte graphique et de tonalité Enedis, des
+modèles sont mis à disposition auprès de tous les utilisateurs. Ces modèles sont accessibles depuis l’onglet «E-mail» que vous utilisez pour envoyer des
+emails depuis les fiches demande, réclamation, ou réappel PDTS
+1. Depuis la fiche de la
+demande/réclamation/réappel
+cliquez sur le bouton «Email» 2. La fenêtre d’envoi de mail
+s'ouvre
+249
+
+
+
+--- Slide 250 ---
+Modèles de communication
+Utilisation des modèles de mail (2/5)
+A.1
+4. Cliquez sur «Insérer un modèle »
+pour accéder à la liste des modèles
+de mails
+3. Cliquez sur le bouton
+«Insérer un modèle»
+Seuls des modèles de mail prédéfinis peuvent être insérés. Toute demande de modification ou de création d’un modèle de communication doit faire l’objet
+d’une expression de besoin et suivre un circuit de validation.
+250
+
+
+
+--- Slide 251 ---
+Modèles de communication
+Utilisation des modèles de mail (3/5)
+A.1
+Organisation des modèles de mails
+Les modèles de mails sont classés de manière structurée au
+sein de différents dossiers, facilitant ainsi leur accès et leur
+5. La fenêtre permettant de utilisation. Ci-dessous une liste non exhaustive de ces
+visualiser et de sélectionner les dossiers :
+modèles de mails s'ouvre • 001-0 GENERIQUE
+• 002-0 RECLAMATION - Générique
+• 002-1 RECLAMATION - Facturation Relève et Comptage
+• 002-2 RECLAMATION - Raccordement
+• 002-2 RECLAMATION - IRVE
+• 002-3 RECLAMATION - Qualité Fourniture
+• 002-4 RECLAMATION - Qualité Intervention
+• 002-5 RECLAMATION - Producteurs
+• 003-1 COMPTAGE - Maintenance C
+• 003-2 COMPTAGE - Pertes et Fraudes
+• 003-3 COMPTAGE - Relève Facturation
+• 003-4 COMPTAGE - Pose Linky
+• 003-5 COMPTAGE - Panel
+• 004-1 RACCORDEMENT - Formulaire
+• 005-1 GESTION PRODUCTEUR & CARD
+• 006-0 DEPANNAGE - Générique
+• 007-1 SERVICES DIGITAUX - Compte client et Selfcare
+• 008-1 RESEAUX EXPLOIT - Mise en sécurité
+• 008-2 RESEAUX EXPLOIT - TCFM
+• 008-3 RESEAUX EXPLOIT - PHRV
+• 009-1 RGPD et Données Client - REJIS
+251
+
+
+
+--- Slide 252 ---
+Modèles de communication
+Utilisation des modèles de mail (4/5)
+A.1
+Vous pouvez filtrer les modèles par dossier afin de trouver plus facilement celui que
+vous recherchez
+Vous pouvez également rechercher un modèle en saisissant son nom ou sa
+référence dans la barre de recherche
+6. Sélectionnez le
+modèle de mail que
+vous recherchez
+252
+
+
+
+--- Slide 253 ---
+Modèles de communication
+Utilisation des modèles de mail (5/5)
+A.1
+Modèle de mail ne nécessitant aucune modification (prêt à être envoyé)
+Modèle de mail nécessitant la mise à jour d'informations dans le corps du message
+Les modèles utilisés doivent être conservés dans leur structure et leur contenu afin de respecter la charte et la signature relationnelle d'Enedis.
+Toutefois, il est possible d'ajouter des compléments d'information dans le corps du mail si nécessaire. Lorsque c'est le cas, les parties du texte à modifier
+sont mises en évidence en rouge. L'utilisateur doit alors remplacer ces éléments par les informations appropriées et rétablir la mise en forme du texte
+(remettre la couleur en noir, etc.)
+253
+
+
+
+--- Slide 254 ---
+Modèles de communication
+Utilisation des modèles de SMS (1/2)
+A.2
+Afin de garantir l’homogénéité dans les communications SMS envoyées en termes de contenu, de format, de charte graphique et de tonalité Enedis, des
+modèles sont mis à disposition auprès de tous les utilisateurs. Ces modèles sont accessibles depuis l’onglet «SMS» que vous utilisez pour envoyer des
+SMS depuis les fiches demande, réclamation ou réappel PDTS
+1. Depuis l’onglet «SMS» de la fiche de
+demande/réclamation/réappel, cliquez
+sur le bouton «Sélectionnez un modèle»
+2. La fenêtre permettant de
+visualiser et de sélectionner les
+modèles de mails s'ouvre
+254
+
+
+
+--- Slide 255 ---
+Modèles de communication
+Utilisation des modèles de SMS (2/2)
+A.2
+3. Le modèle de SMS
+s’affiche dans fenêtre
+de prévisualisation
+4. Cliquez sur le bouton
+«Utiliser» pour utiliser
+ce modèle
+5. Rectifiez si besoin
+certaines informations
+dans le corps du SMS
+Le nombre de caractères autorisés dans un SMS étant de 160 il est fortement déconseillé de modifier les modèles de SMS proposés, il reste néanmoins
+possible de rectifier une date de rdv ou d’ajuster des options comme par exemple la présence obligatoire ou non du client.
+255
+
+
+
+--- Slide 256 ---
+Diagnostic
+Réalisation d’un diagnostic (1/6)
+B.1
+La fonctionnalité «Diagnostic» est un outil conçu pour guider les conseillers dans l’identification et la résolution des demandes clients de manière efficace
+et structurée.
+Il se présente sous la forme d’un parcours interactif composé d’une série de questions à poser à l’interlocuteur et/ou d’actions à réaliser par le conseiller. Il
+permet d’analyser la situation du client, d’orienter le conseiller vers la bonne Harmonie GRC et de garantir une prise en charge homogène et optimisée.
+Il est important de noter que seul le responsable de bout en bout de la demande est habilité à réaliser un diagnostic sur sa propre demande.
+Les diagnostics existent à date pour 3 sous-types de demandes :
+Types Réseau et Exploitation Comptage
+1 2 3
+Maintenance & anomalie du
+Sous- types Ouvrage endommagé Pose de compteur Linky
+dispositif de comptage
+Les diagnostics s’appuient à la fois sur les données existantes du client (numéro de PRM, ping Linky, historique des interactions, etc.) et sur les réponses
+fournies aux questions posées par le conseiller.
+Grâce à cette combinaison d’informations, le diagnostic guide le conseiller vers une proposition d’action adaptée en fonction de la situation du client,
+telle que la création d’une tâche, la planification d’un rendez-vous, la requalification de la demande, etc…
+256
+
+
+
+--- Slide 257 ---
+Diagnostic
+Réalisation d’un diagnostic (2/6)
+B.1
+1. A partir de la fiche demande,
+cliquez sur l’onglet «Diagnostic»
+2. Cliquez sur le bouton
+«Lancer le parcours»
+pour lancer le diagnostic
+257
+
+
+
+--- Slide 258 ---
+Diagnostic
+Réalisation d’un diagnostic (3/6)
+B.1
+Dans le parcours de lancement d’un
+diagnostic, la différence entre le discours
+client et l'action conseiller est mise en
+avant grâce au formatage : les questions
+sont affichées en gras, tandis que les
+actions à réaliser par le conseiller
+apparaissent en texte normal.
+3. Répondez aux questions du
+parcours, puis cliquez sur le
+bouton « Suivant » pour
+continuer
+4. Un compte rendu est
+automatiquement généré
+pendant l’exécution du
+Le compte rendu du diagnostic est diagnostic.
+générée automatiquement. Le conseiller
+n’a plus à le rédiger manuellement
+5. Répondez aux questions
+vous proposant des actions à
+effectuer, à la fin du parcours
+258
+
+
+
+--- Slide 259 ---
+Diagnostic
+Réalisation d’un diagnostic (4/6)
+B.1
+6. Dans ce cas, la
+planification d’un rendez
+vous est proposée comme
+action à la fin du diagnostic
+7. Si vous répondez par «Oui», la tâche
+«Planifier rendez vous» est crée à
+destination de la CPA, avec une date
+d’échéance et une priorité déjà définies
+259
+
+
+
+--- Slide 260 ---
+Diagnostic
+Réalisation d’un diagnostic (5/6)
+B.1
+8. À la fin du diagnostic, vous
+pouvez consulter le compte
+rendu à tout moment depuis
+l’onglet « Activité » de la
+fiche demande.
+260
+
+
+
+--- Slide 261 ---
+Diagnostic
+Réalisation d’un diagnostic (6/6)
+B.1
+9. Vous pouvez à tout
+moment relancer le
+parcours pour effectuer un
+nouveau diagnostic
+9. Une fois le nouveau
+diagnostic finalisé,
+consultez le nouveau
+compte rendu dans
+l’onglet «Activité» de la
+fiche demande.
+261
+
+
+
+--- Slide 262 ---
+Diagnostic
+Résultats possibles par diagnostic
+B.2
+Types de demande Sous-types de demande Résultats possibles du diagnostic en fonction des réponses fournies aux questions
+Requalification de la demande en «Dépannage et incident / Danger immédiat» après avoir conseiller le client d’appeler le service dépannage
+Réseau et
+Exploitation Ouvrage endommagé Rattâchement de la demande à une autre demande existante et clôture de la demande
+Création d’une tâche «Planifier un rdv» à destination de la CPA
+Requalification de la demande en «Dépannage et incident / Danger immédiat» après avoir conseiller le client d’appeler le service dépannage
+Saisie de numéro de l’affaire s’il y a une demande d’intervention en cours et un rdv qui a déjà et planifié
+Création d’une tâche «Planifier un rdv» à destination de la CPA
+Clôture de la demande si le problème rencontré est contractuel
+Maintenance & anomalie
+Création d’une affaire dans GINKO et planifier un rdv pour la pose d’un compteur Linky
+du dispositif de comptage
+Création d’une affaire dans GINKO et remplir le champ de la date d’intervention planifié et le numéro de l’affaire si le rdv est déjà planifié
+Comptage
+Traçage du refus de pose du compteur Linky
+Création d’une tâche «Gérer affaire GINKO en cours» à destination de l’ACHE
+Création d’une tâche «Traiter demande client » à destination de la supervision Linky
+Saisie du numéro de l’affaire si une affaire de pose est déjà créée et si l’affaire est en cours avec un rdv déjà planifié
+Planification d’un rendez-vous pour une affaire de pose déjà créée mais sans rendez-vous prévu
+Pose de compteur Linky
+Création d’une affaire dans GINKO si l’affaire n’existe pas et planifier un rdv
+Création d'une affaire dans GINKO et saisie de la date d’intervention ainsi que du numéro d’affaire si un rendez-vous est déjà planifié
+262
+
+
+
+--- Slide 263 ---
+Next Best Action (NBA)
+Actions recommandées pour les demandes « Maintenance et anomalie dispositif de comptage (1/3)
+C.1
+La fonctionnalité NBA (Next Best Action) utilise une intelligence artificielle pour fournir automatiquement des recommandations pertinentes aux conseillers
+en se basant sur une analyse des interactions passées et des données contextuelles.
+Les recommandations peuvent être associées à des tâches automatisées, comme la création d'une tâche pour un autre service ou la proposition de
+services adaptés au client.
+Cette fonctionnalité est accessible depuis la fiche de la demande/réclamation, dans le bloc intitulé «Actions Recommandées»
+3. Une action permettant de
+créer une tâche a été
+1. Une fois la demande est
+proposée dans le bloc des
+traitée, cliquez sur le
+actions recommandées
+bouton «Marquer statut
+comme terminé»
+4. Cliquez sur le
+2. Le statut de la demande bouton «Vérifier
+passe de «en traitement» état compteur»
+à «en attente»
+263
+
+
+
+--- Slide 264 ---
+Next Best Action (NBA)
+Actions recommandées pour les demandes « Maintenance et anomalie dispositif de comptage (2/3)
+C.1
+5. Renseignez la date de dernière
+communication du compteur
+6. Une fois la date de dernière
+communication du compteur renseignée,
+une tâche «Vérifier l’état du compteur»
+est programmée. Cette tâche sera
+automatiquement créée 120 jours après la
+date de dernière communication saisie
+264
+
+
+
+--- Slide 265 ---
+Next Best Action (NBA)
+Actions recommandées pour les demandes « Maintenance et anomalie dispositif de comptage (3/3)
+C.1
+7. La date de dernière communication a
+été mise à jour dans l’onglet « Détails »
+de la fiche de demande
+265
+
+
+
+--- Slide 266 ---
+Base de connaissance
+Consultation des articles (1/5)
+C.2
+Une base de connaissances est accessible en lecture à tout utilisateur de Harmonie GRC, afin de vous aider à traiter les demandes et réclamations clients
+en vous proposant des éléments de langage et des actions adaptées au contexte. Cette base inclut différents types de supports, tels que des modes
+opératoires, des guides métiers, des FAQ, ainsi que d'autres types de documents (Word, PDF, vidéos, etc...)
+Vous pouvez y accéder depuis la fiche de demande/réclamation, dans le bloc intitulée «Knowledge»
+Une liste d’articles est
+proposée par défaut à
+l’ouverture de la fiche de
+demande, qui varie selon la
+qualification de la demande
+266
+
+
+
+--- Slide 267 ---
+Base de connaissance
+Consultation des articles (2/5)
+C.2
+Vous pouvez filtrer les
+articles suggérés par type de
+demande
+267
+
+
+
+--- Slide 268 ---
+Base de connaissance
+Consultation des articles (3/5)
+C.2
+Vous pouvez prévisualiser les
+articles suggérés en
+positionnant votre curseur sur
+le lien de l’article
+268
+
+
+
+--- Slide 269 ---
+Base de connaissance
+Consultation des articles (4/5)
+C.2
+En cliquant sur le lien de l’article, une fiche s’ouvre dans une nouvelle fenêtre, affichant l’article complet ainsi que des informations liées, comme la
+dernière date de modification et le numéro de version.
+1
+Résumé des informations clés liées
+à l’article (titre, dernière date de
+modification, nombre de version)
+2
+Détails de
+l’article
+269
+
+
+
+--- Slide 270 ---
+Base de connaissance
+Consultation des articles (5/5)
+C.2
+Liste des articles
+slide recensant la liste des articles disponible pour la
+V1 par thème?
+270
+
+
+
+--- Slide 271 ---
+Base de connaissance
+Consultation des articles (5/5)
+C.2
+Slide pour la vue complète des articles dans Harmonie GRC
+une fois développés
+271
+
+
+
+--- Slide 272 ---
+Synthèse des parcours utilisateurs dans Harmonie GRC
+A.1 Tableau de bord pour les populations d’accueil
+A Tableaux de bord
+A.2 Tableau de bord pour les populations destinatrices de tâches
+B.1 xxx
+B Reporting
+B.2 xx
+En cours de prod – PI4
+272
+
+
+

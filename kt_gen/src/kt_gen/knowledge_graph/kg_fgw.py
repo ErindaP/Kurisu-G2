@@ -10,6 +10,8 @@ import uuid
 from kt_gen.knowledge_graph.utils.pydantic_models import EmbeddingStore, TraversalStep, Node, GraphWrapper, EmbeddingMatrix
 from kt_gen.knowledge_graph.utils.utils_fgw import compute_embeddings, compute_structure_distances, compute_fgw, elementary_distance, compute_gw, compute_similarity_weighted_structure_distances
 import time 
+import sys
+np.set_printoptions(threshold=sys.maxsize)
 
 
 
@@ -559,6 +561,140 @@ def recursive_traversal_with_scores_fusion_fgw_genetic(
 # Cette fonction est suppposée être la version la plus avancée et la moins stable mais la plus optimisée
 
 
+def test_fusion(tmp_set, candidate_set, G, G_fus, map_index_node, 
+                embedding_current_graph, dists_current_graph, 
+                model, current, depth, uuid_fus,
+                initial_prob_new, alpha, structure_distance):
+    """
+    Prépare un graphe avec tmp_set fusionné et calcule la FGW distance.
+    Renvoie (fgw_dist, feats, dists, G_fus_copy)
+    """
+    import copy
+    import numpy as np
+
+    new_embeddings_fus = copy.deepcopy(embedding_current_graph)
+    new_distance_struct = copy.deepcopy(dists_current_graph)
+    G_fus_copy = copy.deepcopy(G_fus)
+    map_index_node_copy = copy.deepcopy(map_index_node)
+
+    tmp_texts = [G.nodes[n]["text"] for n in tmp_set]
+    tmp_fused_text = " | ".join(tmp_texts)
+    tmp_node_id = f"fused_{current}_{depth}_{uuid_fus}"
+
+    # supprimer les anciens nœuds de tmp_set dans embeddings & distances
+    for n in tmp_set:
+        index_to_del = map_index_node_copy[n]
+        new_embeddings_fus[0] = np.delete(new_embeddings_fus[0], index_to_del, axis=0)
+        new_distance_struct[0] = np.delete(new_distance_struct[0], index_to_del, axis=0)
+        new_distance_struct[0] = np.delete(new_distance_struct[0], index_to_del, axis=1)
+        for n2, idx in map_index_node_copy.items():
+            if idx > index_to_del:
+                map_index_node_copy[n2] -= 1
+
+    # ajouter le nouveau nœud fusionné
+    if tmp_node_id in G_fus_copy.nodes:
+        G_fus_copy.nodes[tmp_node_id]["text"] = tmp_fused_text
+    else:
+        G_fus_copy.add_node(tmp_node_id, text=tmp_fused_text, type="fused")
+        new_embeddings_fus[0] = np.append(
+            new_embeddings_fus[0],
+            model.encode([tmp_fused_text], normalize_embeddings=True)[0].reshape(1, -1),
+            axis=0
+        )
+        new_distance_struct[0] = np.append(
+            new_distance_struct[0],
+            np.full((new_distance_struct[0].shape[0], 1), np.exp(2) * 1.5),
+            axis=1
+        )
+        new_distance_struct[0] = np.append(
+            new_distance_struct[0],
+            np.full((1, new_distance_struct[0].shape[1]), np.exp(2) * 1.5),
+            axis=0
+        )
+        new_distance_struct[0][-1, -1] = 0.0
+
+    # ajouter les arêtes des enfants fusionnés vers leurs successeurs
+    for n in tmp_set:
+        for gc in G.successors(n):
+            G_fus_copy.add_edge(
+                tmp_node_id, gc,
+                prob=G.edges[n, gc].get("prob", initial_prob_new),
+                structure_distance=G.edges[n, gc].get("structure_distance", 1.0)
+            )
+            new_distance_struct[0][-1, map_index_node_copy[gc]] = G.edges[n, gc].get("structure_distance", 1.0)
+
+    # ajouter l'arête entre current et tmp_node_id
+    new_prob = np.mean([G.edges[current, gc].get("prob", initial_prob_new) for gc in tmp_set])
+    new_structure_distance = np.mean([G.edges[current, gc].get("structure_distance", 1.0) for gc in tmp_set])
+    G_fus_copy.add_edge(current, tmp_node_id, prob=new_prob, structure_distance=new_structure_distance)
+    new_distance_struct[0][map_index_node_copy[current], -1] = new_structure_distance
+
+    # retirer les anciens enfants fusionnés
+    for child_id in tmp_set:
+        if G_fus_copy.has_edge(current, child_id):
+            G_fus_copy.remove_edge(current, child_id)
+        if G_fus_copy.has_node(child_id):
+            G_fus_copy.remove_node(child_id)
+
+    if structure_distance != "similarity_weighted":
+        dists = compute_structure_distances([G_fus_copy])
+    else:
+        dists = new_distance_struct
+
+    # calculer FGW distance
+    fgw_dist, _ = compute_fgw(
+        embedding_current_graph[0], dists_current_graph[0],
+        new_embeddings_fus[0], dists[0], alpha=alpha
+    )
+
+    return fgw_dist, new_embeddings_fus, dists, G_fus_copy, map_index_node_copy
+
+
+def dichotomie_fusion(sorted_children_proba, candidate_set, candidate_vecs, 
+                      G, G_fus, map_index_node,
+                      embedding_current_graph, dists_current_graph, 
+                      model, current, depth, uuid_fus,
+                      initial_prob_new, alpha, structure_distance, 
+                      distance_restante):
+    left, right = 1, len(sorted_children_proba)
+    best_k = 0
+    best_candidate_set = candidate_set
+    best_candidate_vecs = candidate_vecs[:]
+    best_embedding = embedding_current_graph
+    best_distance = dists_current_graph
+    best_G_fus = G_fus
+
+    while left <= right:
+        mid = (left + right) // 2
+        tmp_set = candidate_set + [cid for cid, _ in sorted_children_proba[:mid]]
+        tmp_vecs = candidate_vecs + [s for _, s in sorted_children_proba[:mid]]
+
+        fgw_dist, new_emb, new_dist, new_G_fus, map_index_node_copy = test_fusion(
+            tmp_set, candidate_set, G, G_fus, map_index_node,
+            embedding_current_graph, dists_current_graph,
+            model, current, depth, uuid_fus,
+            initial_prob_new, alpha, structure_distance
+        )
+
+        if fgw_dist <= distance_restante:
+            # on peut aller plus loin
+            best_k = mid
+            best_candidate_set = tmp_set
+            best_candidate_vecs = tmp_vecs
+            best_embedding = new_emb
+            best_distance = new_dist
+            best_G_fus = new_G_fus
+            left = mid + 1
+        else:
+            # trop loin, on réduit
+            right = mid - 1
+    print(f"Ensemble optimal contenant  : {best_candidate_set} avec une distance FGW de {fgw_dist:.3f}")
+    print(f"L'ensemble total des candidats est : {sorted_children_proba}")
+
+
+
+    return best_candidate_set, best_candidate_vecs, best_embedding, best_distance, best_G_fus, map_index_node_copy
+
 
 def recursive_traversal_with_score_fusion_fgw_genetic_optimized(
     start_node: str,
@@ -613,10 +749,25 @@ def recursive_traversal_with_score_fusion_fgw_genetic_optimized(
         print(f"Temps préprocessus : {time.time() - time_start:.3f} secondes")
 
         uuid_fus= uuid.uuid4().hex[:8]  # Génération d'un UUID pour les noeuds fusionnés
+
         new_embedding_fus_etape_precedente = embedding_current_graph.copy()  # Copie de l'embedding du graphe actuel pour la fusion
         new_distance_struct_etape_precedente = dists_current_graph.copy()  # Copie de la distance de structure du graphe actuel pour la fusion
-        for child_id, sim_score in sorted_children_proba:
+    
 
+        candidate_set, candidate_vecs, new_embedding_fus_etape_precedente, new_distance_struct_etape_precedente, G_fus, map_index_node_copy = dichotomie_fusion(
+            sorted_children_proba, candidate_set, candidate_vecs,
+            G, G_fus, map_index_node,
+            embedding_current_graph, dists_current_graph,
+            model, current, depth, uuid_fus,
+            initial_prob_new, alpha, structure_distance,
+            distance_restante
+            )
+        
+        map_index_node = map_index_node_copy  # Met à jour l'index des noeuds après fusion
+
+        """
+        for child_id, sim_score in sorted_children_proba:
+            print(f"Enfant : {child_id}, Similarité : {sim_score}")
             new_embeddings_fus = embedding_current_graph.copy()
             new_distance_struct = dists_current_graph.copy()
             tmp_set = candidate_set + [child_id]
@@ -650,6 +801,8 @@ def recursive_traversal_with_score_fusion_fgw_genetic_optimized(
                 new_distance_struct[0] = np.append(new_distance_struct[0], np.full((new_distance_struct[0].shape[0], 1), np.exp(2) *1.5), axis=1)
                 new_distance_struct[0] = np.append(new_distance_struct[0], np.full((1, new_distance_struct[0].shape[1]), np.exp(2) * 1.5), axis=0)
                 new_distance_struct[0][-1, -1] = 0.0  
+                #print(f"New dist struct avant coef first row: {new_distance_struct[0][0, :]}")
+                #print(f"new_distance_struct[0]: {new_distance_struct[0]}")
 
             for n in tmp_set:
                 for gc in G.successors(n):
@@ -658,9 +811,10 @@ def recursive_traversal_with_score_fusion_fgw_genetic_optimized(
                     print(f"Ajout de l'arête {tmp_node_id} -> {gc} avec probabilité {G.edges[n, gc].get('prob', initial_prob_new)} et distance de structure {G.edges[n, gc].get('structure_distance', 1.0)}")
                 # La nouvelle proba étant la moyenne de toutes les probas des enfants fusionnés, same pour la distance de structure
 
-            new_prob = np.mean([G.edges[child_id, gc].get("prob", initial_prob_new) for gc in G.successors(child_id)])
-            new_structure_distance = np.mean([G.edges[child_id, gc].get("structure_distance", 1.0) for gc in G.successors(child_id)])
+            new_prob = np.mean([G.edges[current, gc].get("prob", initial_prob_new) for gc in tmp_set])
+            new_structure_distance = np.mean([G.edges[current, gc].get("structure_distance", 1.0) for gc in tmp_set])
             G_fus.add_edge(current, tmp_node_id, prob=new_prob, structure_distance=new_structure_distance)
+            print(f"Ajout arrête à indice {map_index_node[current]} de {current} vers {tmp_node_id} avec probabilité {new_prob:.3f} et distance de structure {new_structure_distance:.3f}")
             new_distance_struct[0][map_index_node[current], -1] = new_structure_distance
             G_fus.remove_edge(current, child_id)
             G_fus.remove_node(child_id)
@@ -669,7 +823,7 @@ def recursive_traversal_with_score_fusion_fgw_genetic_optimized(
             
             feats = new_embeddings_fus
             dists = new_distance_struct
-            print(f"dist: {dists[0][-1, :]}")
+            #print(f"dist: {dists[0][-1, :]}")
             if structure_distance != "similarity_weighted":
 
                 dists = compute_structure_distances([G_fus])
@@ -692,6 +846,7 @@ def recursive_traversal_with_score_fusion_fgw_genetic_optimized(
                 feats = new_embedding_fus_etape_precedente.copy()  # On garde l'embedding du graphe actuel pour la fusion
                 dists = new_distance_struct_etape_precedente.copy()  # On garde la distance de structure du graphe actuel pour la fusion
                 break
+            """
 
         if len(candidate_set) > 1:
             time_start = time.time()
@@ -715,10 +870,10 @@ def recursive_traversal_with_score_fusion_fgw_genetic_optimized(
                 print(f"Suppression de l'arête {current} -> {c} et du noeud {c}")
             # Glouton sur ajout d'arêtes pondérées
             map_index_node[new_node_id] = len(G.nodes) - 1  
-            embedding_current_graph = feats.copy()  # On utilise les embeddings déjà calculés
+            embedding_current_graph = new_embedding_fus_etape_precedente.copy()  # On utilise les embeddings déjà calculés
             print(f"Temps de recalcul des embeddings + fusion : {time.time() - time_start:.3f} secondes")
             if structure_distance == "similarity_weighted":
-                dists_current_graph = dists.copy()  # On utilise les distances de structure déjà calculées
+                dists_current_graph = new_distance_struct_etape_precedente.copy()  # On utilise les distances de structure déjà calculées
 
             else:
                 dists_current_graph = compute_structure_distances([G]) # On a pas optim la distance struct de base #TODO
@@ -740,6 +895,10 @@ def recursive_traversal_with_score_fusion_fgw_genetic_optimized(
 
             if len(all_grand_children) == 0:
                 print("Pas de petits-enfants restants")
+                current = new_node_id
+                print(f"current : {current}")
+                path.append(TraversalStep(node_id=current, similarity=float(np.mean(candidate_vecs))))
+                print(path)
                 continue
 
 
@@ -827,11 +986,13 @@ def recursive_traversal_with_score_fusion_fgw_genetic_optimized(
                 print(f"Temps de recalcul des arrêtes : {time.time() - time_start:.3f} secondes")
 
             current = new_node_id
+            print(f"current : {current}")
             path.append(TraversalStep(node_id=current, similarity=float(np.mean(candidate_vecs))))
             print(path)
 
         else:
             best_idx = int(np.argmax(sims))
+            print(f"children best_idx: {best_idx}")
             current = children[best_idx]
             path.append(TraversalStep(node_id=current, similarity=float(sims[best_idx])))
             print(path)

@@ -8,12 +8,18 @@ import ot
 from copy import deepcopy
 from faq_src.utils.utils_graph.models import EmbeddingStore
 from sklearn.metrics.pairwise import cosine_similarity
+from dotenv import load_dotenv, find_dotenv
+import os
+load_dotenv(find_dotenv())
 
-
+# Chargement du modèle SentenceTransformer
+model_path = os.getenv("MODEL_PATH")
+if not model_path:
+    model_path = "sentence-transformers/all-MiniLM-L6-v2"
 
 def compute_embeddings(graphs: List[nx.Graph], model: Optional[SentenceTransformer] = None) -> List[np.ndarray]:
     if model is None:
-        model = SentenceTransformer('model/all-MiniLM-L6-v2')
+        model = SentenceTransformer(model_path)
 
     
     embeddings: List[np.ndarray] = []
@@ -142,6 +148,13 @@ def compute_similarity_weighted_question_structure_distances(
     return weighted_dists
 
 
+def safe_cosine_similarity(vec1, vec2):
+    norm1 = np.linalg.norm(vec1)
+    norm2 = np.linalg.norm(vec2)
+    if norm1 == 0 or norm2 == 0:
+        return 1/np.exp(2)  # ou une valeur par défaut
+    return cosine_similarity([vec1], [vec2])[0, 0]
+
 def compute_fgw(
     F1: np.ndarray,
     D1: np.ndarray,
@@ -151,9 +164,36 @@ def compute_fgw(
 ) -> Tuple[float, np.ndarray]:
     p = np.ones(F1.shape[0]) / F1.shape[0]
     q = np.ones(F2.shape[0]) / F2.shape[0]
+    D1 = D1.astype(np.float64)
+    D2 = D2.astype(np.float64)
+    factor=1.5
+    if np.isnan(D1).any():
+            print("NaN detected in distance matrix D1, replacing with penalty.")
+            D1 = np.nan_to_num(D1, nan=np.exp(2) * factor)  # ou penalty défini dans normalize_distance_exp
+    if np.isnan(D2).any():
+            
+            print("NaN detected in distance matrix D2, replacing with penalty.")
+            #print(f"D2 before replacement: {D2}")
+            D2 = np.nan_to_num(D2, nan=np.exp(2) * factor)  # ou penalty défini dans normalize_distance_exp
+
+    p = p.astype(np.float64)
+    q = q.astype(np.float64)
     M = pairwise_distances(F1, F2, metric="euclidean")
-    dist, log = ot.gromov.fused_gromov_wasserstein2(M, D1, D2, p, q, alpha=alpha, log=True)
-    return dist, log
+    M = M.astype(np.float64)  # seulement si utilisé
+
+
+    def validate_input(D1, D2, p, q):
+        assert D1.shape[0] == len(p), "p does not match D1 size"
+        assert D2.shape[0] == len(q), "q does not match D2 size"
+        assert np.all(p >= 0) and np.isclose(np.sum(p), 1), "p not in simplex"
+        assert np.all(q >= 0) and np.isclose(np.sum(q), 1), "q not in simplex"
+
+
+    validate_input(D1, D2, p, q)
+    T, log = ot.gromov.fused_gromov_wasserstein(M, D1, D2, p, q, alpha=alpha, log=True)
+    return log['fgw_dist'], T # REGARDER Si y a besoin de Normaliser d'une quelconque manière hum 
+
+
 
 
 
